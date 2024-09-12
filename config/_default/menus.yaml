@@ -10,11 +10,12 @@ main:
   - name: Projects
     url: projects/
     weight: 11
-  - name: Front
+  - name: Front_Project
     url: project/Front/
     pageRef : project/Front
     weight: 1
     parent: Projects
+
   - name: Study Record
     url: study/
     weight: 12
