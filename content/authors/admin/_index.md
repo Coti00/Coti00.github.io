@@ -105,9 +105,9 @@ languages:
 ## About Me
 ### If you want more about me click above menu⬆️</br>
 </br>
-Hello, **My name is KIM DONG JUN**  </br>
-My **Majors** are **AnimalBiotech** & **ComputerScience**  </br>
-I am an **Undergraduate Student in Adaptive AI LAB**  </br>
-Interested in using **AI for DRUG DISCOVERY**, for example, finding **target proteins** and **predicting cytotoxicity**</br>
+Hello, <b>My name is KIM DONG JUN</b>  </br>
+My <b>Majors</b> are <b>AnimalBiotech & ComputerScience</b>  </br>
+I am an <b>Undergraduate Student in Adaptive AI LAB</b>  </br>
+Interested in using <b>AI for DRUG DISCOVERY</b>, for example, finding <b>target proteins</b> and <b>predicting cytotoxicity</b></br>
 
 
