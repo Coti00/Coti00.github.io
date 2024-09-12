@@ -1,7 +1,7 @@
 ---
-title: Pandas
-date: 2023-10-26
-external_link: https://github.com/pandas-dev/pandas
+title: Front
+date: 2024-08-13
+external_link: https://github.com/Coti00/Lab_Web
 tags:
   - Hugo
   - Wowchemy
