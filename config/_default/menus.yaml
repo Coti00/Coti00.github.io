@@ -15,7 +15,7 @@ main:
     weight: 12
     identifier : record
   - name: Front
-    url: study/Front
+    url: study/Front/
     weight: 1
     parent: record
   - name: ML/DL
