@@ -25,3 +25,18 @@ main:
   - name: Study Record
     url: study/
     weight: 40
+    identifier : study-record
+    sub_menu:
+      - name: Front
+        url: study/Front/
+        weight: 1
+        parent: study-record
+      - name: ML/DL
+        url: study/ML_DL/
+        weight: 2
+        parent: study-record
+      - name: React
+        url: study/react/
+        weight: 3
+        parent: study-record
+  
