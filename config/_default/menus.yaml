@@ -7,6 +7,7 @@ main:
   - name: Bio
     url: /
     weight: 10
+
   - name: Projects
     url: projects/
     weight: 11
@@ -39,6 +40,20 @@ main:
     pageRef : study/react
     weight: 3
     parent: Study Record
+  
+  - name : Grade
+    url : grade/
+    weight : 20
+  - name : AnimalBiotech
+    url : grade/animal/
+    pageRef : grade/animal
+    weight : 1
+    parent : Grade
+  - name : ConputerScience
+    url : grade/computer/
+    pageRef : grade/computer
+    weight : 2
+    parent : Grade
 
 
   
