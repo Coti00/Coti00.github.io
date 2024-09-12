@@ -1,4 +1,4 @@
----
+<!-- ---
 title: STUDY RECORD
 summary: My Study Record
 type: landing
@@ -20,4 +20,4 @@ sections:
     design:
       view: article-grid
       columns: 2
----
+--- -->
