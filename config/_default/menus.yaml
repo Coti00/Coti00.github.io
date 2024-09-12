@@ -11,8 +11,8 @@ main:
     url: projects/
     weight: 11
   - name: Front_Project
-    url: project/Front/
-    pageRef : project/Front
+    url: project/FrontEnd/
+    pageRef : project/FrontEnd
     weight: 1
     parent: Projects
 
