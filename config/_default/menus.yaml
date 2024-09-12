@@ -13,17 +13,11 @@ main:
   - name: Study Record
     url: study/
     weight: 12
-    identifier : record
-  - name: Front
-    url: study/Front
-    weight: 1
-    parent: record
-  - name: ML/DL
-    url: study/ML_DL/
-    weight: 2
-    parent: record
-  - name: React
-    url: study/react/
-    weight: 3
-    parent: record
+    children:
+      - name: Front
+        url: /study/Front/
+      - name: ML/DL
+        url: /study/ML_DL/
+      - name: React
+        url: /study/react/
   
