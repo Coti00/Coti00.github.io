@@ -5,5 +5,5 @@ date : 2024-09-03
 tags:
   - ML Contest
 image:
-  caption: 'Embed rich media such as videos and LaTeX math'
+  caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
 ---
