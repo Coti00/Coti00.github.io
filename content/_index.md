@@ -41,16 +41,6 @@ sections:
     design:
       columns: '1'
   - block: collection
-    id: talks
-    content:
-      title: Upcoming Talks
-      filters:
-        folders:
-          - event
-    design:
-      view: article-grid
-      columns: 1
-  - block: collection
     id: news
     content:
       title: Recent News
