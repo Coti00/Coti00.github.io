@@ -27,7 +27,7 @@ sections:
       title: Front Basic Study
       filters:
         folders:
-          - study/Front/
+          - study/Front
     design:
       view: article-grid
       columns: 1
