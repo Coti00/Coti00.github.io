@@ -103,5 +103,9 @@ languages:
 ---
 
 ## About Me
+If you want more about me click above menu⬆️</br>
+Hello, My name is KIM DONG JUN</br>
+My Major are AnimalBiotech & ComputerScience</br>
+I am Undergraduate Student in Adaptive AI LAB</br>
+Interested in use AI to DRUG DISCOVERY, for example find target protein and predicting cytotoxicity</br>
 
-KIM DONG JUN is a Ungraduated Student in Adaptive AI LAB. I am studing about NLP to adapt AI DRUG DISCOVERY, for example find target protein, predicting cytotoxicity. 
