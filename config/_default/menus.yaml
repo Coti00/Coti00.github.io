@@ -15,6 +15,11 @@ main:
     pageRef : project/FrontEnd
     weight: 1
     parent: Projects
+  - name: Linux_Project
+    url: project/Linux/
+    pageRef : project/Linux
+    weight: 2
+    parent: Projects
 
   - name: Study Record
     url: study/
