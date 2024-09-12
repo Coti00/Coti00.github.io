@@ -1,9 +1,11 @@
 ---
-title: Start React to make Club website
+title: ✅Start React to make Club website
 summary: none
 date: 2024-09-01
 authors:
   - admin
+tags:
+  - CPU
 image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
 ---
