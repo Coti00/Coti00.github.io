@@ -1,6 +1,7 @@
 ---
 title : ComputerScience Grade
 ---
+## 4.42 / 4.5
 
 | 과목명   | 학점 |
 |----------|------|
