@@ -13,5 +13,6 @@ LG AIMERS is a youth AI talent development program organized by LG AI researcher
 
 
 ## My Score
-| **Public**  | 32 / 740  |
-| **Private** | 74 / 740  |
+Public : 32 / 740
+</br>
+Private : 74 / 740
