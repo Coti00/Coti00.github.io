@@ -1,11 +1,11 @@
 ---
-title: Learn JavaScript
-summary: Easily learn JavaScript in 10 minutes!
+title: FRONT BASIC STUDY
+summary: HTML & CSS & JS Study Record
 date: 2023-10-24
 type: docs
 math: false
 tags:
-  - JavaScript
+  - HTML & CSS & JS
 image:
   caption: 'Embed rich media such as videos and LaTeX math'
 ---

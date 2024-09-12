@@ -16,7 +16,7 @@ sections:
       title: Study Record
       filters:
         folders:
-          - club
+          - study
     design:
       view: article-grid
       columns: 2
