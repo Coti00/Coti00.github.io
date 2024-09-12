@@ -29,7 +29,7 @@ sections:
           parallax: false
   - block: markdown
     content:
-      title: '📚 My Research'
+      title: '🔬 My Research'
       subtitle: ''
       text: |-
         <b>Use NLP to find target Protein or Predicting cytotoxicity</b>
@@ -63,5 +63,5 @@ sections:
       view: date-title-summary
       # Reduce spacing
       spacing:
-        padding: [0, 0, 0, 0]
+        padding: [0, 0, 0, 10]
 ---
