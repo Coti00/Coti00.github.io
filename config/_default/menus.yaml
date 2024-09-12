@@ -3,8 +3,7 @@
   #     desired widget in your `content/home/` folder.
   #   The weight parameter defines the order that the links will appear in.
 
-menus:
-  main:
+main:
   - name: Bio
     url: /
     weight: 10
