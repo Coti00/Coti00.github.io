@@ -1,9 +1,13 @@
 ---
-title: FRONT BASIC STUDY
-summary: HTML & CSS & JS Study Record
-type: landing
+title: Front Basic Study
+summary: Front Basic Study Record
+type: docs
+math: false
+tags:
+  - Front
+image:
+  caption: 'Embed rich media such as videos and LaTeX math'
 ---
-
 ## Study Record
 
 Welcome to my Front record page. You can explore the following sections:
