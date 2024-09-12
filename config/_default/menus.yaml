@@ -4,6 +4,20 @@
   #   The weight parameter defines the order that the links will appear in.
 
 main:
+  - name : Skill
+    url : skill/
+    weight : 40
+  - name : Language
+    url : skill/language/
+    pageRef : skill/laguage
+    weight : 1
+    parent : Skill
+  - name : Framework
+    url : skill/framework/
+    pageRef : skill/framework
+    weight : 2
+    parent : Skill
+
   - name: Projects
     url: projects/
     weight: 11
@@ -55,9 +69,6 @@ main:
     url : thesis
     weight : 30
   
-  - name : Skill
-    url : use
-    weight : 40
   
 
 
