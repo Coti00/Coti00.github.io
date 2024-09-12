@@ -63,5 +63,5 @@ sections:
       view: date-title-summary
       # Reduce spacing
       spacing:
-        padding: [0, 20, 0, 20]
+        padding: [0, 0, 0, 0]
 ---
