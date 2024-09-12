@@ -1,5 +1,5 @@
 ---
-title: 'Club Activity'
+title: 'Projects'
 date: 2024-05-19
 type: landing
 
@@ -11,11 +11,11 @@ design:
 sections:
   - block: collection
     content:
-      title: Club Activity
-      text: Here are a selection of files that I have worked on teacher in club over the years.
+      title: Selected Projects
+      text: I enjoy making things. Here are a selection of projects that I have worked on over the years.
       filters:
         folders:
-          - Club
+          - project
     design:
       view: article-grid
       fill_image: false

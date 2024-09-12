@@ -1,6 +1,6 @@
 ---
-title: Teaching
-summary: My courses
+title: Club Activity
+summary: My Club Activity
 type: landing
 
 cascade:
@@ -11,12 +11,12 @@ cascade:
 
 sections:
   - block: collection
-    id: teaching
+    id: club
     content:
-      title: Teaching
+      title: Club Activity
       filters:
         folders:
-          - teaching
+          - club
     design:
       view: article-grid
       columns: 2
