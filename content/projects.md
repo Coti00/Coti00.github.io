@@ -11,11 +11,11 @@ design:
 sections:
   - block: collection
     content:
-      title: Selected Projects
-      text: I enjoy making things. Here are a selection of projects that I have worked on over the years.
+      title: Club Activity
+      text: Here are a selection of files that I have worked on teacher in club over the years.
       filters:
         folders:
-          - project
+          - Club
     design:
       view: article-grid
       fill_image: false
