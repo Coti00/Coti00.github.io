@@ -1,6 +1,6 @@
 ---
-title: Club Activity
-summary: My Club Activity
+title: STUDY RECORD
+summary: My Study Record
 type: landing
 
 cascade:
@@ -11,9 +11,9 @@ cascade:
 
 sections:
   - block: collection
-    id: club
+    id: study
     content:
-      title: Club Activity
+      title: Study Record
       filters:
         folders:
           - club
