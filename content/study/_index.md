@@ -20,4 +20,15 @@ sections:
     design:
       view: article-grid
       columns: 2
+
+  - block: collection
+    id: front
+    content:
+      title: Front Basic Study
+      filters:
+        folders:
+          - study/Front
+    design:
+      view: article-grid
+      columns: 1
 ---
