@@ -11,13 +11,13 @@ cascade:
 
 sections:
   - block: collection
-    id: study
+    id: front
     content:
-      title: Study Record
+      title: Front Basic Study
       filters:
         folders:
-          - study
+          - study/Front
     design:
       view: article-grid
-      columns: 2
+      columns: 1
 ---
