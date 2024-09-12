@@ -35,7 +35,8 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        I am interested in AI DRUG DISCOVERY. Use NLP to find target Protein or Predicting cytotoxicity
+        I am interested in AI DRUG DISCOVERY. 
+        Use NLP to find target Protein or Predicting cytotoxicity
     design:
       columns: '1'
   - block: collection
