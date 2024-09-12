@@ -3,7 +3,8 @@
   #     desired widget in your `content/home/` folder.
   #   The weight parameter defines the order that the links will appear in.
 
-main:
+menus:
+  main:
   - name: Bio
     url: /
     weight: 10
@@ -13,19 +14,21 @@ main:
   - name: Study Record
     url: study/
     weight: 12
-    identifier : 'record'
   - name: Front
-    url: 'study/Front/'
+    url: study/Front/
+    pageRef : study/Front
     weight: 1
-    parent: 'record'
+    parent: Study Record
   - name: ML/DL
     url: study/ML_DL/
+    pageRef : study/ML_DL
     weight: 2
-    parent: record
+    parent: Study Record
   - name: React
     url: study/react/
+    pageRef : study/react
     weight: 3
-    parent: record
+    parent: Study Record
 
 
   
