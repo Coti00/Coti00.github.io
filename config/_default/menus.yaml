@@ -66,8 +66,18 @@ main:
     parent : Grade
   
   - name : Thesis
-    url : thesis
+    url : thesis/
     weight : 30
+  - name : Read
+    url : thesis/read/
+    pageRef : thesis/read
+    weight : 1
+    parent : Thesis
+  - name : Write
+    url : thesis/write/
+    pageRef : thesis/write
+    weight : 2
+    parent : Thesis
   
   
 
