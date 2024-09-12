@@ -31,7 +31,7 @@ profiles:
     url: 'jbnu20@jbnu.ac.kr'
     label: E-mail Me
   - icon: brands/github
-    url: https://github.com/gcushen
+    url: https://github.com/Coti00
 
 interests:
   - NLP
