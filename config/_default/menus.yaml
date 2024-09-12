@@ -50,6 +50,15 @@ main:
     pageRef : grade/computer
     weight : 2
     parent : Grade
+  
+  - name : Thesis
+    url : thesis
+    weight : 30
+  
+  - name : Skill
+    url : use
+    weight : 40
+  
 
 
   
