@@ -15,4 +15,4 @@ CPU는 전북 권역의 컴퓨터 사용 보급화를 위해 1987년에 설립�
 현재는 IT 분야에 대한 학술적인 교류를 목표로 운영되고 있습니다.
 
 ## Click Link
-When finish web i put link here
+[Go to CPU Github](https://github.com/JBNU-CPU)
