@@ -1,6 +1,8 @@
 ---
+appearance:
+  theme_default: dark
 # Display name
-title: '<span style="color: blue;">김동준</span>'
+title: 김동준
 
 # Full name (for SEO)
 first_name: 김
