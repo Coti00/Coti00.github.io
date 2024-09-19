@@ -8,7 +8,7 @@ last_name: 동준
 
 # Status emoji
 status:
-  icon : "custom/user"
+  icon : 😊
 
 # Is this the primary user of the site?
 superuser: true
