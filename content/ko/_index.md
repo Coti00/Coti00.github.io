@@ -37,19 +37,19 @@ sections:
       columns: '1'
 
   - block: slider
-    content:
-      slides:
-      - title: AI 신약개발
-        content: 타겟 단백질 예측 & 세포 독성 예측
-        align: center
-        background:
-          image:
-            filename: AI_Drug.png
-            filters:
-              brightness: 0.4
-          position: center
-          color: '#000'
-      - title: 프런트
+      content:
+        slides:
+        - title: AI 신약개발
+          content: 타겟 단백질 예측 & 세포 독성 예측
+          align: center
+          background:
+            image:
+              filename: AI_Drug.png
+              filters:
+                brightness: 0.4
+            position: center
+            color: '#000'
+        - title: 프런트
           content: 래액트 사용
           align: center
           background:
@@ -59,13 +59,13 @@ sections:
                 brightness: 0.4
             position: center
             color: '#000'
-    design:
-        slide_height: '350px'
-        slide_width: '100px'
-        is_fullscreen: false
-        loop: true
-        interval: 3000
-        
+      design:
+          slide_height: '350px'
+          slide_width: '100px'
+          is_fullscreen: false
+          loop: true
+          interval: 3000
+
   - block: collection
     id: news
     content:
