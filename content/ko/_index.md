@@ -35,7 +35,6 @@ sections:
         <b>자연어처리 기반으로 타겟 단백질 또는 세포 독성을 예측하는 분야를 공부 중 입니다.</b>
     design:
       columns: '1'
-
   - block: slider
       content:
         slides:
@@ -65,7 +64,6 @@ sections:
           is_fullscreen: false
           loop: true
           interval: 3000
-
   - block: collection
     id: news
     content:
