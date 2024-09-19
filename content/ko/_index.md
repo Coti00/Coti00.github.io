@@ -38,39 +38,7 @@ sections:
         <b>ㅁㅈㄷㄹ</b>
     design:
       columns: '1'
-
-  - block: slider
-    content:
-      slides:
-
-      - title: <span style="font-size:70%">AI 신약개발</span>   
-        content: <span style="font-size:70%">타겟 단백질 및 세포 독성 예측</span>
-        align: center
-        background:
-          image:
-            filename: AI_Drug.png
-            filters:
-              brightness: 0.4
-            position: center
-            color: '#000'
-
-      - title: <span style="font-size:70%">리액트</span>   
-        content: <span style="font-size:70%">프런트엔드</span>
-        align: center
-        background:
-          image:
-            filename: react.png
-            filters:
-              brightness: 0.4
-            position: center
-            color: '#000'
-      design:
-        slide_height: '350px'
-        slide_width: '100px'
-        is_fullscreen: false
-        loop: true
-        interval: 3000
-
+  
   - block: markdown
     content:
       title: '🗺️ 연구실 위치'

@@ -35,7 +35,10 @@ header:
     show_search: true
     show_theme_chooser: true
     logo:
-      text: "   PortPolio"
+      text: "PortPolio"
+    design:
+      spacing:
+        padding:['0','0','0','20px']
 
 # Site footer
 footer:
