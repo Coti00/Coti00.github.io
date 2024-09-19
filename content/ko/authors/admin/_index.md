@@ -33,18 +33,6 @@ profiles:
   - icon: "custom/github"
     url: https://github.com/Coti00
 
-interests:
-  - NLP
-  - React
-  - AI DRUG DISCOVERY
-
-education:
-  - area: BS AnimalBiotech & Computer Science
-    institution: Jeonbuk National University
-    date_start: 2020-03-01
-    date_end: 2025-12-31
-    summary: |
-      GPA: 4.1/4.5
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
