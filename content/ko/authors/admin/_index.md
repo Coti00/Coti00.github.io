@@ -1,7 +1,6 @@
 ---
 # Display name
-title: 김동준
-  color: black
+title: <span style="color: blue;">김동준</span>
 
 # Full name (for SEO)
 first_name: 김
