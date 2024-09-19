@@ -8,7 +8,7 @@ last_name: 동준
 
 # Status emoji
 status:
-  icon: 🐉
+  icon: user.svg
 
 # Is this the primary user of the site?
 superuser: true
@@ -30,7 +30,7 @@ profiles:
   - icon: at-symbol
     url: 'jbnu20@jbnu.ac.kr'
     label: E-mail Me
-  - icon: fab fa-facebook
+  - icon: brands/github
     url: https://github.com/Coti00
 
 interests:
