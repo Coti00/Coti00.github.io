@@ -5,8 +5,8 @@ date : 2024-08-01
 type : landing
 
 sections:
-    - block: position
-        content:
+  - block: position
+    content:
         title: Position
         text: |-
             <br> <span>연구실 위치</span></br>
