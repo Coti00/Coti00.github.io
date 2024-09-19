@@ -64,7 +64,7 @@ sections:
       # Reduce spacing
       spacing:
         padding: [0, 0, 0, 0]
-  - block: contact
+  - block: position
     content:
       title: Position
       text: |-
