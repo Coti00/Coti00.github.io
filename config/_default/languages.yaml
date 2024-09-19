@@ -4,9 +4,9 @@
 
 # Default language
 ko:
-  languageCode: ko
+  languageCode: kor
   # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
-  contentDir: content/ko
+  contentDir: content/kor
   # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
   #contentDir: content/en
 
