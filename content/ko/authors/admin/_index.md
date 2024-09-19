@@ -1,6 +1,4 @@
 ---
-appearance:
-  theme_default: dark
 # Display name
 title: 김동준
 
@@ -34,33 +32,6 @@ profiles:
     label: E-mail Me
   - icon: "custom/github"
     url: https://github.com/Coti00
-
-interests:
-  - NLP
-  - React
-  - AI 신약개발
-
-education:
-  - area: 동물생명공학과 & 컴퓨터공학과
-    institution: 전북대학교
-    date_start: 2020-03-01
-    date_end: 2025-12-31
-    summary: |
-      학점: 4.1/4.5
-      
-work:
-  - position: 학부연구생
-    company_name: AI Lab
-    company_url: ''
-    company_logo: ''
-    date_start: 2024-08-01
-    date_end: ''
-    summary: |2-
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
@@ -110,7 +81,7 @@ languages:
   </br>
   <span style="color: black; font : bold 15px arial;">
   안녕하세요! 제 이름은 <b style="font-size:18px;">김동준</b>입니다  </br>
-  저의 <b style="font-size:18px;">주전공 : 동물생명공학</b>, <b style="font-size:18px;">복수전공 : 컴퓨터공학</b>입니다  </br>
+  현재 <b style="font-size:18px;">전북대학교</b>에 재학 중 이며 <b style="font-size:18px;">주전공 : 동물생명공학</b>, <b style="font-size:18px;">복수전공 : 컴퓨터공학</b>입니다  </br>
   현재 <b style="font-size:18px;">적응형 AI 연구실</b>에서 학부연구생 생활을 하며, 자연어처리에 대해서 공부 중 입니다.  </br>
   자연어처리 분야 중 제가 관심있는 것은 <b style="font-size:18px;">신약개발</b>이며</br>
   특히 자연어처리 기술을 사용하여 <b style="font-size:18px;">타겟 단백질</b>, <b style="font-size:18px;">세포독성예측을</b>하는 것에 관심이 있습니다
