@@ -35,7 +35,7 @@ header:
     show_search: true
     show_theme_chooser: true
     logo:
-      text: " PortPolio"
+      text: "<span><span>PortPolio"
 
 # Site footer
 footer:
