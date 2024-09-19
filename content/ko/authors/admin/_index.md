@@ -1,6 +1,7 @@
 ---
 # Display name
 title: 김동준
+  color: black
 
 # Full name (for SEO)
 first_name: 김
