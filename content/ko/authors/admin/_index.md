@@ -3,12 +3,8 @@
 title: 김동준
 
 # Full name (for SEO)
-first_name: 김
-last_name: 동준
-
-# Status emoji
-status:
-  icon : 😊
+first_name: Kim
+last_name: DongJun
 
 # Is this the primary user of the site?
 superuser: true

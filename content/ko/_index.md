@@ -29,10 +29,10 @@ sections:
           parallax: false        
   - block: markdown
     content:
-      title: '🔬 연구 분야'
+      title: '🔬 관심 분야'
       subtitle: ''
       text: |-
-        <b>자연어처리 기반으로 타겟 단백질 또는 세포 독성을 예측하는 분야를 공부 중 입니다.</b>
+        drug.svg
     design:
       columns: '1'
   - block: collection
@@ -64,4 +64,16 @@ sections:
       # Reduce spacing
       spacing:
         padding: [0, 0, 0, 0]
+  - block: contact
+    content:
+      title: Position
+      text: |-
+        <br> <span>연구실 위치</span></br>
+      coordinates:
+        latitude: '35.84601324617979'
+        longitude: '127.13444961966684'
+      directions: 
+      autolink: true
+      desing:
+        columns: '3'
 ---
