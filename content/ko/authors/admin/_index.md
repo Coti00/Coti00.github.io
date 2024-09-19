@@ -1,6 +1,6 @@
 ---
 # Display name
-title: 김동준
+title: <h1 style="color: black; font : bold 15px arial;">김동준</h1>
 
 # Full name (for SEO)
 first_name: 김
@@ -17,11 +17,11 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: "<p style="color: black; font : bold 15px arial;">전북대학교 재학 중</p>"
+role: <span style="color: black; font : bold 15px arial;">전북대학교 재학 중</span>
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: 전북대학교
+  - name: <span style="color: black; font : bold 13px arial;">전북대학교</span>
     url: https://www.jbnu.ac.kr/kor/
 
 # Social network links
