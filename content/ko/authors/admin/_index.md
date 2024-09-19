@@ -30,7 +30,7 @@ profiles:
   - icon: at-symbol
     url: 'jbnu20@jbnu.ac.kr'
     label: E-mail Me
-  - icon: brands/github
+  - icon: fab fa-facebook
     url: https://github.com/Coti00
 
 interests:

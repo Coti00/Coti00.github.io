@@ -1,5 +1,3 @@
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-
 ---
 # Display name
 title: KIM DONG JUN
@@ -32,7 +30,7 @@ profiles:
   - icon: at-symbol
     url: 'jbnu20@jbnu.ac.kr'
     label: E-mail Me
-  - icon: <i class="fab fa-github"></i>
+  - icon: brands/github
     url: https://github.com/Coti00
 
 interests:
