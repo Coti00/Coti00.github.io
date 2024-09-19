@@ -107,11 +107,11 @@ languages:
   <h2 style="color: black;">저에 대해서 더 알고 싶으시면 위에 메뉴를 둘러보세요!⬆️</h2>
   </br>
   <span style="color: black; font : bold 15px arial;">
-  안녕하세요! 제 이름은 <b>김동준</b>입니다  </br>
-  저의 <b>주전공 : 동물생명공학</b>, <b>복수전공 : 컴퓨터공학</b>입니다  </br>
-  현재 <b>적응형 AI 연구실</b>에서 학부연구생 생활을 하며, 자연어처리에 대해서 공부 중 입니다.  </br>
-  자연어처리 분야 중 제가 관심있는 것은 <b>신약개발</b>이며
-  특히 자연어처리 기술을 사용하여 <b>타겟 단백질</b>, <b>세포독성예측</b>하는 것에 관심이 있습니다
+  안녕하세요! 제 이름은 <b style="font-size:18px;">김동준</b>입니다  </br>
+  저의 <b style="font-size:18px;">주전공 : 동물생명공학</b>, <b style="font-size:18px;">복수전공 : 컴퓨터공학</b>입니다  </br>
+  현재 <b style="font-size:18px;">적응형 AI 연구실</b>에서 학부연구생 생활을 하며, 자연어처리에 대해서 공부 중 입니다.  </br>
+  자연어처리 분야 중 제가 관심있는 것은 <b style="font-size:18px;">신약개발</b>이며</br>
+  특히 자연어처리 기술을 사용하여 <b style="font-size:18px;">타겟 단백질</b>, <b style="font-size:18px;">세포독성예측을</b>하는 것에 관심이 있습니다
   </span>
 </div>
 
