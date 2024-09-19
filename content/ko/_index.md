@@ -14,6 +14,9 @@ sections:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
       text: ""
+      button:
+        text: Certification
+        url: uploads/certi.pdf
       # Show a call-to-action button under your biography? (optional)
     design:
       css_class: dark
@@ -31,9 +34,8 @@ sections:
     content:
       title: '🔬 관심 분야'
       subtitle: ''
-      icon: "custom/Drug"
       text: |-
-        <img src="assets/media/icons/custom/Drug.svg" alt="AI_DRUG_DISCOVERY">
+        
     design:
       columns: '1'
   - block: markdown
