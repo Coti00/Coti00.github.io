@@ -17,7 +17,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: 전북대학교 재학 중
+role: "<p style="color: black; font : bold 15px arial;">전북대학교 재학 중</p>"
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
