@@ -30,7 +30,7 @@ profiles:
   - icon: "custom/email"
     url: 'jbnu20@jbnu.ac.kr'
     label: E-mail Me
-  - icon: brands/github
+  - icon: "custom/github"
     url: https://github.com/Coti00
 
 interests:

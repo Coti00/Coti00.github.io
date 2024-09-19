@@ -27,10 +27,10 @@ organizations:
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
-  - icon: at-symbol
+  - icon: "custom/email"
     url: 'jbnu20@jbnu.ac.kr'
     label: E-mail Me
-  - icon: brands/github
+  - icon: "custom/github"
     url: https://github.com/Coti00
 
 interests:
