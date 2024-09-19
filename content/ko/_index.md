@@ -31,6 +31,7 @@ sections:
     content:
       title: '🔬 관심 분야'
       subtitle: ''
+      icon: "custom/Drug"
       text: |-
         <img src="assets/media/icons/custom/Drug.svg" alt="AI_DRUG_DISCOVERY">
     design:
