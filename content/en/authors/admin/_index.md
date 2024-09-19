@@ -8,7 +8,7 @@ last_name: DONG JUN
 
 # Status emoji
 status:
-  icon: 🐉
+  icon: "custom/user"
 
 # Is this the primary user of the site?
 superuser: true
