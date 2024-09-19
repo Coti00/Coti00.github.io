@@ -6,13 +6,13 @@
 # Website name
 title: DONGJUN_Portpolio
 # Website URL
-baseURL: 'https://example.com/'
+baseURL: 'https://DongJunPortPolio.com/'
 
 ############################
 ## LANGUAGE
 ############################
 
-defaultContentLanguage: en
+defaultContentLanguage: ko
 hasCJKLanguage: false
 defaultContentLanguageInSubdir: false
 removePathAccents: true
