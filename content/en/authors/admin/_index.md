@@ -32,42 +32,6 @@ profiles:
     label: E-mail Me
   - icon: "custom/github"
     url: https://github.com/Coti00
-      
-# Skills
-# Add your own SVG icons to `assets/media/icons/`
-skills:
-  - name: Technical Skills
-    items:
-      - name: Python
-        description: ''
-        percent: 80
-        icon: code-bracket
-      - name: Data Science
-        description: ''
-        percent: 50
-        icon: chart-bar
-      - name: React
-        description: ''
-        percent: 40
-        icon: circle-stack
-  - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
-    items:
-      - name: Dogs
-        description: ''
-        percent: 100
-        icon: dog
-      - name: Cats
-        description: ''
-        percent: 100
-        icon: cat
-
-languages:
-  - name: Korean
-    percent: 100
-  - name: English
-    percent: 70
 
 # Awards.
 #   Add/remove as many awards below as you like.

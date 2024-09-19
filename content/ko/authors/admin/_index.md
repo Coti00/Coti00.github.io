@@ -33,46 +33,6 @@ profiles:
   - icon: "custom/github"
     url: https://github.com/Coti00
 
-# Skills
-# Add your own SVG icons to `assets/media/icons/`
-skills:
-  - name: Technical Skills
-    items:
-      - name: 파이썬
-        description: ''
-        percent: 80
-        icon: code-bracket
-      - name: 데이터사이언스
-        description: ''
-        percent: 50
-        icon: chart-bar
-      - name: 리액트
-        description: ''
-        percent: 40
-        icon: circle-stack
-  - name: 취미
-    color: '#eeac02'
-    color_border: '#f0bf23'
-    items:
-      - name: 강아지
-        description: ''
-        percent: 100
-        icon: dog
-      - name: 고양이
-        description: ''
-        percent: 100
-        icon: cat
-
-languages:
-  - name: 한국어
-    percent: 100
-  - name: 영어
-    percent: 70
-
-# Awards.
-#   Add/remove as many awards below as you like.
-#   Only `title`, `awarder`, and `date` are required.
-#   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
  
 ---
 
@@ -86,6 +46,7 @@ languages:
 자연어처리 분야 중 제가 관심있는 것은 <b>신약개발</b>이며</br>
 특히 자연어처리 기술을 사용하여 <b>타겟 단백질</b>,<b>세포독성예측을</b>하는 것에 관심이 있습니다
 </span>
-
+</br>
+<h3>Contact : 010-3279-0106
 
 
