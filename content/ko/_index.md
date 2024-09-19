@@ -36,7 +36,7 @@ sections:
         align: center
         background:
           image:
-            filename: AI_Drug.png
+            filename: 
             filters:
               brightness: 0.4
           position: center
@@ -46,7 +46,7 @@ sections:
           align: center
           background:
             image:
-              filename: react.png
+              filename: 
               filters:
                 brightness: 0.4
             position: center
@@ -55,8 +55,8 @@ sections:
         content: <span style="font-size:70%">적응형 AI 연구실에서 자연어처리 공부</span>
         align: center
         background:
-          image: study.png
-            filename: recruitment.jpg
+          image: 
+            filename: 
             filters:
               brightness: 0.4
           position: center
