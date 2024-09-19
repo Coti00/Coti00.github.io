@@ -1,6 +1,6 @@
 ---
 title: ✅Start React to make Club website
-summary: none
+summary: React Project
 date: 2024-09-01
 authors:
   - admin

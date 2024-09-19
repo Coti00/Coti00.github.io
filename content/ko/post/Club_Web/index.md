@@ -1,6 +1,6 @@
 ---
 title: ✅ 동아리 웹페이지 프로젝트에 참여 중
-summary: none
+summary: 리액트 프로젝트
 date: 2024-09-01
 authors:
   - admin
