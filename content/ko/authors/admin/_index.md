@@ -8,8 +8,7 @@ last_name: 동준
 
 # Status emoji
 status:
-  icon:
-    filename : user.svg
+  filename : user.svg
 
 # Is this the primary user of the site?
 superuser: true
