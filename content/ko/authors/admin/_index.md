@@ -8,7 +8,7 @@ last_name: 동준
 
 # Status emoji
 status:
-  icon : user.svg
+  icon : "custom/user"
 
 # Is this the primary user of the site?
 superuser: true
@@ -27,7 +27,7 @@ organizations:
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
-  - icon: email.svg
+  - icon: "custom/email"
     url: 'jbnu20@jbnu.ac.kr'
     label: E-mail Me
   - icon: brands/github
