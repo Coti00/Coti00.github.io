@@ -59,6 +59,7 @@ main:
   - name : Grade
     url : grade/
     weight : 30
+    icon: "custom/grade"
   - name : AnimalBiotech
     url : grade/animal/
     pageRef : grade/animal
