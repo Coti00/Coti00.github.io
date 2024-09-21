@@ -30,7 +30,8 @@ sections:
           size: cover
           position: center
           parallax: false        
-    - block: features
+
+  - block: features
     id: features
     content:
       title: My Interests
