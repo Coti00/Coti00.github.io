@@ -48,7 +48,7 @@ sections:
     content:
       title: Hobby
       text: My Hobby!
-      item:
+      items:
         - name: Cat
           icon: "custom/cat"
           description: I have a cat named 'Tigger'!
