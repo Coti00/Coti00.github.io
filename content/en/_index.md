@@ -26,7 +26,7 @@ sections:
           # Add your image background to `assets/media/`.
           filename: galaxy.jpg
           filters:
-            brightness: 1.0
+            brightness: 0.5
           size: cover
           position: center
           parallax: false
@@ -62,7 +62,7 @@ sections:
   - block : collection
     id: mainlang
     content:
-      title: 주 사용 언어
+      title: Main Language
       filters:
         folders:
           - mainlang

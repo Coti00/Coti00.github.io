@@ -1,9 +1,9 @@
 ---
-title: 프런트엔드
+title: FrontEnd
 
-event: 프런트엔드
+event: FrontEnd
 
-summary: 리액트
+summary: React
 
 date: '2024-09-01'
 date_end: '2024-11-01'
@@ -20,6 +20,6 @@ image:
 ---
 
 ## Interests
-AI를 활용하여 신약개발을 하는 것에 관심이 있습니다.
+Interested in developing front-end through react
 
 

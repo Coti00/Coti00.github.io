@@ -3,7 +3,7 @@ title: AI
 
 event: AI
 
-summary: 자연어처리
+summary: NLP
 
 date: '2024-09-01'
 date_end: '2024-11-01'
@@ -20,6 +20,6 @@ image:
 ---
 
 ## Interests
-자연어처리 분야에 관심이있습니다.
+I'm interested in natural language processing.
 
 

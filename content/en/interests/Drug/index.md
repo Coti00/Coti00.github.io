@@ -1,9 +1,9 @@
 ---
-title: 신약개발
+title: Drug Discovery
 
-event: 신약개발
+event: Drug Discovery
 
-summary: AI를 사용한 신약개발
+summary: AI Drug Discovery
 
 date: '2024-09-01'
 date_end: '2024-11-01'
@@ -20,6 +20,6 @@ image:
 ---
 
 ## Interests
-AI를 활용하여 신약개발을 하는 것에 관심이 있습니다.
+Interested in using AI to predict target protein prediction cytotoxicity
 
 
