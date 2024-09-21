@@ -34,7 +34,7 @@ sections:
   - block : collection
       id: interests
       content:
-        title: Interests
+        title: 관심분야
         filters:
           folders:
             - interests
@@ -85,5 +85,4 @@ sections:
       view: article-grid
       rows: 3
       columns: 3
-      spacing:
 ---

@@ -31,21 +31,18 @@ sections:
           position: center
           parallax: false
 
-  - block: features
-    id: features
-    content:
-      title: My Interests
-      text: Currently, I am interested in the following areas
-      items:
-        - name: AI
-          icon: "custom/brain"
-          description: Interested in the field of applying natural language processing to the development of new drugs
-        - name: Drug_Discovery
-          icon: "custom/drug"
-          description: Interested in predicting target protein or cytotoxicity
-        - name: FrontEnd
-          icon: "custom/laptop"
-          description: Use React to development
+  - block : collection
+      id: interests
+      content:
+        title: Interests
+        filters:
+          folders:
+            - interests
+      design:
+        view: article-grid
+        rows: 3
+        columns: 3
+
   - block: features
       id: lang
       content:
