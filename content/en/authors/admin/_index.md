@@ -32,6 +32,8 @@ profiles:
     label: E-mail Me
   - icon: "custom/github"
     url: https://github.com/Coti00
+  - icon: "custom/phone"
+    text: 010-0000-0000
 
 # Awards.
 #   Add/remove as many awards below as you like.
@@ -45,10 +47,8 @@ profiles:
 </br>
 <span style='color:white'>
 Hello, <b>My name is KIM DONG JUN</b>  </br>
-My <b>Majors</b> are <b>AnimalBiotech & ComputerScience</b>  </br>
-I am an <b>Undergraduate Student in Adaptive AI LAB</b>  </br>
-Interested in using <b>AI for DRUG DISCOVERY</b>, for example, finding <b>target proteins</b> and <b>predicting cytotoxicity</b>
-</br></br>
-Click this button to see my Certification⬇️
-</br></br>
+My <b>Majors</b> are <b>AnimalBiotech & ComputerScience</b></br>
+I am an <b>Undergraduate Student in Adaptive AI LAB</b> </br>
+Interested in using <b>AI for DRUG DISCOVERY</b>, for example, finding <b>target proteins</b> and <b>predicting cytotoxicity</b></br></br>
+Click this button to see my Certification⬇️</br></br>
 </span>
