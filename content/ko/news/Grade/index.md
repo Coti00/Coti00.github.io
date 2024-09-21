@@ -15,7 +15,7 @@ authors:
 featured: false
 
 image:
-    caption: 'Image credit: [**Unsplash**](https://github.com/JBNU-CPU)'
+    caption: 'Image credit: [**Unsplash**](https://www.jbnu.ac.kr/kor/?menuID=67)'
     focal_point: Center
 ---
 

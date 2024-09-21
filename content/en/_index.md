@@ -34,7 +34,7 @@ sections:
   - block: features
     id: features
     content:
-      title: 🔍 My Interests
+      title: My Interests
       text: Currently, I am interested in the following areas
       items:
         - name: AI

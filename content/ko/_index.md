@@ -34,7 +34,7 @@ sections:
   - block: features
     id: features
     content:
-      title: 🔍 관심 분야
+      title: 관심 분야
       text: 현재 저는 다음과 같은 분야에 관심이 있습니다
       items:
         - name: 인공지능
