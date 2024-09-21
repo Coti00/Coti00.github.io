@@ -43,8 +43,12 @@ profiles:
 ## About Me
 ### If you want more about me click above menu⬆️</br>
 </br>
+<span style='color:white'>
 Hello, <b>My name is KIM DONG JUN</b>  </br>
 My <b>Majors</b> are <b>AnimalBiotech & ComputerScience</b>  </br>
 I am an <b>Undergraduate Student in Adaptive AI LAB</b>  </br>
-Interested in using <b>AI for DRUG DISCOVERY</b>, for example, finding <b>target proteins</b> and <b>predicting cytotoxicity</b></br>
+Interested in using <b>AI for DRUG DISCOVERY</b>, for example, finding <b>target proteins</b> and <b>predicting cytotoxicity</b>
+</br>
 Click this button to see my Certification⬇️
+</br>
+</span>
