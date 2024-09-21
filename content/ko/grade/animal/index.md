@@ -1,6 +1,5 @@
 ---
 title : AnimalBiotech
-icon: "custom/phone"
 ---
 ## 4.0 / 4.5
 

@@ -26,7 +26,7 @@ sections:
           # Add your image background to `assets/media/`.
           filename: stacked-peaks.svg
           filters:
-            brightness: 1.0
+            brightness: 0.5
           size: cover
           position: center
           parallax: false
@@ -43,6 +43,22 @@ sections:
       rows: 3
       columns: 3
 
+  - block: features
+    id: hobbies
+    content:
+      title: 취미 & 관심사
+      text: 저의 취미와 관심사는 아래와 같습니다!
+      item:
+        - name: 고양이
+          icon: "custom/cat"
+          description: 이름이 '티거'인 고양이를 키우고 있습니다!
+        - name: 강아지
+          icon: "custom/dog"
+          description: 이름이 '코코'인 강아지를 키우고 있습니다!
+        - name: 피아노
+          icon: "custom/music"
+          description: 음악을 듣거나 피아노를 치면서 스트레스를 풉니다!
+          
   - block : collection
     id: mainlang
     content:
