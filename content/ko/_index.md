@@ -45,15 +45,15 @@ sections:
 
   - block : collection
     id: mainlang
-      content:
-        title: 주 사용 언어
-        filters:
-          folders:
-            - mainlang
+    content:
+      title: 주 사용 언어
+      filters:
+        folders:
+          - mainlang
     design:
-        view: article-grid
-        rows: 3
-        columns: 3
+      view: article-grid
+      rows: 3
+      columns: 3
 
   - block: markdown
     content:
