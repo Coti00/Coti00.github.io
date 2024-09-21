@@ -17,7 +17,6 @@ sections:
       button:
         text: 수료증
         url: uploads/certi.pdf
-        spacing: "2rem"
       # Show a call-to-action button under your biography? (optional)
     design:
       css_class: dark
@@ -35,7 +34,7 @@ sections:
   - block: features
     id: features
     content:
-      title: My Interests
+      title: 🔍 관심 분야
       text: 현재 저는 다음과 같은 분야에 관심이 있습니다
       items:
         - name: 인공지능
@@ -47,6 +46,19 @@ sections:
         - name: 프런트엔드
           icon: "custom/laptop"
           description: 리액트를 활용하여 프런트엔드 개발
+  - block: features
+    id: lang
+    content:
+      title: 주 사용 프로그래밍 언어
+      text: 현재 제가 주로 다루는 프로그래밍 언어입니다
+      items:
+        - name: 파이썬
+          icon: "custom/python"
+          description: 파이썬의 판다스, 파이토치 등의 프레임워크를 데이터 분석과 NLP에서 사용함
+        - name: 자바스크립트
+          icon: "custom/js"
+          description: 프런트엔드를 사용할 때 주로 사용함
+
   
   - block: markdown
     content:

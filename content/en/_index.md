@@ -34,7 +34,7 @@ sections:
   - block: features
     id: features
     content:
-      title: My Interests
+      title: 🔍 My Interests
       text: Currently, I am interested in the following areas
       items:
         - name: AI
@@ -46,6 +46,18 @@ sections:
         - name: FrontEnd
           icon: "custom/laptop"
           description: Use React to development
+  - block: features
+      id: lang
+      content:
+        title: Main Programming Language
+        text: Currently, My main programming language
+        items:
+          - name: Python
+            icon: "custom/python"
+            description: Python's Pandas and Pytorch frameworks are used in data analysis and NLP
+          - name: JavaScript
+            icon: "custom/js"
+            description: Mainly used when using the front end
 
   - block: markdown
     content:
