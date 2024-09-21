@@ -14,8 +14,6 @@ all_day: false
 authors:
     - admin
 
-tags: []
-
 featured: false
 
 image:

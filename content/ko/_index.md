@@ -65,5 +65,6 @@ sections:
           - news
     design:
       view: article-grid
-      columns: 1
+      rows: 3
+      columns: 3
 ---
