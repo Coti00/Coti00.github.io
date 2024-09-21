@@ -6,7 +6,7 @@ type: landing
 
 design:
   # Default section spacing
-  spacing: "1rem"
+  spacing: "2rem"
 
 sections:
   - block: resume-biography-3
@@ -77,6 +77,7 @@ sections:
         </iframe>
     design:
       columns: '1'
+
   - block : collection
     id: news
     content:
