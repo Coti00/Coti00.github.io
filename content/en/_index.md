@@ -15,7 +15,6 @@ sections:
       username: admin
       text: ""
       button:
-        icon: "custom/download"
         text: Certification
         url: uploads/certi.pdf
       # Show a call-to-action button under your biography? (optional)
