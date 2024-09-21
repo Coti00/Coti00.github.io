@@ -55,9 +55,20 @@ sections:
       rows: 3
       columns: 3
 
+  - block : collection
+    id: news
+    content:
+      title: 최근 소식
+      filters:
+        folders:
+          - news
+    design:
+      view: article-grid
+      columns: 3
+
   - block: markdown
     content:
-      title: '🗺️ 연구실 위치'
+      title: '🗺️ 학교 위치'
       text: |-
         <p>Contact : jbnu20@jbnu.ac.kr</p>
         <p>Position : 전북대학교 학생군사교육단 3층 315호 </p>
@@ -72,15 +83,4 @@ sections:
         </iframe>
     design:
       columns: '1'
-
-  - block : collection
-    id: news
-    content:
-      title: 최근 소식
-      filters:
-        folders:
-          - news
-    design:
-      view: article-grid
-      columns: 3
 ---
