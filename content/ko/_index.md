@@ -43,18 +43,17 @@ sections:
       rows: 3
       columns: 3
 
-  - block: features
-    id: lang
-    content:
-      title: 주 사용 프로그래밍 언어
-      text: 현재 제가 주로 다루는 프로그래밍 언어입니다
-      items:
-        - name: 파이썬
-          icon: "custom/python"
-          description: 파이썬의 판다스, 파이토치 등의 프레임워크를 데이터 분석과 NLP에서 사용함
-        - name: 자바스크립트
-          icon: "custom/js"
-          description: 프런트엔드를 사용할 때 주로 사용함
+  - block : collection
+    id: mainlang
+      content:
+        title: 주 사용 언어
+        filters:
+          folders:
+            - mainlang
+    design:
+        view: article-grid
+        rows: 3
+        columns: 3
 
   - block: markdown
     content:
@@ -83,5 +82,5 @@ sections:
           - news
     design:
       view: article-grid
-      columns: 1
+      columns: 3
 ---

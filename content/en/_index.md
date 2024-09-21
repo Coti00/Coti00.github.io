@@ -43,18 +43,17 @@ sections:
       rows: 3
       columns: 3
 
-  - block: features
-      id: lang
+  - block : collection
+    id: mainlang
       content:
-        title: Main Programming Language
-        text: Currently, My main programming language
-        items:
-          - name: Python
-            icon: "custom/python"
-            description: Python's Pandas and Pytorch frameworks are used in data analysis and NLP
-          - name: JavaScript
-            icon: "custom/js"
-            description: Mainly used when using the front end
+        title: 주 사용 언어
+        filters:
+          folders:
+            - mainlang
+    design:
+        view: article-grid
+        rows: 3
+        columns: 3
 
   - block: markdown
     content:
@@ -83,5 +82,5 @@ sections:
           - news
     design:
       view: article-grid
-      columns: 1
+      columns: 3
 ---
