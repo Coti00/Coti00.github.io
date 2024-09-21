@@ -15,7 +15,7 @@ authors:
 featured: false
 
 image:
-    caption: 'Image credit: [**Unsplash**](https://www.jbnu.ac.kr/kor/?menuID=67)'
+    caption: 'Image credit: [**Unsplash**](https://unsplash.com/ko/사진/상자에-있는-은과-금-둥근-동전-maJDOJSmMoo)'
     focal_point: Center
 ---
 
