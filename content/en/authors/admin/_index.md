@@ -33,7 +33,7 @@ profiles:
   - icon: "custom/github"
     url: https://github.com/Coti00
   - icon: "custom/phone"
-    text: 010-0000-0000
+    label: 010-0000-0000
 
 # Awards.
 #   Add/remove as many awards below as you like.
