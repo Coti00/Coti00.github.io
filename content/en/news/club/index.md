@@ -15,7 +15,7 @@ authors:
 featured: false
 
 image:
-    caption: 'Image credit: [**Unsplash**](https://github.com/JBNU-CPU)'
+    caption: 'Image credit: [**Unsplash**](https://unsplash.com/ko/사진/컴퓨터-모니터-앞-의자에-앉아-있는-사람들-Fa9b57hffnM)'
     focal_point: Center
 ---
 
