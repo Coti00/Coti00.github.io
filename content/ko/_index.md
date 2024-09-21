@@ -32,16 +32,16 @@ sections:
           parallax: false
           
   - block : collection
-      id: interests
-      content:
-        title: 관심분야
-        filters:
-          folders:
-            - interests
-      design:
-        view: article-grid
-        rows: 3
-        columns: 3
+    id: interests
+    content:
+      title: 관심분야
+      filters:
+        folders:
+          - interests
+    design:
+      view: article-grid
+      rows: 3
+      columns: 3
 
   - block: features
     id: lang
