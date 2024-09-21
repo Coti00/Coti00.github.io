@@ -30,14 +30,21 @@ sections:
           size: cover
           position: center
           parallax: false        
-  - block: markdown
+    - block: features
+    id: features
     content:
-      title: '🔬 관심 분야'
-      subtitle: ''
-      text: |-
-        <b>ㅁㅈㄷㄹ</b>
-    design:
-      columns: '1'
+      title: My Interests
+      text: 현재 저는 다음과 같은 분야에 관심이 있습니다
+      items:
+        - name: 인공지능
+          icon: "custom/brain"
+          description: 신약개발에 자연어처리를 적용하는 분야에 관심이 있음
+        - name: 신약개발
+          icon: "custom/drug"
+          description: 타겟 단백질 또는 세포 독성 예측에 관심이 있음
+        - name: 프런트엔드
+          icon: "custom/laptop"
+          description: 리액트를 활용
   
   - block: markdown
     content:
