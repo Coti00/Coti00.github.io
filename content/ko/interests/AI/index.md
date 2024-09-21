@@ -14,7 +14,9 @@ authors:
 
 featured: false
 
-icon: "custom/brain"
+image:
+    caption: 'Image credit: [**Unsplash**](https://unsplash.com/ko/사진/노트북-컴퓨터-위에-놓인-휴대폰-bV_P23FXxhI)'
+    focal_point: Center
 ---
 
 ## Interests
