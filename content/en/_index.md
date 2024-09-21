@@ -30,8 +30,9 @@ sections:
           size: cover
           position: center
           parallax: false
+          
   - block: features
-    id: interest
+    id: features
     content:
       title: My Interests
       text: 현재 저는 다음과 같은 분야에 관심이 있습니다
@@ -45,6 +46,7 @@ sections:
         - name: 프런트엔드
           icon: "custom/laptop"
           description: 리액트를 활용
+
   - block: markdown
     content:
       title: '🗺️ LAB Position'
