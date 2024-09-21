@@ -6,7 +6,7 @@ type: landing
 
 design:
   # Default section spacing
-  spacing: "2rem"
+  spacing: "1rem"
 
 sections:
   - block: resume-biography-3
@@ -46,6 +46,7 @@ sections:
         - name: 프런트엔드
           icon: "custom/laptop"
           description: 리액트를 활용하여 프런트엔드 개발
+
   - block: features
     id: lang
     content:
@@ -59,7 +60,6 @@ sections:
           icon: "custom/js"
           description: 프런트엔드를 사용할 때 주로 사용함
 
-  
   - block: markdown
     content:
       title: '🗺️ 연구실 위치'
