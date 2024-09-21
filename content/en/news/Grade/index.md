@@ -23,6 +23,8 @@ I got 5th Scholarship with grade 4.08 in 3-1
 
 ## Scholarship History
 1-2 : Type1 Scholarship
+
 2-1 : Type2 Scholarship
+
 2-2 : Type1 Scholarship
 

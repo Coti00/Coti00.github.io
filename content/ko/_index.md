@@ -59,7 +59,7 @@ sections:
   - block : collection
     id: news
     content:
-      title: 최근 소식 & 다가올 소식
+      title: 최근 소식
       filters:
         folders:
           - news
