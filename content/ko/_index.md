@@ -17,6 +17,7 @@ sections:
       button:
         text: 수료증
         url: uploads/certi.pdf
+        spacing: "2rem"
       # Show a call-to-action button under your biography? (optional)
     design:
       css_class: dark
@@ -45,7 +46,7 @@ sections:
           description: 타겟 단백질 또는 세포 독성 예측에 관심이 있음
         - name: 프런트엔드
           icon: "custom/laptop"
-          description: 리액트를 활용
+          description: 리액트를 활용하여 프런트엔드 개발
   
   - block: markdown
     content:

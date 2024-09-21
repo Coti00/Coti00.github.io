@@ -30,22 +30,22 @@ sections:
           size: cover
           position: center
           parallax: false
-          
+
   - block: features
     id: features
     content:
       title: My Interests
-      text: 현재 저는 다음과 같은 분야에 관심이 있습니다
+      text: Currently, I am interested in the following areas
       items:
-        - name: 인공지능
+        - name: AI
           icon: "custom/brain"
-          description: 신약개발에 자연어처리를 적용하는 분야에 관심이 있음
-        - name: 신약개발
+          description: Interested in the field of applying natural language processing to the development of new drugs
+        - name: Drug_Discovery
           icon: "custom/drug"
-          description: 타겟 단백질 또는 세포 독성 예측에 관심이 있음
-        - name: 프런트엔드
+          description: Interested in predicting target protein or cytotoxicity
+        - name: FrontEnd
           icon: "custom/laptop"
-          description: 리액트를 활용
+          description: Use React to development
 
   - block: markdown
     content:
