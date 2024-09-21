@@ -20,4 +20,8 @@ summary : Studied Framework
         <img src='./pytorch.png' alt='pytorch' width="200"/>
         <p>Pytorch</p>
     </div>
+    <div style="display: inline-block; margin: 20px;">
+        <img src='./react.png' alt='react' width="200" height="200"/>
+        <p>React</p>
+    </div>
 </div>
