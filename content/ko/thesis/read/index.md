@@ -5,8 +5,10 @@ type: docs
 math: false
 tags:
   - 논문
-image:
-  caption: 'Embed rich media such as videos and LaTeX math'
+# Optional banner image (relative to `assets/media/` folder).
+banner:
+  caption: 'Image credit: [**Unsplash**](https://unsplash.com/)'
+  image: 'galaxy.jpg'
 ---
 ## Read Papers List
 
