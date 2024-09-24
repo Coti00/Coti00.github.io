@@ -30,6 +30,24 @@ sections:
           size: cover
           position: center
           parallax: false
+          
+  - block: slider
+    content:
+      slides:
+        - title: '열정'
+          content: '무엇이든 지 열정을 가지고 열심히 합니다'
+          background:
+            image:
+              filename: 'passion.jpg'
+              position: center
+              size: 'cover'
+        - title: '끈기'
+          content: '무엇이든 끈기를 가지고 끝까지 합니다!'
+          background:
+            image:
+              filename: 'patience.jpg'
+              position: center
+              size: 'cover'
 
   - block : collection
     id: interests
