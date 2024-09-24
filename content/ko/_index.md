@@ -33,14 +33,18 @@ sections:
 
   - block: slider
     content:
-      title: "포트폴리오 슬라이더"
       slides:
-        - image: "passion.jpg"
-          caption: "첫 번째 슬라이드 설명"
-        - image: "patience.jpg"
-          caption: "두 번째 슬라이드 설명"
-        - image: "adaptation.jpg"
-          caption: "세 번째 슬라이드 설명"
+
+      - title: <span style="font-size:70%">Recruit</span>
+        content: <span style="font-size:70%">Interested in MacsLAB?</span>
+        align: center
+        background:
+          image:
+            filename: passion.jpg
+            filters:
+              brightness: 0.4
+          position: center
+          color: '#000'
 
   - block : collection
     id: interests
