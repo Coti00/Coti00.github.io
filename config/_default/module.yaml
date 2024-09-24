@@ -21,9 +21,11 @@ mounts:
   - source: hugo-blox/blox
     target: assets/dist/community/blox/
     includeFiles: '**.css'
+  # blox-bootstrap 모듈에서 slider.html 파일 마운트
   - source: modules/blox-bootstrap/layouts/partials/blocks
-    target: hugo-blox/blox/community/layouts/partials/blox/community/
+    target: layouts/partials/blocks/
     includeFiles: 'slider.html'
+
   - source: layouts
     target: layouts
   - source: assets
