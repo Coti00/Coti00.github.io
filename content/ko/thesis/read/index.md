@@ -6,6 +6,7 @@ math: false
 tags:
   - 논문
 # Optional banner image (relative to `assets/media/` folder).
+# 여기 수정!!!!!!!!!!!
 banner:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com/)'
   image: 'galaxy.jpg'

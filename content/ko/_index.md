@@ -31,6 +31,19 @@ sections:
           position: center
           parallax: false
           
+  - block: slider
+    content:
+      slides:
+      - title: <span style="font-size:70%>Passion</span>
+        align: center
+        background:
+          image:
+            filename: passion.jpg
+            filters:
+              brightness: 0.5
+          position: center
+          color: '#000'
+
   - block : collection
     id: interests
     content:
