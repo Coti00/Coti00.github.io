@@ -30,8 +30,8 @@ sections:
           size: cover
           position: center
           parallax: false
-          
-  - block: slider
+
+  - block: carousel
     content:
       slides:
         - title: '열정'
