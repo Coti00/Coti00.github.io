@@ -31,21 +31,6 @@ sections:
           position: center
           parallax: false
 
-  - block: slider
-    content:
-      slides:
-
-      - title: <span style="font-size:70%">Recruit</span>
-        content: <span style="font-size:70%">Interested in MacsLAB?</span>
-        align: center
-        background:
-          image:
-            filename: passion.jpg
-            filters:
-              brightness: 0.4
-          position: center
-          color: '#000'
-
   - block : collection
     id: interests
     content:
