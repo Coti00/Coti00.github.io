@@ -34,44 +34,25 @@ sections:
   - block: slider
     content:
       slides:
-      - title: <span style="font-size:70%">열정</span>
-        content: <span style="font-size:70%">무슨일을 하던지 열정이 넘칩니다!</span>
-        align: center
-        background:
-          image:
-            filename: passion.jpg
-            filters:
-              brightness: 0.5
-          position: center
-          color: 'white'
 
-      - title: <span style="font-size:70%">끈기</span>
-        content: <span stlye="font-size:70%">맡은 바는 끈기있게 완수합니다!</span>
+      - title: <span style="font-size:70%">Recruit</span>
+        content: <span style="font-size:70%">Interested in MacsLAB?</span>
         align: center
         background:
           image:
-            filename: patience.jpg
+            filename: pasj.jpg
             filters:
-              brightness: 0.5
-            position: center
-            color: 'white'
-      
-      - title: <span style ="font-size:70%">적응력</span>
-        content: <span style="font-size:70%">적응력이 빨라 무슨일이든 쉽게 배웁니다</span>
-        align: center
-        background:
-          image:
-            filename: adaptation.jpg
-            fiilters:
-              brightness: 0.5
+              brightness: 0.4
           position: center
-          color: 'white'
+          color: '#000'
     design:
       slide_height: '350px'
       slide_width: '100px'
       is_fullscreen: false
+      # Automatically transition through slides?
       loop: true
-      interval: 1000
+      # Duration of transition between slides (in ms)
+      interval: 3000
 
   - block : collection
     id: interests
