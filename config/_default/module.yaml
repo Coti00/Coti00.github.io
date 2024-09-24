@@ -21,12 +21,9 @@ mounts:
   - source: hugo-blox/blox
     target: assets/dist/community/blox/
     includeFiles: '**.css'
-  - source: blox-bootstrap
-    target: layouts/partials/blocks/
-    includeFiles: '**.html'
-  - source: blox-boostrap
-    target: layouts/partials/blocks/v1/
-    includeFiles: '**.html'
+  - source: modules/blox-bootstrap/layouts/partials/blocks
+    target: hugo-blox/blox/community/layouts/partials/blox/community/
+    includeFiles: 'slider.html'
   - source: layouts
     target: layouts
   - source: assets
