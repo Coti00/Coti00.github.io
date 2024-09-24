@@ -33,26 +33,14 @@ sections:
 
   - block: slider
     content:
+      title: "포트폴리오 슬라이더"
       slides:
-
-      - title: <span style="font-size:70%">Recruit</span>
-        content: <span style="font-size:70%">Interested in MacsLAB?</span>
-        align: center
-        background:
-          image:
-            filename: pasj.jpg
-            filters:
-              brightness: 0.4
-          position: center
-          color: '#000'
-    design:
-      slide_height: '350px'
-      slide_width: '100px'
-      is_fullscreen: false
-      # Automatically transition through slides?
-      loop: true
-      # Duration of transition between slides (in ms)
-      interval: 3000
+        - image: "passion.jpg"
+          caption: "첫 번째 슬라이드 설명"
+        - image: "patience.jpg"
+          caption: "두 번째 슬라이드 설명"
+        - image: "adaptation.jpg"
+          caption: "세 번째 슬라이드 설명"
 
   - block : collection
     id: interests
