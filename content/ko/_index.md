@@ -31,7 +31,7 @@ sections:
           position: center
           parallax: false
 
-  - block: carousel
+  - block: slider
     content:
       slides:
         - title: '열정'
