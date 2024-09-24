@@ -15,15 +15,18 @@ mounts:
   - source: hugo-blox/blox/community
     target: layouts/partials/blox/community/
     includeFiles: '**.html'
-  - source: blox-bootstrap
-    target: layouts/partials/blocks/
-    includeFiles: '**.html'
   - source: hugo-blox/blox/all-access
     target: layouts/partials/blox/
     includeFiles: '**.html'
   - source: hugo-blox/blox
     target: assets/dist/community/blox/
     includeFiles: '**.css'
+  - source: blox-bootstrap
+    target: layouts/partials/blocks/
+    includeFiles: '**.html'
+  - source: blox-boostrap
+    target: layouts/partials/blocks/v1/
+    includeFiles: '**.html'
   - source: layouts
     target: layouts
   - source: assets
