@@ -1,7 +1,10 @@
 ---
-title: 프런트
-date: 2024-08-13
-external_link: https://github.com/Coti00/Lab_Web
+title: 프런트 프로젝트
+summary: 간단한 메인 홈페이지
+type: docs
+math: false
+tags:
+  - 프런트
+image:
+  caption: 'Embed rich media such as videos and LaTeX math'
 ---
-
-처음 Html, CSS, JS를 배우고 만든 홈페이지입니다!
