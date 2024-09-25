@@ -1,9 +1,13 @@
 ---
-title: "페이지 제목"
-date: 2024-09-25
+title: 내가 읽은 논문
+summary: AI 신약 개발과 관련된 논문
+type: docs
+math: false
+tags:
+  - 읽은 논문
 banner:
   image: 'galaxy.jpg'
-  caption: '이미지 출처: [**Geo**](https://github.com/gcushen/)'
+  caption: 'Image credit: [**Geo**](https://github.com/gcushen/)'
 ---
 ## Read Papers List
 
