@@ -1,9 +1,12 @@
 ---
-title: Linux
-date: 2024-7-15
-external_link: https://github.com/Coti00/linux_project
+title: Linux Project
+summary: Linux Project
+type: docs
+tags: Linux
+image:
+    caption: 'Linux'
 ---
+{{< figure src="featured.png" width="600px" height="400px" >}}
 
-"The project was a final assignment for a Linux class and received a perfect score."
 
-<!--more-->
+[Linux Project Github](https://github.com/Coti00/linux_project)

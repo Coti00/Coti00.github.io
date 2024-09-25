@@ -1,9 +1,12 @@
 ---
-title: Python
-date: 2023-12-15
-external_link: https://github.com/Coti00/PygameProject
+title: Python Project
+summary: Python Project
+type: docs
+tags: Python
+image:
+    caption: 'Python'
 ---
+{{< figure src="featured.png" width="600px" height="400px" >}}
 
-"The first project I started after learning Python."
 
-<!--more-->
+[Python Project Github](https://github.com/Coti00/PygameProject)

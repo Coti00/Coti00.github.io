@@ -1,8 +1,12 @@
 ---
-title: FrontEnd
-date: 2024-08-13
-external_link: https://github.com/Coti00/Lab_Web
+title: FrontEnd Project
+summary: FrontEnd Project
+type: docs
+tags: FrontEnd
+image:
+    caption: 'Front'
 ---
+{{< figure src="featured.png" width="600px" height="400px" >}}
 
-This is my First Front Project use HTML, CSS, JS
-<!--more-->
+
+[FrontEnd Project Github](https://github.com/Coti00/linux_project)
