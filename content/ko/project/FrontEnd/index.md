@@ -1,8 +1,6 @@
 ---
 title: 프런트 프로젝트
 summary: 프런트 프로젝트
-tags:
-  - 프런트
 image:
     focal_point: Center
 ---
