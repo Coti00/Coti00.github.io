@@ -1,14 +1,14 @@
 ---
 title: 프런트 프로젝트
-
-summary: 간단한 프런트 프로젝트
-
-authors:
-    - admin
-
-featured: false
-
+summary: 프런트 프로젝트
+type: docs
+math: false
+tags:
+  - 프런트
+# Optional banner image (relative to `assets/media/` folder).
+# 여기 수정!!!!!!!!!!!
 image:
-    focal_point: Center
+  focal_point: Center
 ---
 
+[프런트 프로젝트 깃허브](https://github.com/Coti00/linux_project)

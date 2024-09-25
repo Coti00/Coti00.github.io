@@ -8,5 +8,7 @@ tags:
 # Optional banner image (relative to `assets/media/` folder).
 # 여기 수정!!!!!!!!!!!
 image:
-  focal_point: Right
+  focal_point: Center
 ---
+
+[파이썬 프로젝트 깃허브](https://github.com/Coti00/PygameProject)
