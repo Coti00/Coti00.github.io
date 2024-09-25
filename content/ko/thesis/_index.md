@@ -1,6 +1,6 @@
 ---
 title: 논문
 banner:
-  image: 'passion.jpg'
+  image: './assets/media/passion.jpg'
   caption: 'Image credit: [**Geo**](https://github.com/gcushen/)'
 ---
