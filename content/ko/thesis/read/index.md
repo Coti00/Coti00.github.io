@@ -2,7 +2,7 @@
 title: "페이지 제목"
 date: 2024-09-25
 banner:
-  image: 'galaxy.png'
+  image: 'galaxy.jpg'
   caption: '이미지 출처: [**Geo**](https://github.com/gcushen/)'
 ---
 ## Read Papers List
