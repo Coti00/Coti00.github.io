@@ -6,7 +6,7 @@ math: false
 tags:
   - 리눅스
 image:
-  filename: 'featured.jpg'
+  filename: featured.jpg
 ---
 
 [C언어 코드 링크](https://github.com/Coti00/linux_project)
