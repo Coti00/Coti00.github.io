@@ -7,6 +7,6 @@ tags:
   - 프런트
 
 ---
-<img src="/assets/media/front.png" alt="프로젝트 이미지" style="width:400px;"/>
+<img src="featured.png" alt="프로젝트 이미지" style="width:400px;"/>
 
 [프런트 프로젝트 깃허브](https://github.com/Coti00/linux_project)
