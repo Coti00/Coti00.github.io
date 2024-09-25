@@ -9,4 +9,4 @@ image:
 {{< figure src="featured.png" width="600px" height="400px" >}}
 
 
-[프런트 프로젝트 깃허브](https://github.com/Coti00/linux_project)
+[프런트 프로젝트 깃허브](https://github.com/JBNU-CPU/CPU_Web_Front)

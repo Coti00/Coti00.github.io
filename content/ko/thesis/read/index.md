@@ -1,15 +1,9 @@
 ---
-title: 읽은 논문 목록
-summary: 읽은 논문 목록
-type: docs
-math: false
-tags:
-  - 논문
-# Optional banner image (relative to `assets/media/` folder).
-# 여기 수정!!!!!!!!!!!
+title: "페이지 제목"
+date: 2024-09-25
 banner:
-  image: 'galaxy.jpg'
-  caption: 'Image credit: [**Geo**](https://github.com/gcushen/)'
+  image: 'galaxy.png'
+  caption: '이미지 출처: [**Geo**](https://github.com/gcushen/)'
 ---
 ## Read Papers List
 
