@@ -6,5 +6,7 @@ math: false
 tags:
   - 프런트
 image:
-  caption: 'featured.jpg'
+  caption: 'featured.png'
 ---
+
+[C언어 코드 링크](https://github.com/Coti00/linux_project)

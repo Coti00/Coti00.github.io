@@ -6,7 +6,7 @@ math: false
 tags:
   - 파이썬
 image:
-  filename: 'featured.jpg'
+  filename: 'featured.png'
 ---
 
 [파이썬 코드 링크](https://github.com/Coti00/linux_project)
