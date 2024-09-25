@@ -6,5 +6,7 @@ math: false
 tags:
   - 프런트
 image:
-  caption: 'Embed rich media such as videos and LaTeX math'
+  filename: 'featured.jpg'
 ---
+
+[프런트프로젝트 코드 링크](https://github.com/Coti00/linux_project)

@@ -1,9 +1,12 @@
 ---
-title: 리눅스
-date: 2024-7-15
-external_link: https://github.com/Coti00/linux_project
+title: 리눅스 프로젝트
+summary: 기말고사에 만점을 받았던 기말 프로젝트
+type: docs
+math: false
+tags:
+  - 리눅스
+image:
+  filename: 'featured.jpg'
 ---
 
-"리눅스프로그래밍 수업 기말 프로젝트"
-
-<!--more-->
+[C언어 코드 링크](https://github.com/Coti00/linux_project)

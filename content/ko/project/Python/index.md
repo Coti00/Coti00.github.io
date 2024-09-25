@@ -1,9 +1,12 @@
 ---
-title: 파이썬
-date: 2023-12-15
-external_link: https://github.com/Coti00/PygameProject
+title: 파이썬 프로젝트
+summary: 처음 프로그래밍에 입문하고 만든 프로젝트
+type: docs
+math: false
+tags:
+  - 파이썬
+image:
+  filename: 'featured.jpg'
 ---
 
-"파이썬을 배우고 처음 시작한 프로젝트입니다!"
-
-<!--more-->
+[파이썬 코드 링크](https://github.com/Coti00/linux_project)
