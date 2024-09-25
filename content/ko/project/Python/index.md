@@ -6,5 +6,7 @@ tags: 파이썬
 image:
     caption: '파이썬'
 ---
+{{< figure src="featured.png" title="프로젝트 이미지" >}}
+
 
 [파이썬 프로젝트 깃허브](https://github.com/Coti00/PygameProject)
