@@ -1,11 +1,15 @@
 ---
-title: 파이썬 프로젝트
-summary: 처음 프로그래밍하고 만든 프로젝트
+title: 퍼이썬 프로젝트
+summary: 첫 프로그래밍 프로젝트
+type: docs
+math: false
+tags:
+  - 파이썬
+# Optional banner image (relative to `assets/media/` folder).
+# 여기 수정!!!!!!!!!!!
+banner:
+  image: 'galaxy.jpg'
+  caption: 'Image credit: [**Geo**](https://github.com/gcushen/)'
 ---
-<div style="text-align: center;">
-    <div style="display: inline-block; margin: 20px;">
-        <img src='./python.png' alt='python' width="600" height="500"/>
-    </div>
-</div>
 
 [코드 링크](https://github.com/Coti00/linux_project)

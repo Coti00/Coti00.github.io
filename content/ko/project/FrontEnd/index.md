@@ -1,11 +1,15 @@
 ---
 title: 프런트 프로젝트
-summary: 간단한 메인 홈페이지
+summary: 첫 프런트 프로젝트
+type: docs
+math: false
+tags:
+  - 프런트
+# Optional banner image (relative to `assets/media/` folder).
+# 여기 수정!!!!!!!!!!!
+banner:
+  image: 'galaxy.jpg'
+  caption: 'Image credit: [**Geo**](https://github.com/gcushen/)'
 ---
-<div style="text-align: center;">
-    <div style="display: inline-block; margin: 20px;">
-        <img src='./front.png' alt='front' width="600" height="500"/>
-    </div>
-</div>
 
 [코드 링크](https://github.com/Coti00/linux_project)
