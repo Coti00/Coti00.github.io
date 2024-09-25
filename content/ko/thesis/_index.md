@@ -1,4 +1,0 @@
----
-banner:
-  image: 'galaxy.jpg'
----

@@ -6,7 +6,7 @@ math: false
 tags:
   - 읽은 논문
 banner:
-  image: 'galaxy.jpg'
+  image: 'passion.jpg'
   caption: 'Image credit: [**Geo**](https://github.com/gcushen/)'
 ---
 ## Read Papers List
