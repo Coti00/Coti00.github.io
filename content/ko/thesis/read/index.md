@@ -1,6 +1,10 @@
 ---
 title: 내가 읽은 논문
 summary: 내가 읽은 논문
+type: docs
+math: false
+tags:
+  - 작성할 논문
 banner:
     image: 'galaxy.png'
 ---
