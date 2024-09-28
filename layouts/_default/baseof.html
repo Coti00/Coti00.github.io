@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{ partial "head.html" . }}
+</head>
+<body>
+    <!-- 배너 섹션 추가 -->
+    {{ if .Params.banner.image }}
+    <section class="banner-section">
+        <img src="{{ .Site.BaseURL }}/assets/media/{{ .Params.banner.image }}" alt="Banner Image" class="banner-img">
+        {{ if .Params.banner.caption }}
+            <div class="banner-caption">{{ .Params.banner.caption | markdownify }}</div>
+        {{ end }}
+    </section>
+    {{ end }}
+
+    <!-- 기존 콘텐츠 -->
+    {{ block "main" . }}{{ end }}
+
+    {{ partial "footer.html" . }}
+</body>
+</html>
