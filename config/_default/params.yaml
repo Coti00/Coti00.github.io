@@ -62,5 +62,3 @@ features:
   privacy_pack:
     enable: false
 
-banner:
-  image: 'galaxy.png'

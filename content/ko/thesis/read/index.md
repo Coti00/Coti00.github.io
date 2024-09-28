@@ -6,7 +6,7 @@ math: false
 tags:
   - 작성할 논문
 banner:
-    image: 'galaxy.png'
+    image: 'passion.jpg'
 ---
 ## Read Papers List
 
