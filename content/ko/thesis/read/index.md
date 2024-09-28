@@ -1,9 +1,6 @@
 ---
 title: 내가 읽은 논문
 summary: AI 신약 개발과 관련된 논문
-banner:
-  image: 'passion.jpg'
-  caption: 'Image credit: [**Geo**](https://github.com/gcushen/)'
 ---
 ## Read Papers List
 
