@@ -1,6 +1,12 @@
 ---
 title: 작성할 논문
 summary: 작성할 논문
+type: docs
+math: false
+tags:
+  - 작성할 논문
+image:
+  caption: 'Embed rich media such as videos and LaTeX math'
 ---
 ## Write Papers List
 
