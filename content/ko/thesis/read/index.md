@@ -3,7 +3,7 @@ title: 내가 읽은 논문
 summary: 내가 읽은 논문
 type: docs
 banner:
-  image: 'galaxy.jpg'
+  image: 'passion.jpg'
 ---
 ## Read Papers List
 
