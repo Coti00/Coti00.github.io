@@ -1,12 +1,14 @@
 .banner {
     position: relative;
     text-align: center;
-    color: white;
+    margin: 0;
+    padding: 0;
 }
 
 .banner-img {
     width: 100%;
     height: auto;
+    display: block;
 }
 
 .banner-caption {
@@ -14,7 +16,8 @@
     bottom: 10px;
     left: 0;
     right: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
     padding: 10px;
-    background-color: rgba(0, 0, 0, 0.5); /* 반투명 배경 */
     font-size: 1.2em;
 }

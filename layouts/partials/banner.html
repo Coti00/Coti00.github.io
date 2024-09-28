@@ -1,0 +1,9 @@
+<!-- layouts/partials/banner.html -->
+{{ if .Params.banner.image }}
+<div class="banner">
+    <img src="{{ .Site.BaseURL }}/assets/media/{{ .Params.banner.image }}" alt="Banner Image" class="banner-img">
+    {{ if .Params.banner.caption }}
+        <div class="banner-caption">{{ .Params.banner.caption | markdownify }}</div>
+    {{ end }}
+</div>
+{{ end }}

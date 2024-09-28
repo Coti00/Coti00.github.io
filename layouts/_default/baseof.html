@@ -1,22 +1,11 @@
+<!-- layouts/_default/baseof.html -->
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ .Site.LanguageCode }}">
 <head>
-    {{ partial "head.html" . }}
+    {{ partial "hooks/head-end.html" . }} <!-- 기존의 head-end 파일을 여기에 추가 -->
 </head>
 <body>
-    <!-- 배너 섹션 추가 -->
-    {{ if .Params.banner.image }}
-    <section class="banner-section">
-        <img src="{{ .Site.BaseURL }}/assets/media/{{ .Params.banner.image }}" alt="Banner Image" class="banner-img">
-        {{ if .Params.banner.caption }}
-            <div class="banner-caption">{{ .Params.banner.caption | markdownify }}</div>
-        {{ end }}
-    </section>
-    {{ end }}
-
-    <!-- 기존 콘텐츠 -->
-    {{ block "main" . }}{{ end }}
-
-    {{ partial "footer.html" . }}
+    {{ partial "banner.html" . }} <!-- 배너 추가 -->
+    {{ block "main" . }}{{ end }} <!-- 기존 콘텐츠 -->
 </body>
 </html>
