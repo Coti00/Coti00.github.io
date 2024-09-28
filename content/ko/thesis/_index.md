@@ -1,7 +1,7 @@
 ---
 title: Thesis
 
-view : community/custom_compact
+view : head-end/custom_compact
 
 banner:
     image: 'patience.jpg'
