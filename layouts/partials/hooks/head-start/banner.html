@@ -1,8 +1,6 @@
 <!-- layouts/partials/hooks/head-end/banner.html -->
 {{ if .Params.banner.image }}
 <div style="margin: 0; padding: 0;">
-    <img src="{{ .Site.BaseURL }}/assets/media/{{ .Params.banner.image }}" alt="Banner Image" style="width: 100%; height: 300px;">
-    {{ if .Params.banner.caption }}
-    {{ end }}
+    <img src="assets/media/{{ .Params.banner.image }}" alt="Banner Image" style="width: 100%; height: 300px;">
 </div>
 {{ end }}
