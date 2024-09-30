@@ -31,23 +31,6 @@ sections:
           position: center
           parallax: false
 
-- block: markdown
-  content:
-    text: >
-      ![슬라이드 1](assets/media/passion.jpg)
-      
-      ## 첫 번째 슬라이드 제목
-      첫 번째 슬라이드 내용 설명입니다.
-
-      ---
-
-      ![슬라이드 2](assets/media/patience.jpg)
-      
-      ## 두 번째 슬라이드 제목
-      두 번째 슬라이드 내용 설명입니다.
-
-
-
   - block : collection
     id: interests
     content:

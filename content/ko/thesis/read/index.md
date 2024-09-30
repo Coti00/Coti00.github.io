@@ -5,6 +5,8 @@ type: docs
 math: false
 tags:
   - 작성할 논문
+banner:
+  image: 'galaxy.jpg'
 ---
 
 ## Read Papers List
