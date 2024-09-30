@@ -1,4 +1,5 @@
 ---
 title: test
-view: community/banner
+banner:
+    image: 'galaxy.jpg'
 ---

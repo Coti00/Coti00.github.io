@@ -5,9 +5,8 @@ type: docs
 math: false
 tags:
   - 작성할 논문
-banner:
-    image: 'passion.jpg'
 ---
+
 ## Read Papers List
 
 [Generating Focused Molecule Libraries for Drug Discovery with Recurrent Neural Networks]
