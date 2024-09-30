@@ -25,3 +25,12 @@ mounts:
     target: layouts
   - source: assets
     target: assets
+  - source: modules/blox-bootstrap/layouts/partials/blocks/
+    target: layouts/partials/blox/community/
+    includeFiles: '**.html'
+  - source: modules/blox-bootstrap/layouts/partials/blocks/
+    target: layouts/partials/blox/
+    includeFiles: '**.html'
+  - source: hugo-blox/blox
+    target: modules/blox-bootstrap/layouts/partials/blocks/
+    includeFiles: '**.css'
