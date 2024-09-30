@@ -31,34 +31,22 @@ sections:
           position: center
           parallax: false
 
-  # - block: slider
-  #   content:
-  #     slides:
-  #     - title: AI
-  #       content: 'Just opened last month!'
-  #       align: center
-  #       background:
-  #         image:
-  #           filename: passion.jpg
-  #           filters:
-  #             brightness: 0.5
-  #         position: center
-  #         color: '#333'
-  #     - title: Medical AI
-  #       content: Take a look at what we're working on...
-  #       align: center
-  #       background:
-  #         image:
-  #           filename: patience.jpg
-  #           filters:
-  #             brightness: 0.7
-  #         position: right
-  #         color: '#666'
-  - block: collection
-    content:
-      title: Test
-      banner:
-        image: 'galaxy.jpg'
+- block: markdown
+  content:
+    text: >
+      ![슬라이드 1](assets/media/passion.jpg)
+      
+      ## 첫 번째 슬라이드 제목
+      첫 번째 슬라이드 내용 설명입니다.
+
+      ---
+
+      ![슬라이드 2](assets/media/patience.jpg)
+      
+      ## 두 번째 슬라이드 제목
+      두 번째 슬라이드 내용 설명입니다.
+
+
 
   - block : collection
     id: interests
