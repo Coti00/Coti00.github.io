@@ -31,7 +31,7 @@ sections:
           position: center
           parallax: false
 
-  - block: "slider"  # slider 블록을 참조합니다.
+  - block: slider  # slider 블록을 참조합니다.
     content:
       slides:
         - title: "Slide 1"
