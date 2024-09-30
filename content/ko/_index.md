@@ -31,6 +31,30 @@ sections:
           position: center
           parallax: false
 
+  - block: slider
+    content:
+      slides:
+      - title: AI
+        content: 'Just opened last month!'
+        align: center
+        background:
+          image:
+            filename: passion.jpg
+            filters:
+              brightness: 0.5
+          position: center
+          color: '#333'
+      - title: Medical AI
+        content: Take a look at what we're working on...
+        align: center
+        background:
+          image:
+            filename: patience.jpg
+            filters:
+              brightness: 0.7
+          position: right
+          color: '#666'
+
   - block : collection
     id: interests
     content:
