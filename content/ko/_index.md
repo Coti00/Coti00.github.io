@@ -31,6 +31,13 @@ sections:
           position: center
           parallax: false
 
+  - block: 'github.Coti00.slider'
+    content:
+      images: 
+        - passion.jpg
+        - patience.jpg
+        - galaxy.jpg
+
   - block : collection
     id: interests
     content:
