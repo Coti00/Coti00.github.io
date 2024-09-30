@@ -1,0 +1,39 @@
+{{/* My Custom Hugo Blox */}}
+{{/* https://hugoblox.com */}}
+
+{{/* Initialise the block */}}
+{{ $page := .wcPage }}
+{{ $block := .wcBlock }}
+
+{{/* Get slides from the block content */}}
+{{ $slides := $block.content.slides }}
+
+<div class="slider-container overflow-hidden relative w-full h-64">
+  {{ if $slides }}
+  <div class="slides flex transition-transform duration-500 ease-in-out">
+    {{ range $index, $slide := $slides }}
+      {{/* Get slide properties */}}
+      {{ $image := printf "assets/media/%s" $slide.background.image.filename }}
+      {{ $brightness := $slide.background.image.filters.brightness | default 1.0 }}
+      {{ $bgColor := $slide.background.color | default "#000" }}
+      {{ $textAlign := $slide.align | default "center" }}
+      {{ $title := $slide.title | $page.RenderString }}
+      {{ $content := $slide.content | $page.RenderString }}
+      
+      <div class="slide relative w-full h-full flex items-center justify-{{ $textAlign }}" style="background-color: {{ $bgColor }};">
+        <div class="relative w-full h-full">
+          <img src="{{ $image }}" alt="Slide Image {{ add $index 1 }}" style="width: 100%; height: 100%; object-fit: cover; filter: brightness({{ $brightness }});">
+          <div class="absolute inset-0 flex flex-col items-center justify-center">
+            <h2 class="text-4xl text-white font-bold bg-black bg-opacity-50 px-4 py-2 rounded">{{ $title }}</h2>
+            {{ with $content }}
+            <p class="mt-4 text-white text-lg bg-black bg-opacity-50 px-4 py-2 rounded">{{ . }}</p>
+            {{ end }}
+          </div>
+        </div>
+      </div>
+    {{ end }}
+  </div>
+  {{ else }}
+  <p>No slides found. Please check the block content configuration.</p>
+  {{ end }}
+</div>
