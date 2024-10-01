@@ -1,8 +1,8 @@
 ---
 title: 최근 소식
-cms_exclude: true
 
-view: card
+view: community/custom_card2
+
 
 image:
     caption: ''

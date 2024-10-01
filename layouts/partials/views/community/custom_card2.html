@@ -1,0 +1,31 @@
+{{ $item := .item }}
+
+{{ $link := $item.RelPermalink }}
+{{ $target := "" }}
+{{ if $item.Params.external_link }}
+  {{ $link = $item.Params.external_link }}
+  {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
+{{ end }}
+
+{{ $resource := partial "functions/get_featured_image.html" $item }}
+{{ $anchor := $item.Params.image.focal_point | default "Center" }}
+
+<a href="{{ $link }}" {{ $target | safeHTMLAttr }} class="mb-5">
+    <div class="flex flex-col items-center mb-5 border-black dark:border-white border" style="border-radius: 15px; width: calc(60%); height: 500px;">
+      <div class="overflow-hidden w-full" style="height: 300px;">
+        {{ with $resource }}
+          {{ $image := .Fill (printf "655x655 %s" $anchor) }}
+          {{ if ne $image.MediaType.SubType "gif" }}{{ $image = $image.Process "webp" }}{{ end }}
+          <img class="h-full w-full object-cover hover:scale-125 transition duration-500 cursor-pointer" loading="lazy" src="{{ $image.RelPermalink }}" height="300" width="{{ $image.Width }}" alt="{{ $item.Title | plainify }}" style="border-top-left-radius: 15px; border-top-right-radius: 15px;">
+        {{ end }}
+      </div>
+      <div class="p-8 w-full text-center" style="height: 150px;">
+        <div class="uppercase tracking-wide text-md text-black dark:text-white font-semibold" style="font-size: 24px; line-height: 1.5;">
+          {{ $item.Title }}
+        </div>
+      </div>
+    </div>
+</a>
+  
+  
+  
