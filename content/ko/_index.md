@@ -31,6 +31,11 @@ sections:
           position: center
           parallax: false
 
+  - block: collection
+    id: slider
+    design:
+      view: community/slider
+      
   - block : collection
     id: interests
     content:
