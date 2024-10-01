@@ -12,7 +12,7 @@
 
 <a href="{{ $link }}" {{ $target | safeHTMLAttr }} class="mb-5">
     <div class="flex items-start space-x-5">
-      <div class="flex-shrink-0 overflow-hidden w-1/2" style="height: 150px;">
+      <div class="flex-shrink-0 overflow-hidden w-1/2" style="height: 150px; padding-bottom: 20px;">
         {{ with $resource }}
           {{ $image := .Fill (printf "655x655 %s" $anchor) }}
           {{ if ne $image.MediaType.SubType "gif" }}{{ $image = $image.Process "webp" }}{{ end }}
