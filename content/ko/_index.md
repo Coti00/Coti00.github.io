@@ -31,24 +31,6 @@ sections:
           position: center
           parallax: false
 
-  # - block: slider  # slider 블록을 참조합니다.
-  #   content:
-  #     slides:
-  #       - title: "Slide 1"
-  #         content: "Welcome to the first slide!"
-  #         background:
-  #           image:
-  #             filename: "passion.jpg"  # assets/media/ 폴더에 이미지가 있어야 함.
-  #             position: "center"
-  #             size: "cover"
-  #       - title: "Slide 2"
-  #         content: "This is the second slide!"
-  #         background:
-  #           image:
-  #             filename: "patience.jpg"  # assets/media/ 폴더에 이미지가 있어야 함.
-  #             position: "center"
-  #             size: "cover"
-
   - block : collection
     id: interests
     content:
