@@ -14,7 +14,7 @@ marketing:
     site_type: Person
     local_business_type: ''
     org_name: ''
-    description: 'The highly-customizable Hugo Academic theme powered by Hugo Blox Builder. Easily create your personal academic website.'
+    description: 'Kim Dong Jun PortPolio'
     twitter: 'GetResearchDev'
   analytics:
     google_analytics: ''
@@ -38,6 +38,7 @@ header:
     show_translations: true
     hide_language_name: false
     logo:
+      filename: "man.svg"
       text: "PortPolio"
 
 # Site footer
