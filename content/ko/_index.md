@@ -67,9 +67,9 @@ sections:
         folders:
           - mainlang
     design:
-      view: community/customcard1
-      rows: 3
-      columns: 3
+      view: showcase
+      columns: '1'
+      flip_alt_rows: true
 
   - block : collection
     id: news
