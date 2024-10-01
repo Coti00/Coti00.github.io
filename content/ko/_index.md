@@ -79,8 +79,8 @@ sections:
         folders:
           - news
     design:
-      view: article-grid
-      columns: 3
+      view: community/customcard1
+      columns: '2'
 
   - block: markdown
     content:
