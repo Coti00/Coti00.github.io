@@ -23,6 +23,9 @@
         <div class="uppercase tracking-wide text-md text-black dark:text-white font-semibold" style="font-size: 24px; line-height: 1.5;">
           {{ $item.Title }}
         </div>
+        <p class="block mt-1 text-sm leading-tight font-medium text-black dark:text-white">
+            {{ ($item.Params.summary | default $item.Summary) | plainify | htmlUnescape | chomp -}}
+        </p>
       </div>
     </div>
 </a>
