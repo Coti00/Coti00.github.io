@@ -69,6 +69,7 @@ sections:
     design:
       view: community/custom_card
       columns: '1'
+      row: '3'
 
   - block : collection
     id: news
