@@ -11,7 +11,7 @@
 {{ $anchor := $item.Params.image.focal_point | default "Center" }}
 
 <a href="{{ $link }}" {{ $target | safeHTMLAttr }} class="mb-5">
-    <div class="flex items-start space-x-5">
+    <div class="flex items-start space-x-5 space-y-5 mb-5">
       <div class="flex-shrink-0 overflow-hidden w-1/2" style="height: 150px;">
         {{ with $resource }}
           {{ $image := .Fill (printf "655x655 %s" $anchor) }}
