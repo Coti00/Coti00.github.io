@@ -1,8 +1,7 @@
 ---
 title: 관심 분야
-cms_exclude: true
 
-view: card
+view: community/custom_card3
 
 image:
     caption: ''

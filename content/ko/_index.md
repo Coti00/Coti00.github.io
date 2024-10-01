@@ -39,7 +39,7 @@ sections:
         folders:
           - interests
     design:
-      view: article-grid
+      view: community/custom_card3
       rows: 3
       columns: 3
 
