@@ -37,7 +37,7 @@
   </div>
   {{end}}
   <div class="">
-    <div class="">
+    <div class="ml-5">
       <div class="flex gap-3">
         {{ range $index, $value := first 1 ($item.GetTerms "tags") }}
         <a href="{{.RelPermalink}}"><span
@@ -45,7 +45,7 @@
         {{end}}
       </div>
       <!--          <div class="relative line-clamp-2" style="display: block; height: 4em">-->
-      <h2 class="text-lg font-semibold leading-snug tracking-tight mt-2 dark:text-white ml-5"><a
+      <h2 class="text-lg font-semibold leading-snug tracking-tight mt-2 dark:text-white"><a
         href="{{ $link }}" {{ $target | safeHTMLAttr }}><span
         class="bg-gradient-to-r from-primary-200 to-primary-100 bg-[length:0px_10px] bg-left-bottom bg-no-repeat transition-[background-size] duration-500 hover:bg-[length:100%_3px] group-hover:bg-[length:100%_10px] dark:from-primary-800 dark:to-primary-900">
            {{- $item.Title -}}
@@ -53,7 +53,7 @@
           </span></a>
       </h2>
       <!--          </div>-->
-      <div class="grow"><p class="mt-2 ml-5 line-clamp-3 text-sm text-gray-500 dark:text-gray-400"><a
+      <div class="grow ml-5"><p class="mt-2 line-clamp-3 text-sm text-gray-500 dark:text-gray-400"><a
         href="{{ $link }}" {{ $target | safeHTMLAttr }}>
         {{ ($item.Params.summary | default $item.Summary) | plainify | htmlUnescape | chomp -}}
       </a></p>
