@@ -78,7 +78,7 @@ sections:
         folders:
           - news
     design:
-      view: article-grid.end
+      view: article-grid
       columns: 3
 
   - block: markdown
