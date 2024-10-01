@@ -53,7 +53,7 @@
           </span></a>
       </h2>
       <!--          </div>-->
-      <div class="grow"><p class="mt-2 line-clamp-3 text-sm text-gray-500 dark:text-gray-400"><a
+      <div class="grow"><p class="mt-2 ml-5 line-clamp-3 text-sm text-gray-500 dark:text-gray-400"><a
         href="{{ $link }}" {{ $target | safeHTMLAttr }}>
         {{ ($item.Params.summary | default $item.Summary) | plainify | htmlUnescape | chomp -}}
       </a></p>
@@ -85,9 +85,6 @@
           <!--          </a>-->
           <span class="text-xs text-gray-300 dark:text-gray-600">•</span>
           {{end}}
-          <time class="truncate text-sm" datetime="{{ time.Format "2006-01-02" $item.Date }}">
-          {{- $item.Date | time.Format (site.Params.locale.date_format | default ":date_long") -}}
-          </time>
         </div>
       </div>
 
