@@ -1,0 +1,25 @@
+<div id="image-slider" class="carousel slide" data-ride="carousel" data-interval="3000">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      {{ range $index, $resource := $block.content.slides }}
+      <li data-target="#image-slider" data-slide-to="{{ $index }}" class="{{ if eq $index 0 }}active{{ end }}"></li>
+      {{ end }}
+    </ol>
+  
+    <!-- Slides -->
+    <div class="carousel-inner">
+      {{ range $index, $filename := $block.image.filename }}
+      <div class="carousel-item {{ if eq $index 0 }}active{{ end }}">
+        <img src="assets/media/{{ $filename }}" class="d-block w-100" alt="Slide {{ $index }}">
+      </div>
+      {{ end }}
+    </div>
+</div>
+  
+<script>
+    // Optional: If you want to use JavaScript to control the interval time.
+    $('.carousel').carousel({
+      interval: 3000 // 3 seconds
+    });
+</script>
+  
