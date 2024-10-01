@@ -59,6 +59,23 @@ sections:
           icon: "custom/music"
           description: 음악을 듣거나 피아노를 치면서 스트레스를 풉니다!
 
+  - block: collection
+    content:
+      id: section-1
+      title: Notifications & News
+      subtitle:
+      text:
+      count: 3
+      offset: 0
+      order: desc
+      filters:
+        folders:
+          - mainlang
+    design:
+      view: community/customcard1
+      columns: '2'
+
+
   - block : collection
     id: mainlang
     content:
@@ -79,8 +96,8 @@ sections:
         folders:
           - news
     design:
-      view: community/customcard1
-      columns: '2'
+      view: article-grid
+      columns: 3
 
   - block: markdown
     content:
