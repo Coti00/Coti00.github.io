@@ -11,7 +11,7 @@
   {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
 {{ end }}
 
-<div class="group cursor-pointer bg-gray-100 dark:bg-zinc-800" style="border:15px;">
+<div class="group cursor-pointer bg-gray-100 dark:bg-zinc-800" style="border-radius:15px;">
 
   {{ with $resource }}
   {{ $image := "" }}
@@ -45,7 +45,7 @@
         {{end}}
       </div>
       <!--          <div class="relative line-clamp-2" style="display: block; height: 4em">-->
-      <h2 class="text-lg font-semibold leading-snug tracking-tight mt-2 dark:text-white"><a
+      <h2 class="text-lg font-semibold leading-snug tracking-tight mt-2 dark:text-white ml-5"><a
         href="{{ $link }}" {{ $target | safeHTMLAttr }}><span
         class="bg-gradient-to-r from-primary-200 to-primary-100 bg-[length:0px_10px] bg-left-bottom bg-no-repeat transition-[background-size] duration-500 hover:bg-[length:100%_3px] group-hover:bg-[length:100%_10px] dark:from-primary-800 dark:to-primary-900">
            {{- $item.Title -}}
