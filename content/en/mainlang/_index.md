@@ -1,8 +1,7 @@
 ---
 title: 주 사용 언어
-cms_exclude: true
 
-view: card
+view: community/custom_card
 
 image:
     caption: ''
