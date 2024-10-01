@@ -31,19 +31,19 @@ sections:
           position: center
           parallax: false
 
-- block: collection
-  id: slider
-  content:
-    slides:
-      - background:
-          image:
-            filename: passion.jpg
-      - background:
-          image:
-            filename: patience.jpg
-  design:
-    view: community/slider
-    slide_height: "250px"  # 슬라이드 높이를 설정할 수 있습니다.
+  - block: collection
+    id: slider
+    content:
+      slides:
+        - background:
+            image:
+              filename: passion.jpg
+        - background:
+            image:
+              filename: patience.jpg
+    design:
+      view: community/slider
+      slide_height: "250px"  # 슬라이드 높이를 설정할 수 있습니다.
 
 
   - block : collection
