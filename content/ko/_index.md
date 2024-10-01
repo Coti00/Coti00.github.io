@@ -67,9 +67,9 @@ sections:
         folders:
           - mainlang
     design:
-      view: showcase
-      columns: '1'
-      flip_alt_rows: true
+      view: article-grid
+      rows: 3
+      columns: 3
 
   - block : collection
     id: news
