@@ -16,11 +16,11 @@
         {{ with $resource }}
           {{ $image := .Fill (printf "655x655 %s" $anchor) }}
           {{ if ne $image.MediaType.SubType "gif" }}{{ $image = $image.Process "webp" }}{{ end }}
-          <img class="h-full w-full object-cover hover:scale-125 transition duration-500 cursor-pointer" loading="lazy" src="{{ $image.RelPermalink }}" height="150" width="{{ $image.Width }}" alt="{{ $item.Title | plainify }}" style="border-top-left-radius: 15px; border-bottom-left-radius: 15px;">
+          <img class="h-full w-full object-cover hover:scale-125 transition duration-500 cursor-pointer text-gray border-gray" loading="lazy" src="{{ $image.RelPermalink }}" height="150" width="{{ $image.Width }}" alt="{{ $item.Title | plainify }}" style="border-top-left-radius: 15px; border-bottom-left-radius: 15px;">
         {{ end }}
       </div>
       <div class="p-8 w-1/2" style="height: 150px;">
-        <div class="uppercase tracking-wide text-md text-black dark:text-white font-semibold hover:text-gray border-gray" style="font-size: 24px; line-height: 2.5;">
+        <div class="uppercase tracking-wide text-md text-black dark:text-white font-semibold" style="font-size: 24px; line-height: 2.5;">
             {{ $item.Title }}
         </div>
       </div>
