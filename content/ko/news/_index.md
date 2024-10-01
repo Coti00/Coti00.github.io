@@ -2,7 +2,7 @@
 title: 최근 소식
 cms_exclude: true
 
-view: card
+view: citation
 
 image:
     caption: ''
