@@ -67,7 +67,7 @@ sections:
         folders:
           - mainlang
     design:
-      view: article-grid
+      view: community/customcard1
       rows: 3
       columns: 3
 
