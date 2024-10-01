@@ -1,5 +1,4 @@
 {{ $item := .item }}
-{{ $has_attachments := partial "functions/has_attachments" $item }}
 
 {{ $link := $item.RelPermalink }}
 {{ $target := "" }}
@@ -8,17 +7,8 @@
   {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
 {{ end }}
 
-{{/* Get summary. */}}
-{{ $summary := "" }}
-{{ if $item.Params.summary }}
-  {{ $summary = $item.Params.summary | markdownify | emojify }}
-{{ else if $item.Params.abstract }}
-  {{ $summary = $item.Params.abstract | markdownify | emojify | truncate (site.Params.abstract_length | default 135) }}
-{{ else if $item.Summary }}
-  {{ $summary = $item.Summary }}
-{{ end }}
-
-{{ $resource := partial "blox-core/functions/get_featured_image.html" $item }}
+{{ $resource := partial "functions/get_featured_image.html" $item }}
+{{ $anchor := $item.Params.image.focal_point | default "Center" }}
 
 <a href="{{ $link }}" {{ $target | safeHTMLAttr }} class="mb-5">
     <div class="flex items-start">
