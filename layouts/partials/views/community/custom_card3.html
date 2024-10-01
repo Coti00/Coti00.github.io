@@ -11,7 +11,7 @@
   {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
 {{ end }}
 
-<div class="group cursor-pointer">
+<div class="group cursor-pointer bg-gray-100 dark:bg-zinc-800">
 
   {{ with $resource }}
   {{ $image := "" }}
@@ -36,7 +36,7 @@
            width="{{ $image.Width }}"></a>
   </div>
   {{end}}
-  <div class="bg-gray-100 dark:bg-zinc-800">
+  <div class="">
     <div class="">
       <div class="flex gap-3">
         {{ range $index, $value := first 1 ($item.GetTerms "tags") }}
