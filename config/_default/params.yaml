@@ -15,7 +15,6 @@ marketing:
     local_business_type: ''
     org_name: ''
     description: 'Kim Dong Jun PortPolio'
-    twitter: 'GetResearchDev'
   analytics:
     google_analytics: ''
     baidu_tongji: ''
@@ -40,6 +39,8 @@ header:
     logo:
       filename: "virus.svg"
       text: "PortPolio"
+      desing:
+        spacing: ['0','0','0','20px']
 
 # Site footer
 footer:
