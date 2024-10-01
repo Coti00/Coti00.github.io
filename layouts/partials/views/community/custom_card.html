@@ -11,15 +11,15 @@
 {{ $anchor := $item.Params.image.focal_point | default "Center" }}
 
 <a href="{{ $link }}" {{ $target | safeHTMLAttr }} class="mb-5">
-    <div class="flex items-start">
-      <div class="flex-shrink-0 overflow-hidden w-1/2">
+    <div class="flex items-start space-x-5">
+      <div class="flex-shrink-0 overflow-hidden w-1/2" style="height: 150px;">
         {{ with $resource }}
           {{ $image := .Fill (printf "655x655 %s" $anchor) }}
           {{ if ne $image.MediaType.SubType "gif" }}{{ $image = $image.Process "webp" }}{{ end }}
-        <img class="h-full w-full object-cover hover:scale-125 transition duration-500 cursor-pointer" loading="lazy" src="{{ $image.RelPermalink }}" height="{{ $image.Height }}" width="{{ $image.Width }}" alt="{{ $item.Title | plainify }}">
-        {{end}}
+          <img class="h-full w-full object-cover hover:scale-125 transition duration-500 cursor-pointer" loading="lazy" src="{{ $image.RelPermalink }}" height="150" width="{{ $image.Width }}" alt="{{ $item.Title | plainify }}">
+        {{ end }}
       </div>
-      <div class="p-8 w-1/2">
+      <div class="p-8 w-1/2" style="height: 150px;">
         <div class="uppercase tracking-wide text-md text-primary-700 dark:text-primary-200 font-semibold">{{ $item.Title }}</div>
         <p class="block mt-1 text-sm leading-tight font-medium text-black dark:text-white">
           {{ ($item.Params.summary | default $item.Summary) | plainify | htmlUnescape | chomp -}}
@@ -30,4 +30,5 @@
       </div>
     </div>
   </a>
+  
   
