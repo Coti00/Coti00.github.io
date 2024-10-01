@@ -11,7 +11,7 @@
 {{ $anchor := $item.Params.image.focal_point | default "Center" }}
 
 <a href="{{ $link }}" {{ $target | safeHTMLAttr }} class="mb-5">
-    <div class="flex flex-col items-center mb-5" style="height: 500px; border-radius: 15px; background: #848487;">
+    <div class="flex flex-col items-center mb-5" style="height: 500px; border-radius: 15px; background: #a7a7aa;">
       <div class="overflow-hidden mt-3" style="height: 300px; width: 500px;">
         {{ with $resource }}
           {{ $image := .Fill (printf "655x655 %s" $anchor) }}
