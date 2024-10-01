@@ -59,23 +59,6 @@ sections:
           icon: "custom/music"
           description: 음악을 듣거나 피아노를 치면서 스트레스를 풉니다!
 
-  - block: collection
-    content:
-      id: section-1
-      title: Notifications & News
-      subtitle:
-      text:
-      count: 3
-      offset: 0
-      order: desc
-      filters:
-        folders:
-          - mainlang
-    design:
-      view: community/customcard1
-      columns: '2'
-
-
   - block : collection
     id: mainlang
     content:
@@ -84,9 +67,11 @@ sections:
         folders:
           - mainlang
     design:
-      view: article-grid
-      rows: 3
-      columns: 3
+      columns: '1'
+      # Choose your content listing view - here we use the `showcase` view
+      view: showcase
+      # For the Showcase view, do you want to flip alternate rows?
+      flip_alt_rows: true
 
   - block : collection
     id: news
