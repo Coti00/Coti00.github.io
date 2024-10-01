@@ -33,17 +33,15 @@ sections:
 
   - block: collection
     id: slider
-    image:
-      filename:
-        - passion.jpg
-        - patience.jpg
     content:
       slides:
-        - /assets/media/passion.jpg
-        - /assets/media/patience.jpg
+        - background:
+            filename: passion.jpg
+        - background:
+            filename: patience.jpg
     design:
       view: community/slider
-
+      slide_height: "250px"  # 슬라이드 높이를 설정할 수 있습니다.
 
 
   - block : collection
