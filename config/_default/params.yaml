@@ -39,8 +39,6 @@ header:
     logo:
       filename: "virus.svg"
       text: "PortPolio"
-      desing:
-        spacing: ['0','0','0','20px']
 
 # Site footer
 footer:
