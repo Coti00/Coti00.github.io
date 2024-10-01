@@ -1,8 +1,7 @@
 ---
 title: Recent News
-cms_exclude: true
 
-view: card
+view: community/custom_card2
 
 image:
     caption: ''
