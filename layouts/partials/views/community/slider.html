@@ -12,6 +12,13 @@
 {{ $anchor := $item.Params.image.focal_point | default "Center" }}
 
 <div id="image-slider" class="carousel slide" data-ride="carousel" data-interval="3000">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      {{ range $index, $slide := $block.content.slides }}
+      <li data-target="#image-slider" data-slide-to="{{ $index }}" class="{{ if eq $index 0 }}active{{ end }}"></li>
+      {{ end }}
+    </ol>
+
     <!-- Slides -->
     <div class="carousel-inner">
       {{ range $index, $slide := $block.content.slides }}
@@ -31,11 +38,9 @@
       <span class="sr-only">Next</span>
     </a>
 </div>
-  
+
 <script>
     $('.carousel').carousel({
-      interval: 3000 // 3 seconds
+      interval: 3000 // 3초 간격으로 슬라이드 전환
     });
 </script>
-
-  

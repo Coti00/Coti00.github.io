@@ -1,3 +1,0 @@
----
-view: community/slider
----

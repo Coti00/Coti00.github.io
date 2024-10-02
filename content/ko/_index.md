@@ -41,7 +41,7 @@ sections:
             filename: patience.jpg
     design:
       view: community/slider
-      slide_height: "250px"  # 슬라이드 높이를 설정할 수 있습니다.
+      slide_height: "250px"  # 슬라이드 높이 설정 (예: 250px)
 
 
   - block : collection
