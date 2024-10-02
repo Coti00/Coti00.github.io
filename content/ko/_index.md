@@ -31,19 +31,6 @@ sections:
           position: center
           parallax: false
 
-  - block: collection
-    id: slider
-    content:
-      slides:
-        - background:
-            filename: passion.jpg
-        - background:
-            filename: patience.jpg
-    design:
-      view: community/slider
-      slide_height: "250px"  # 슬라이드 높이 설정 (예: 250px)
-
-
   - block : collection
     id: interests
     content:
