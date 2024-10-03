@@ -27,7 +27,7 @@ sections:
       title: '동물생명공학 학점'
       text: |-
         <h3>4.0 / 4.5</h3>
-        <table style = "width: 100%; border-collapse: collapse; margin: 20px 0;">
+        <table style = "width: 50vw">
           <thead>
             <tr>
               <th>과목명</th>
