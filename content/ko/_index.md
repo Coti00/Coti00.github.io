@@ -31,7 +31,7 @@ sections:
           position: center
           parallax: false
 
-  - block: slider
+  - block: features
     content:
       slides:
       - title: Passion
@@ -55,6 +55,7 @@ sections:
           position: center
           color: '#333'
       desing:
+        view: community/slider
         slide_height: '250px'
         is_fullscreen: true
         loop: true
