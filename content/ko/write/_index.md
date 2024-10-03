@@ -1,9 +1,10 @@
 ---
 title: 작성할 논문
-summary: 작성할 논문
-view: community/custom_compact
-banner: 
-    - feature.png
+type: post
+banner:
+    image: featured.png
+desing:
+
 ---
 ## Write Papers List
 
