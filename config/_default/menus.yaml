@@ -57,8 +57,8 @@ main:
     parent: Study Record
 
   - name : Thesis
-    url : read
-    pageRef: read
+    # url : read
+    # pageRef: read
     weight : 400
   - name : Read
     url : read
