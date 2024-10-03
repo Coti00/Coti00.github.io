@@ -1,23 +1,17 @@
 ---
 title: LG_Aimers 5
 
-event: Elice Coding 
-
-location: Online
-
 summary: My First AI Contest
 
 date: '2024-08-01'
 date_end: '2024-09-01'
 all_day: false
 
-authors:
-    - admin
 
 featured: false
 
 image:
-    caption: 'Image credit: [**Unsplash**](https://unsplash.com/ko/사진/코드가-잔뜩-들어-있는-컴퓨터-화면-ieic5Tq8YMk)'
+    caption: 'Image credit: [**Unsplash**](https://unsplash.com/)'
     focal_point: Center
 ---
 

@@ -3,6 +3,10 @@ title: 성적장학금 수령
 
 summary: 5종 장학금
 
+date: '2024-03-01'
+date_end: '2024-08-31'
+all_day: false
+
 featured: false
 
 image:

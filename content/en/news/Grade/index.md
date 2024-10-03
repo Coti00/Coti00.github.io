@@ -3,6 +3,11 @@ title: Scholarship
 
 summary: Type5 Scholarship
 
+date: '2024-03-01'
+date_end: '2024-08-31'
+all_day: false
+
+
 featured: false
 
 image:
