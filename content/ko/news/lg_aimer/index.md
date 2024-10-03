@@ -3,9 +3,6 @@ title: LG_Aimers 5
 
 summary: 나의 첫번째 AI 대회
 
-authors:
-    - admin
-
 featured: false
 
 image:

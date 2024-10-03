@@ -1,21 +1,12 @@
 ---
 title: Scholarship
 
-event: Type5 Scholarship
-
 summary: Type5 Scholarship
-
-date: '2024-03-01'
-date_end: '2024-08-01'
-all_day: false
-
-authors:
-    - admin
 
 featured: false
 
 image:
-    caption: 'Image credit: [**Unsplash**](https://unsplash.com/ko/사진/상자에-있는-은과-금-둥근-동전-maJDOJSmMoo)'
+    caption: 'Image credit: [**Unsplash**](https://unsplash.com/)'
     focal_point: Center
 ---
 
