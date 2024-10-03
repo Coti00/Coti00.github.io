@@ -64,12 +64,12 @@ main:
   - name : Grade
     weight : 500
   - name : AnimalBiotech
-    url : grade/animal/
-    pageRef : grade/animal
+    url : animalbiotech
+    pageRef : animalbiotech
     weight : 501
     parent : Grade
   - name : ConputerScience
-    url : grade/computer/
-    pageRef : grade/computer
+    url : computerscience
+    pageRef : computerscience
     weight : 502
     parent : Grade
