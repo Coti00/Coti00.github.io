@@ -10,23 +10,27 @@
 {{ $resource := partial "functions/get_featured_image.html" $item }}
 {{ $anchor := $item.Params.image.focal_point | default "Center" }}
 
-<a href="{{ $link }}" {{ $target | safeHTMLAttr }} class="mb-5">
-    <div class="flex items-start space-x-5 space-y-5 mb-5 ">
-      <div class="flex-shrink-0 overflow-hidden w-full" style="height: 150px;">
+<a href="{{ $link }}" {{ $target | safeHTMLAttr }} class="relative block mb-5">
+    <div class="relative flex items-center justify-center overflow-hidden bg-gray-100 dark:bg-zinc-800">
+      <div class="w-full" style="height: 150px; position: relative;">
         {{ with $resource }}
           {{ $image := .Fill (printf "655x655 %s" $anchor) }}
           {{ if ne $image.MediaType.SubType "gif" }}{{ $image = $image.Process "webp" }}{{ end }}
+          <!-- 이미지 요소를 배경으로 표시하고, w-full을 통해 전체 너비를 차지하게 설정 -->
           <img class="h-full w-full object-cover hover:scale-125 transition duration-500 cursor-pointer" loading="lazy" src="{{ $image.RelPermalink }}" height="150" width="{{ $image.Width }}" alt="{{ $item.Title | plainify }}">
         {{ end }}
-      </div>
-      <div class="p-8 w-1/2" style="height: 150px;">
-        <div class="uppercase tracking-wide text-md text-black dark:text-white font-semibold" style="font-size: 24px; line-height: 3.5;">
-          <span class="bg-gradient-to-r from-primary-200 to-primary-100 bg-[length:0px_10px] bg-left-bottom bg-no-repeat transition-[background-size] duration-500 hover:bg-[length:100%_3px] group-hover:bg-[length:100%_10px] dark:from-primary-800 dark:to-primary-900">
-            {{ $item.Title }}
-          </span>
+
+        <!-- 제목을 이미지 위에 오버레이 -->
+        <div class="absolute inset-0 flex items-center justify-center">
+          <div class="bg-black bg-opacity-50 text-white p-4 rounded">
+            <span class="uppercase tracking-wide text-md font-semibold text-center" style="font-size: 24px; line-height: 3.5;">
+              {{ $item.Title }}
+            </span>
+          </div>
         </div>
       </div>
     </div>
-  </a>
+</a>
+
   
   
