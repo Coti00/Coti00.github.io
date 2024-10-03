@@ -1,5 +1,6 @@
 ---
-title : ComputerScience Grade
+title : 컴퓨터공학
+type: docs
 ---
 ## 4.42 / 4.5
 

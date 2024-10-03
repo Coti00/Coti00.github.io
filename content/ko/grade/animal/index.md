@@ -1,5 +1,6 @@
 ---
-title : AnimalBiotech
+title : 동물생명공학
+type: docs
 ---
 ## 4.0 / 4.5
 
