@@ -31,7 +31,7 @@ sections:
           position: center
           parallax: false
 
-  - block: features
+  - block: collection
     content:
       slides:
       - title: Passion
