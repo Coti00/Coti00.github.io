@@ -17,7 +17,7 @@ authors:
 featured: false
 
 image:
-    caption: 'Image credit: [**Unsplash**](https://unsplash.com/ko/사진/코드가-잔뜩-들어-있는-컴퓨터-화면-ieic5Tq8YMk)'
+    caption: 'Image credit: [**Unsplash**](https://unsplash.com/)'
     focal_point: Center
 ---
 
