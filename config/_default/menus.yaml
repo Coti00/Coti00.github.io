@@ -61,13 +61,13 @@ main:
     # pageRef: read
     weight : 400
   - name : Read
-    url : read
-    pageRef: read
+    url : publication/read
+    pageRef: publication/read
     weight : 401
     parent : Thesis
   - name : Write
-    url : write
-    pageRef: write
+    url : publication/write
+    pageRef: publication/write
     weight : 402
     parent : Thesis
 
