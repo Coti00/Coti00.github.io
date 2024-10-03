@@ -27,7 +27,7 @@ sections:
       title: 'AnimalBiotech Grade'
       text: |-
         <h3>4.0 / 4.5</h3>
-        <table style="width: 1000px">
+        <table style="width: 50vw">
           <thead>
             <tr>
               <th>Course Name</th>

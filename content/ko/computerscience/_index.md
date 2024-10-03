@@ -27,7 +27,7 @@ sections:
       title: '컴퓨터공학 학점'
       text: |-
         <h3>4.42 / 4.5</h3>
-        <table style = "width: 1000px">
+        <table style = "width: 50vw">
           <thead>
             <tr>
               <th>과목명</th>

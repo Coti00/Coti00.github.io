@@ -27,7 +27,7 @@ sections:
       title: 'Computer Science Grade'
       text: |-
         <h3>4.42 / 4.5</h3>
-        <table style="width: 1000px">
+        <table style="width: 50vw">
           <thead>
             <tr>
               <th>Course Name</th>
