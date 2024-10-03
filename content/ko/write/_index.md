@@ -1,8 +1,8 @@
 ---
 title: 작성할 논문
-type: posts
-banner:
-    image: 'galaxy.png'
+type: lading
+design:
+    image: 'galaxy.jpg'
 ---
 ## Write Papers List
 
