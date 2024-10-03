@@ -1,4 +1,15 @@
 {{ $block := .wcBlock }}
+{{ $item := .item }}
+
+{{ $link := $item.RelPermalink }}
+{{ $target := "" }}
+{{ if $item.Params.external_link }}
+  {{ $link = $item.Params.external_link }}
+  {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
+{{ end }}
+
+{{ $resource := partial "functions/get_featured_image.html" $item }}
+{{ $anchor := $item.Params.image.focal_point | default "Center" }}
 
 <div id="image-slider" class="carousel slide" data-ride="carousel" data-interval="3000">
     <!-- Indicators -->
