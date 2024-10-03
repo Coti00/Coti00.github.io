@@ -16,6 +16,7 @@ sections:
         image:
           # Add your image background to `assets/media/`.
           filename: read.jpg
+          caption: 'Image credit: [**Unsplash**](https://unsplash.com/)'
           filters:
             brightness: 0.5
           size: cover
@@ -27,10 +28,10 @@ sections:
       title: '내가 읽은 논문'
       text: |-
         <p>Generating Focused Molecule Libraries for Drug Discovery with Recurrent Neural Networks</p>
-        <a href="https://pubs.acs.org/doi/full/10.1021/acscentsci.7b00512" style="font-size: 10px;">(https://pubs.acs.org/doi/full/10.1021/acscentsci.7b00512)</a>
+        <a href="https://pubs.acs.org/doi/full/10.1021/acscentsci.7b00512" style="font-size: 13px;">[사이트로이동](https://pubs.acs.org/doi/full/10.1021/acscentsci.7b00512)</a>
         
         <p>Transformer neural network for protein-specific de novo drug generation as a machine translation problem</p>
-        <a href="https://www.nature.com/articles/s41598-020-79682-4" style="font-size: 10px;">(https://www.nature.com/articles/s41598-020-79682-4)</a>
+        <a href="https://www.nature.com/articles/s41598-020-79682-4" style="font-size: 13px;">[사이트로 이동](https://www.nature.com/articles/s41598-020-79682-4)</a>
 
 
 ---
