@@ -31,12 +31,12 @@ sections:
           position: center
           parallax: false
 
-  - block : features
+  - block : collection
     id: slider
     content:
       filters:
         folders:
-          - interests
+          - slider
     design:
       view: community/slider
 
