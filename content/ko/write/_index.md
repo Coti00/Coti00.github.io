@@ -1,6 +1,6 @@
 ---
 title: 작성할 논문
-type: post
+type: posts
 banner:
     image: 'galaxy.png'
 ---
