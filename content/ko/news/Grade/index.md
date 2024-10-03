@@ -12,7 +12,7 @@ all_day: false
 authors:
     - admin
 
-featured: false
+featured: true
 
 image:
     caption: 'Image credit: [**Unsplash**](https://unsplash.com/)'
