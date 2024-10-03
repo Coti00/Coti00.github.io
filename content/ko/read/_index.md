@@ -1,26 +1,11 @@
 ---
 title: ""
-type: landing
-
-design:
-    spacing: "1rem"
-
-sections:
-  - block: features
-    content:
-      username: read
-    design:
-      css_class: dark
-      background: 
-        color: black
-        image:
-          # Add your image background to `assets/media/`.
-          filename: galaxy.jpg
-          filters:
-            brightness: 0.5
-          size: cover
-          position: center
-          parallax: false
+image:
+  placement: 1
+  caption: 'Photo by [Geo](https://github.com/gcushen/)'
+  focal_point: 'Center'
+  preview_only: false
+  alt_text: An optional description of the image for screen readers.
 ---
 <!-- ---
 title: 내가 읽은 논문
