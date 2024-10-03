@@ -28,21 +28,61 @@
   {{ $summary = $item.Summary }}
 {{ end }}
 
-<div style="width: 100%; height: 250px; overflow: hidden;">
-    <!-- 배너 이미지 삽입 -->
-    <img src="assets/media/{{ .Params.banner.image }}" alt="{{ .Title }}" style="width: 100%; height: 100%; object-fit: cover;">
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0" style="justify-content: center; align-items: center; text-align: justify; text-justify: auto; font-size: 0.99em;">
+      <a href="{{$link}}" {{ $target | safeHTMLAttr }}>{{ $item.Title }}</a>
+    </div>
+
+    {{ with $summary }}
+    <a href="{{ $link }}" {{ $target | safeHTMLAttr }} class="summary-link">
+      <div class="article-style">
+        {{.}}
+      </div>
+    </a>
+    {{ end }}
+
+    <div class="stream-meta article-metadata">
+
+      {{ if eq $item.Type "event" }}
+      <div>
+        <span>
+          {{ partial "functions/get_event_dates" $item }}
+        </span>
+        {{ with $item.Params.location }}
+        <span class="middot-divider"></span>
+        <span>{{ . }}</span>
+        {{ end }}
+      </div>
+      {{ end }}
+
+      {{ if and $show_authors_only $item.Params.authors }}
+      <div>
+        {{ partial "page_metadata_authors" $item }}
+      </div>
+      {{ else if not $show_authors_only }}
+        {{ partial "page_metadata" (dict "page" $item "is_list" 1) }}
+      {{ end }}
+    </div>
+
+    {{ if $has_attachments }}
+    <div class="btn-links">
+      {{ partial "page_links" (dict "page" $item "is_list" 1) }}
+    </div>
+    {{ end }}
+
+    <div style="margin-bottom: 50px;"></div>
+  </div>
+  <!-- <div class="ml-3">
+    {{ $resource := partial "blox-core/functions/get_featured_image.html" $item }}
+    {{ with $resource }}
+      {{ $image := .Resize "150x" }}
+      {{ if ne $image.MediaType.SubType "gif" }}{{ $image = $image.Process "webp" }}{{ end }}
+      <a href="{{$link}}" {{ $target | safeHTMLAttr }}>
+        <img src="{{ $image.RelPermalink }}" height="{{ $image.Height }}" width="{{ $image.Width }}"
+            alt="{{ $item.Title }}" loading="lazy">
+      </a>
+    {{end}}
+  </div> -->
 </div>
-  
-  <!-- 타이틀 표시 -->
-<h1 class="text-center text-3xl font-bold my-5">{{ .Title }}</h1>
-  
-  <!-- 요약 내용 표시 -->
-<div class="text-center text-xl text-gray-600 dark:text-gray-300 mb-8">
-    {{ .Summary }}
-</div>
-  
-  <!-- 마크다운 내용 표시 -->
-<div class="prose lg:prose-xl mx-auto mb-8">
-    {{ .Content | markdownify }}
-</div>
-  

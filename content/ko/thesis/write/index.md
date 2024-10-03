@@ -1,10 +1,8 @@
 ---
 title: 작성할 논문
 summary: 작성할 논문
-type: docs
-math: false
-tags:
-  - 작성할 논문
+banner:
+  image: 'galaxy.jpg'
 ---
 ## Write Papers List
 

@@ -2,7 +2,7 @@
 title: 내가 읽은 논문
 summary: 내가 읽은 논문
 banner:
-    image: 'galaxy.jpg'
+  image: 'galaxy.jpg'
 ---
 
 ## Read Papers List
