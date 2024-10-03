@@ -1,5 +1,6 @@
 ---
 title : ComputerScience Grade
+type: docs
 ---
 ## 4.42 / 4.5
 

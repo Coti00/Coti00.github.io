@@ -1,5 +1,6 @@
 ---
 title : AnimalBiotech
+type: docs
 ---
 ## 4.0 / 4.5
 
