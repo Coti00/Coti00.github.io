@@ -4,82 +4,82 @@
   #   The weight parameter defines the order that the links will appear in.
 
 main:
-  - name : Skill
+  - name : 기술
     url : skill/
     weight : 100
-  - name : Language
+  - name : 프로그래밍언어
     url : skill/language/
     pageRef : skill/laguage
     weight : 101
     parent : Skill
-  - name : Framework
+  - name : 프레임워크
     url : skill/framework/
     pageRef : skill/framework
     weight : 102
     parent : Skill
 
-  - name: Projects
+  - name: 프로젝트
     url: projects/
     weight: 200
-  - name: Front_Project
+  - name: 프런트 프로젝트
     url: project/FrontEnd/
     pageRef : project/FrontEnd
     weight: 201
     parent: Projects
-  - name: Linux_Project
+  - name: 리눅스 프로젝트
     url: project/Linux/
     pageRef : project/Linux
     weight: 202
     parent: Projects
-  - name: Python_Project
+  - name: 파이썬 프로젝트
     url: project/Python/
     pageRef : project/Python
     weight: 203
     parent: Projects
 
-  - name: Study Record
+  - name: 공부 기록
     url: study/
     weight: 300
-  - name: Front
+  - name: 프런트
     url: study/Front/
     pageRef : study/Front
     weight: 301
     parent: Study Record
-  - name: ML/DL
+  - name: 머신러닝/딥러닝
     url: study/ML_DL/
     pageRef : study/ML_DL
     weight: 302
     parent: Study Record
-  - name: React
+  - name: 리액트
     url: study/react/
     pageRef : study/react
     weight: 303
     parent: Study Record
 
-  - name : Thesis
+  - name : 논문
     # url : read
     # pageRef: read
     weight : 400
-  - name : Read
+  - name : 읽은것
     url : read
     pageRef: read
     weight : 401
     parent : Thesis
-  - name : Write
+  - name : 쓴것
     url : write
     pageRef: write
     weight : 402
     parent : Thesis
 
-  - name : Grade
+  - name : 학점
     url : grade/
     weight : 500
-  - name : AnimalBiotech
+  - name : 동물생명공학
     url : grade/animal/
     pageRef : grade/animal
     weight : 501
     parent : Grade
-  - name : ConputerScience
+  - name : 컴퓨터공학
     url : grade/computer/
     pageRef : grade/computer
     weight : 502
