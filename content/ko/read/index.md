@@ -1,6 +1,7 @@
 ---
 title: 내가 읽은 논문
 summary: 내가 읽은 논문
+type: community/custom_compact
 banner: 'galaxy.jpg'
 ---
 
