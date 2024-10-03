@@ -31,7 +31,5 @@ sections:
         
         <p>Transformer neural network for protein-specific de novo drug generation as a machine translation problem</p>
         <a href="https://www.nature.com/articles/s41598-020-79682-4"">[논문 사이트로 이동]</a>
-
-
 ---
 
