@@ -1,8 +1,8 @@
 ---
 title: 작성할 논문
 summary: 작성할 논문
-banner: 
-    image: featured.png
+type: community/custom_compact
+banner: feature.png
 ---
 ## Write Papers List
 
