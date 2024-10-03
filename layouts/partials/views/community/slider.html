@@ -11,7 +11,7 @@
 {{ $resource := partial "functions/get_featured_image.html" $item }}
 {{ $anchor := $item.Params.image.focal_point | default "Center" }}
 
-<div id="image-slider" class="carousel slide" data-ride="carousel" data-interval="3000">
+<div id="image-slider" class="carousel slide bg-white" data-ride="carousel" data-interval="3000">
     <!-- Indicators -->
     <ol class="carousel-indicators">
       {{ range $index, $slide := $block.content.filters.folders }}
