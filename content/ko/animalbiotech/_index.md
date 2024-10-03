@@ -24,10 +24,10 @@ sections:
 
   - block: markdown
     content:
-      title: '작성한 논문 리스트'
+      title: '학점 및 과목 리스트'
       text: |-
         <h3>4.0 / 4.5</h3>
-        <table>
+        <table style = "width: calc(50%)">
           <thead>
             <tr>
               <th>과목명</th>
