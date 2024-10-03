@@ -4,10 +4,6 @@ title: 성적장학금 수령
 event: 5종 장학금
 
 summary: 5종 장학금
-type: docs
-date: '2024-03-01'
-date_end: '2024-08-01'
-all_day: false
 
 authors:
     - admin
