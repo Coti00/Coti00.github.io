@@ -22,25 +22,30 @@
     <!-- 배경 이미지 및 색상 스타일 설정 -->
     {{ $bg := $item.Params.background }}
     {{ $bg_class := "" }}
+
+    <!-- 배경 색상 설정 -->
     {{ if $bg.color }}
       {{ $bg_class = print "bg-" (replace $bg.color "#" "") }}
     {{ end }}
 
+    <!-- 배경 이미지 설정 -->
+    {{ $bg_img := "" }}
     {{ if $bg.image.filename }}
-      {{ $bg_img := resources.Get (printf "media/%s" $bg.image.filename) }}
-      {{ if $bg_img }}
-        <!-- 이미지가 있을 경우 Tailwind의 background 설정을 위해 동적으로 스타일 추가 -->
+      {{ $bg_img_path := printf "media/%s" $bg.image.filename }}
+      {{ $bg_img_resource := resources.Get $bg_img_path }}
+      
+      {{ if $bg_img_resource }}
+        {{ $bg_img = $bg_img_resource.Permalink }}
         {{ $bg_class = print "bg-cover bg-center" }}
       {{ else }}
-        {{ errorf "Couldn't find `%s` in the `assets/media/` folder - please add it." $bg.image.filename }}
+        {{ warnf "Couldn't find `%s` in the `assets/media/` folder - please add it." $bg.image.filename }}
       {{ end }}
     {{ end }}
 
     <div class="carousel-item {{ if eq $index 0 }} active {{ end }} relative w-full h-96 {{ $bg_class }}">
-
-      <!-- 슬라이드 배경 이미지 설정 (동적으로 class 추가) -->
-      {{ if $bg.image.filename }}
-        <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('{{ $bg_img.Permalink }}');"></div>
+      <!-- 슬라이드 배경 이미지 설정 (이미지가 있을 경우에만 적용) -->
+      {{ if $bg_img }}
+        <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('{{ $bg_img }}');"></div>
       {{ end }}
 
       <!-- 필터 클래스 정의 -->
