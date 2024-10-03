@@ -8,7 +8,6 @@ design:
 sections:
   - block: features
     content:
-      username: read
     design:
       css_class: dark
       background: 
@@ -16,7 +15,6 @@ sections:
         image:
           # Add your image background to `assets/media/`.
           filename: read.jpg
-          caption: 'Image credit: [**Unsplash**](https://unsplash.com/)'
           filters:
             brightness: 0.5
           size: cover
