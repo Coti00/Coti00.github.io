@@ -31,14 +31,34 @@ sections:
           position: center
           parallax: false
 
-  - block : collection
-    id: slider
+  - block: 'github.Coti00.slider'
     content:
-      filters:
-        folders:
-          - slider
-    design:
-      view: community/slider
+      slides:
+      - title: Passion
+        content: Passionable
+        align: center
+        background:
+          image:
+            filename: passion.jpg
+            filters:
+              brightness: 0.5
+          position: center
+          color: '#333'
+      - title: Patience
+        content: Patience
+        align: center
+        background:
+          image:
+            filename: patience.jpg
+            filters:
+              brightness: 0.5
+          position: center
+          color: '#333'
+      desing:
+        slide_height: '250px'
+        is_fullscreen: true
+        loop: true
+        interval: 1000
 
   - block : collection
     id: interests
