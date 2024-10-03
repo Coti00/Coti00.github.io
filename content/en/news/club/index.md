@@ -9,6 +9,9 @@ all_day: false
 
 featured: false
 
+authors:
+    - admin
+
 image:
     caption: 'Image credit: [**Unsplash**](https://unsplash.com/)'
     focal_point: Center

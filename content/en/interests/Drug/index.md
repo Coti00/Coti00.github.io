@@ -15,7 +15,7 @@ authors:
 featured: false
 
 image:
-    caption: 'Image credit: [**Unsplash**](https://unsplash.com/ko/사진/흰색과-빨간색-플라스틱-병을-들고있는-사람-lCSBOoe0iS4)'
+    caption: 'Image credit: [**Unsplash**](https://unsplash.com/)'
     focal_point: Center
 ---
 

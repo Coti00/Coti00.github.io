@@ -7,6 +7,9 @@ date: '2024-03-01'
 date_end: '2024-08-31'
 all_day: false
 
+authors:
+    - admin
+
 featured: false
 
 image:

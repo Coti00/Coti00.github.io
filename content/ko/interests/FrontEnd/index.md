@@ -15,7 +15,7 @@ authors:
 featured: false
 
 image:
-    caption: 'Image credit: [**Unsplash**](https://unsplash.com/ko/사진/검은-셔츠를-입은-여자-검은-평면-스크린-컴퓨터-모니터-옆에-앉아-Im_cQ6hQo10)'
+    caption: 'Image credit: [**Unsplash**](https://unsplash.com/)'
     focal_point: Center
 ---
 
