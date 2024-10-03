@@ -6,9 +6,9 @@ design:
     spacing: "1rem"
 
 sections:
-  - block: resume-biography-3
+  - block: features
     content:
-      text: ""
+      username: read
     design:
       css_class: dark
       background: 
