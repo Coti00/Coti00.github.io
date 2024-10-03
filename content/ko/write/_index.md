@@ -2,9 +2,7 @@
 title: 작성할 논문
 type: post
 banner:
-    image: featured.png
-desing:
-
+    image: 'galaxy.png'
 ---
 ## Write Papers List
 
