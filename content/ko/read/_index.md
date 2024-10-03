@@ -8,6 +8,7 @@ design:
 sections:
   - block: features
     content:
+      username: read
     design:
       css_class: dark
       background: 
