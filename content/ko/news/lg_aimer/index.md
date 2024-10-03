@@ -1,15 +1,7 @@
 ---
 title: LG_Aimers 5
-type: landing
-event: Elice Coding 
-
-location: Online
 
 summary: 나의 첫번째 AI 대회
-
-date: '2024-08-01'
-date_end: '2024-09-01'
-all_day: false
 
 authors:
     - admin

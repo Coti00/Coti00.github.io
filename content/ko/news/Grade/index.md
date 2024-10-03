@@ -1,14 +1,12 @@
 ---
 title: 성적장학금 수령
 
-event: 5종 장학금
-
 summary: 5종 장학금
 
 authors:
     - admin
 
-featured: true
+featured: false
 
 image:
     caption: 'Image credit: [**Unsplash**](https://unsplash.com/)'
