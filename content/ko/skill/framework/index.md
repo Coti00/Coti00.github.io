@@ -1,6 +1,5 @@
 ---
 title : Framework
-type: docs
 summary : Studied Framework
 ---
 
