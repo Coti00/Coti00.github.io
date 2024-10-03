@@ -24,7 +24,7 @@ sections:
 
   - block: markdown
     content:
-      title: '학점 및 과목 리스트'
+      title: '컴퓨터공학 학점'
       text: |-
         <h3>4.42 / 4.5</h3>
         <table style = "width: calc(50%)">
