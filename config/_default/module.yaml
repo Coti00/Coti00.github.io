@@ -20,6 +20,15 @@ mounts:
   - source: hugo-blox/blox
     target: assets/dist/community/blox/
     includeFiles: '**.css'
+  - source: modules/blox-bootstrap/layouts/partials
+    target: layouts/partials/blox/community/
+    includeFiles: '**.html'
+  - source: modules/blox-bootstrap/layouts/partials
+    target: layouts/partials/blox/
+    includeFiles: '**.html'
+  - source: hugo-blox/blox
+    target: assets/dist/community/blox/
+    includeFiles: '**.css'
   - source: layouts
     target: layouts
   - source: assets
