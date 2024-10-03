@@ -1,0 +1,48 @@
+{{ $item := .item }}
+
+{{/* Dynamic view adjusts to content type. */}}
+{{ $show_authors_only := false }}{{/* Show authors only or full metadata? */}}
+{{ $link := $item.RelPermalink }}
+{{ $target := "" }}
+{{ if $item.Params.external_link }}
+  {{ $link = $item.Params.external_link }}
+  {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
+{{ end }}
+{{ if eq $item.Type "event" }}
+  {{ $show_authors_only = true }}
+{{ else if eq $item.Type "publication" }}
+  {{ $show_authors_only = true }}
+{{ else if eq $item.Type "project" }}
+  {{ $show_authors_only = true }}
+{{ end }}
+
+{{ $has_attachments := partial "functions/has_attachments" $item }}
+
+{{/* Get summary. */}}
+{{ $summary := "" }}
+{{ if $item.Params.summary }}
+  {{ $summary = $item.Params.summary | markdownify | emojify }}
+{{ else if $item.Params.abstract }}
+  {{ $summary = $item.Params.abstract | markdownify | emojify | truncate (site.Params.abstract_length | default 135) }}
+{{ else if $item.Summary }}
+  {{ $summary = $item.Summary }}
+{{ end }}
+
+<div style="width: 100%; height: 250px; overflow: hidden;">
+    <!-- 배너 이미지 삽입 -->
+    <img src="assets/media/{{ .Params.banner.image }}" alt="{{ .Title }}" style="width: 100%; height: 100%; object-fit: cover;">
+  </div>
+  
+  <!-- 타이틀 표시 -->
+  <h1 class="text-center text-3xl font-bold my-5">{{ .Title }}</h1>
+  
+  <!-- 요약 내용 표시 -->
+  <div class="text-center text-xl text-gray-600 dark:text-gray-300 mb-8">
+    {{ .Summary }}
+  </div>
+  
+  <!-- 마크다운 내용 표시 -->
+  <div class="prose lg:prose-xl mx-auto mb-8">
+    {{ .Content | markdownify }}
+  </div>
+  
