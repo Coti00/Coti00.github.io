@@ -33,33 +33,11 @@ sections:
 
   - block: collection
     content:
-      slides:
-      - title: Passion
-        content: Passionable
-        align: center
-        background:
-          image:
-            filename: passion.jpg
-            filters:
-              brightness: 0.5
-          position: center
-          color: '#333'
-      - title: Patience
-        content: Patience
-        align: center
-        background:
-          image:
-            filename: patience.jpg
-            filters:
-              brightness: 0.5
-          position: center
-          color: '#333'
-      desing:
-        view: community/slider
-        slide_height: '250px'
-        is_fullscreen: true
-        loop: true
-        interval: 1000
+      filters:
+        folders:
+          - slider
+    design:
+      view: community/slider
 
   - block : collection
     id: interests
