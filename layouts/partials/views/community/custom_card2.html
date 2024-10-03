@@ -21,7 +21,9 @@
       </div>
       <div class="p-8 w-full text-center" style="height: 100px;">
         <div class="uppercase tracking-wide text-md text-black dark:text-white font-semibold" style="font-size: 24px; line-height: 1.5;">
-          {{ $item.Title }}
+          <span class="bg-gradient-to-r from-primary-200 to-primary-100 bg-[length:0px_10px] bg-left-bottom bg-no-repeat transition-[background-size] duration-500 hover:bg-[length:100%_3px] group-hover:bg-[length:100%_10px] dark:from-primary-800 dark:to-primary-900">
+            {{ $item.Title }}
+          </span>
         </div>
         <p class="block mt-1 text-sm leading-tight font-medium text-black dark:text-white">
             {{ ($item.Params.summary | default $item.Summary) | plainify | htmlUnescape | chomp -}}
