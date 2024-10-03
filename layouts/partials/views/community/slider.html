@@ -51,7 +51,8 @@
       <!-- 필터 클래스 정의 -->
       {{ $filter_class := "" }}
       {{ with $bg.image.filters.brightness }}
-        {{ $filter_class = "brightness-" (print (float64 (mul 100 .)) | int) }}
+        {{ $brightness_value := mul . 100 }} <!-- brightness 값을 100으로 곱하여 백분율로 변환 -->
+        {{ $filter_class = print "brightness-" (int $brightness_value) }} <!-- 정수로 변환하여 Tailwind 클래스 생성 -->
       {{ end }}
 
       <div class="absolute inset-0 flex justify-center items-center {{ $filter_class }}">
