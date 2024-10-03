@@ -31,7 +31,7 @@ sections:
           position: center
           parallax: false
 
-  - block: 'github.Coti00.slider'
+  - block: slider
     content:
       slides:
       - title: Passion
