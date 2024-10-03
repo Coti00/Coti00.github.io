@@ -1,5 +1,6 @@
 ---
-title : Framework
+title : 프레임워크
+type: docs
 summary : Studied Framework
 ---
 

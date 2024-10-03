@@ -1,5 +1,6 @@
 ---
-title : Language
+title : 언어
+type: docs
 summary : Studied Language
 ---
 
