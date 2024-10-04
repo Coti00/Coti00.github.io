@@ -35,7 +35,7 @@ skills:
       - name: 고양이
         description: '티거'
         percent: 100
-        icon: "custom/cat"
+        icon: "custom/mycat"
       - name: 강아지
         description: '코코'
         percent: 100
