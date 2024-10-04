@@ -86,7 +86,7 @@ sections:
     content:
       title: '🗺️ 학교 위치'
       text: |-
-        #### Contact : 'jbnu20@jbnu.ac.kr'
+        #### Contact : [jbnu20@jbnu.ac.kr](mailto:jbnu20@jbnu.ac.kr)
 
         #### Position : 전북대학교 학생군사교육단 3층 315호 
 
