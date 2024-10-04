@@ -41,7 +41,7 @@ skills:
         percent: 100
         icon: "custom/dog"
       - name: 음악
-        description: ''
+        description: '피아노 & 음악 듣기'
         percent: 80
         icon: "custom/music"
   - name: 언어
@@ -49,11 +49,11 @@ skills:
     color_border: '#f0bf23'
     items:
       - name: 한국어
-        description: ''
+        description: '모국어입니다'
         percent: 100
         icon: "custom/kor"
       - name: 영어
-        description: ''
+        description: '토익 765점'
         percent: 70
         icon: "custom/eng"
       - name: 일본어
