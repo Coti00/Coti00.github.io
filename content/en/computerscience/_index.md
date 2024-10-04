@@ -8,7 +8,7 @@ design:
 sections:
   - block: features
     content:
-      username: read
+      username: computerscience
     design:
       css_class: dark
       background: 

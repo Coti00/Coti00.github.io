@@ -22,64 +22,65 @@ sections:
           position: center
           parallax: false
 
-  - block: markdown
+- block: markdown
     content:
-      title: 'AnimalBiotech Grade'
+      title: '동물생명공학 학점'
       text: |-
         <h3>4.0 / 4.5</h3>
         <table style="width: 50vw">
           <thead>
             <tr>
-              <th>Course Name</th>
-              <th>Grade</th>
+              <th>과목명</th>
+              <th>학점</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td>Animal Biotechnology and Lab</td>
+              <td>동물생명공학 및 실험</td>
               <td>A+</td>
             </tr>
             <tr>
-              <td>Physiology of Economic Animals</td>
+              <td>경제동물생리학</td>
               <td>A+</td>
             </tr>
             <tr>
-              <td>Introduction to Animal Bioinformatics</td>
+              <td>동물생명정보학개론</td>
               <td>A+</td>
             </tr>
             <tr>
-              <td>Animal Systems Biology</td>
+              <td>동물시스템생물학</td>
               <td>A+</td>
             </tr>
             <tr>
-              <td>Molecular Cell Biology</td>
+              <td>분자세포생물학</td>
               <td>A+</td>
             </tr>
             <tr>
-              <td>Animal Diagnostic Science</td>
+              <td>동물진단과학</td>
               <td>A+</td>
             </tr>
             <tr>
-              <td>Basic Biochemistry</td>
+              <td>기초생화학</td>
               <td>B+</td>
             </tr>
             <tr>
-              <td>Animal Nutrition</td>
+              <td>동물영양학</td>
               <td>B+</td>
             </tr>
             <tr>
-              <td>Animal Breeding</td>
+              <td>동물육종학</td>
               <td>B+</td>
             </tr>
             <tr>
-              <td>Animal Feeding Systems</td>
+              <td>동물사양시스템학</td>
               <td>B+</td>
             </tr>
             <tr>
-              <td>Animal Molecular Genetics</td>
+              <td>동물분자유전학</td>
               <td>B</td>
             </tr>
           </tbody>
         </table>
+
 ---
 
