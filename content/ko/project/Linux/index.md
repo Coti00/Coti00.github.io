@@ -11,5 +11,8 @@ image:
 ---
 {{< figure src="featured.png" width="600px" height="400px" >}}
 
+#### 기말 프로젝트를 만점 맞은 리눅스 프로젝트 입니다
+
+### 아래 버튼을 눌르세요!
 
 [리눅스 프로젝트 깃허브](https://github.com/Coti00/linux_project)

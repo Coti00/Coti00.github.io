@@ -11,5 +11,8 @@ image:
 ---
 {{< figure src="featured.png" width="600px" height="400px" >}}
 
+#### 현재 동아리 웹사이트를 만드는 프로젝트를 하고 있습니다
+
+### 아래 버튼을 눌르세요!
 
 [프런트 프로젝트 깃허브](https://github.com/JBNU-CPU/CPU_Web_Front)

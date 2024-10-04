@@ -11,5 +11,8 @@ image:
 ---
 {{< figure src="featured.png" width="600px" height="400px" >}}
 
+#### This is my first project using Pygame.
+
+### Click below button
 
 [Python Project Github](https://github.com/Coti00/PygameProject)

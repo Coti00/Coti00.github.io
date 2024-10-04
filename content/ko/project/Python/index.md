@@ -11,6 +11,9 @@ image:
 ---
 {{< figure src="featured.png" width="600px" height="400px" >}}
 
+#### 파이게임을 활용한 첫 프로젝트 입니다.
+
+### 아래 버튼을 눌르세요!
 
 [파이썬 프로젝트 깃허브](https://github.com/Coti00/PygameProject)
 
