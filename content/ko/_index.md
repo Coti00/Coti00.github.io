@@ -87,7 +87,7 @@ sections:
       title: '🗺️ 학교 위치'
       filters:
         folders:
-          - news
+          - map
     design:
       view: community/slider
       row: 1
