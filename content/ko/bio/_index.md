@@ -1,9 +1,4 @@
 ---
-title: 김동준
+title: ''
 ---
-<div style="text-align: center;">
-    <div style="display: inline-block; margin: 20px;">
-        <img src='./featured.png' alt='flutter' width="200" height="200"/>
-        <p>김동준</p>
-    </div>
-</div>
+{{< figure src="featured.png" width="200px" height="200px" class="center-image">}}
