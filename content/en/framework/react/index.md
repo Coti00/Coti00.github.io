@@ -3,8 +3,8 @@ title: React
 
 summary: Frontend
 
-date: '2024-09-01'
-date_end: '2024-11-01'
+date: '2024-08-01'
+date_end: '2024-09-01'
 all_day: false
 
 authors:

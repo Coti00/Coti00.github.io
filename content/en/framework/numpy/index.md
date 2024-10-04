@@ -3,8 +3,8 @@ title: Numpy
 
 summary: Numpy
 
-date: '2024-09-01'
-date_end: '2024-11-01'
+date: '2024-01-01'
+date_end: '2024-02-01'
 all_day: false
 
 authors:

@@ -3,8 +3,8 @@ title: 파이썬
 
 summary: ⭐️⭐️⭐️⭐️⭐️
 
-date: '2024-09-01'
-date_end: '2024-11-01'
+date: '2023-08-01'
+date_end: '2023-09-01'
 all_day: false
 
 authors:
