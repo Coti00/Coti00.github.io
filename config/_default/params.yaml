@@ -38,7 +38,7 @@ header:
     show_translations: true
     hide_language_name: false
     logo:
-      filename: "icon.png"
+      filename: "galaxy.jpg"
       text: "PortPolio"
 
 # Site footer
