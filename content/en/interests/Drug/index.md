@@ -27,13 +27,16 @@ sections:
     content:
       title: 'AI Drug Development'
       text: |-
-        <h2>Why AI Drug Development?</h2>
-        <p>Originally, my dream was to become a drug development researcher. However, I found it difficult to pursue this goal because the field is less competitive compared to being a pharmacist. While studying AI, I discovered the field of AI drug development, which captivated me. I am currently studying hard through the LAIDD site and diving deep into this area!</p>
-
-        <h2>What do I need to study?</h2> 
-        <p>I believe that there is a lot to study in this field. You need to have knowledge in three main areas: life sciences, computer science, and probability and statistics.</p> 
+        ### Why AI Drug Development?
         
-        <h2>How will I continue studying in the future?</h2> 
-        <p>At the undergraduate level, I plan to build a solid foundation in basic AI knowledge and read related research papers. Since this field requires studying a vast amount of information, I am considering pursuing graduate studies. Currently, I am particularly interested in the fields of protein target analysis and cell toxicity prediction using AI.</p>
+        Originally, my dream was to become a drug development researcher. However, I found it difficult to pursue this goal because the field is less competitive compared to being a pharmacist. While studying AI, I discovered the field of AI drug development, which captivated me. I am currently studying hard through the LAIDD site and diving deep into this area!
+
+        ### What do I need to study? 
+
+        I believe that there is a lot to study in this field. You need to have knowledge in three main areas: life sciences, computer science, and probability and statistics.
+        
+        ### How will I continue studying in the future?
+
+        At the undergraduate level, I plan to build a solid foundation in basic AI knowledge and read related research papers. Since this field requires studying a vast amount of information, I am considering pursuing graduate studies. Currently, I am particularly interested in the fields of protein target analysis and cell toxicity prediction using AI.
 
 ---
