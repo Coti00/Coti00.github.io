@@ -31,14 +31,6 @@ sections:
           position: center
           parallax: false
 
-  - block: collection
-    content:
-      filters:
-        folders:
-          - slider
-    design:
-      view: community/slider
-
   - block : collection
     id: interests
     content:
