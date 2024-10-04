@@ -81,7 +81,8 @@ sections:
     design:
       view: community/custom_card2
       columns: '1'
-  - block: contact
+
+  - block: markdown
     content: 
       title: Contact
       coordinates:
