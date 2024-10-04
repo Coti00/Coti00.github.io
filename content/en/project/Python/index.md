@@ -13,6 +13,7 @@ image:
 
 #### This is my first project using Pygame.
 
-### Click below button
+
+##### Click below button⬇️
 
 [Python Project Github](https://github.com/Coti00/PygameProject)
