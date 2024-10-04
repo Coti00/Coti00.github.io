@@ -89,7 +89,7 @@ sections:
         folders:
           - map
     design:
-      view: community/slider
+      view: community/mapcard
       row: 1
       columns: 1
 
