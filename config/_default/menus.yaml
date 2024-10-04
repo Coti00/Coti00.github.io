@@ -7,15 +7,15 @@ main:
   - name : 스킬
     weight : 100
   - name : 프로그래밍언어
-    url : languages/
+    url : /languages/
     pageRef : laguages/
     weight : 101
-    parent : Skill
+    parent : 스킬
   - name : 프레임워크
     url : frameworks/
     pageRef : frameworks/
     weight : 102
-    parent : Skill
+    parent : 스킬
 
   - name: 프로젝트
     weight: 200
@@ -23,17 +23,17 @@ main:
     url: project/FrontEnd/
     pageRef : project/FrontEnd
     weight: 201
-    parent: Projects
+    parent: 프로젝트
   - name: 리눅스 프로젝트
     url: project/Linux/
     pageRef : project/Linux
     weight: 202
-    parent: Projects
+    parent: 프로젝트
   - name: 파이썬 프로젝트
     url: project/Python/
     pageRef : project/Python
     weight: 203
-    parent: Projects
+    parent: 프로젝트
 
   - name: 공부기록
     weight: 300
@@ -41,17 +41,17 @@ main:
     url: study/Front/
     pageRef : study/Front
     weight: 301
-    parent: Study Record
+    parent: 공부기록
   - name: 머신러닝/딥러닝
     url: study/ML_DL/
     pageRef : study/ML_DL
     weight: 302
-    parent: Study Record
+    parent: 공부기록
   - name: 리액트
     url: study/react/
     pageRef : study/react
     weight: 303
-    parent: Study Record
+    parent: 공부기록
 
   - name : 논문
     weight : 400
@@ -59,12 +59,12 @@ main:
     url : read
     pageRef: read
     weight : 401
-    parent : Thesis
+    parent : 논문
   - name : 쓴것
     url : write
     pageRef: write
     weight : 402
-    parent : Thesis
+    parent : 논문
 
   - name : 학점
     weight : 500
@@ -72,9 +72,9 @@ main:
     url : animalbiotech
     pageRef : animalbiotech
     weight : 501
-    parent : Grade
+    parent : 학점
   - name : 컴퓨터공학
     url : computerscience
     pageRef : computerscience
     weight : 502
-    parent : Grade
+    parent : 학점
