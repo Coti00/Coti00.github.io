@@ -14,9 +14,11 @@ baseURL: 'https://jbnu.dongjun.or.kr/'
 
 languages:
   ko:
+    title: "포트폴리오"
     contentDir: content/ko
     languageCode: ko
   en:
+    title: "PortPolio"
     contentDir: content/en
     languageCode: en
 
