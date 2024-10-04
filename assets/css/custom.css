@@ -2,3 +2,25 @@
     color: #74C0FC; 
 }
 
+.nav-item .nav-link:hover {
+    color: #74C0FC; 
+}
+  
+/* .nav-item .nav-link.active,
+.nav-dropdown-item .nav-dropdown-link.active {
+    color: #ffffff; 
+    background-color: #007bff;
+    font-weight: bold; 
+} */
+  
+
+.nav-dropdown-item .nav-dropdown-link:hover {
+    color: #74C0FC;
+}
+  
+/* .nav-dropdown-item .nav-dropdown-link.active {
+    color: #ffffff; 
+    background-color: #007bff; 
+}
+   */
+  
