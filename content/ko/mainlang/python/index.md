@@ -8,7 +8,7 @@ date_end: '2023-02-01'
 all_day: false
 
 ---
-{{< figure src="featured.png" width="600px" height="400px" >}}
+{{< figure src="featured.png" width="400px" height="400px" class="center-image">}}
 
 ## Python
 처음 제가 공부한 언어입니다.

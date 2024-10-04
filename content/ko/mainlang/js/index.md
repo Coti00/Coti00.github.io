@@ -8,7 +8,7 @@ date_end: '2023-12-30'
 all_day: false
 
 ---
-{{< figure src="featured.png" width="600px" height="400px" >}}
+{{< figure src="featured.png" width="400px" height="400px" class="center-image">}}
 
 ## 자바스크립트
 2학년 겨울방학 때 공부했던 언어입니다.
