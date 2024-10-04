@@ -3,8 +3,8 @@ title: C++
 
 event: C++
 
-date: '2024-09-01'
-date_end: '2024-11-01'
+date: '2023-01-01'
+date_end: '2023-02-01'
 all_day: false
 
 authors:

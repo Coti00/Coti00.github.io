@@ -1,10 +1,10 @@
 ---
-title: 자바스크립트
+title: JAVASCRIPT
 
-event: 자바스크립트
+event: JAVASCRIPT
 
-date: '2024-09-01'
-date_end: '2024-11-01'
+date: '2023-12-01'
+date_end: '2023-12-30'
 all_day: false
 
 authors:

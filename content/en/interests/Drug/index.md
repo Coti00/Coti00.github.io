@@ -27,8 +27,6 @@ sections:
     content:
       title: 'AI Drug Development'
       text: |-
-        <h3>The reason I became interested in AI is described in the AI Interest Card.</h3>
-
         <h2>Why AI Drug Development?</h2>
         <p>Originally, my dream was to become a drug development researcher. However, I found it difficult to pursue this goal because the field is less competitive compared to being a pharmacist. While studying AI, I discovered the field of AI drug development, which captivated me. I am currently studying hard through the LAIDD site and diving deep into this area!</p>
 

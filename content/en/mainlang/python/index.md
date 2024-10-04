@@ -1,10 +1,10 @@
 ---
-title: 파이썬
+title: Python
 
-event: 파이썬
+event: Python
 
-date: '2024-09-01'
-date_end: '2024-11-01'
+date: '2023-01-01'
+date_end: '2023-12-01'
 all_day: false
 
 authors:
