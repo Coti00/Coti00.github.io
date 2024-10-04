@@ -31,5 +31,8 @@ sections:
         
         <p>Transformer neural network for protein-specific de novo drug generation as a machine translation problem</p>
         <a href="https://www.nature.com/articles/s41598-020-79682-4"">[Go to site]</a>
+
+        <p>Accurate structure prediction of biomolecular interactions with ALphaFold3</p>
+        <a href="https://www.nature.com/articles/s41586-024-07487-w">[Go to site]</a>
 ---
 
