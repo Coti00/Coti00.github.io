@@ -3,7 +3,7 @@ main:
     weight : 1
     url: bio
     pageRef: bio
-    
+
   - name : Skill
     weight : 100
   - name : Language
@@ -12,8 +12,8 @@ main:
     weight : 101
     parent : Skill
   - name : Framework
-    url : skill/framework/
-    pageRef : skill/framework
+    url : framework
+    pageRef : framework
     weight : 102
     parent : Skill
 
