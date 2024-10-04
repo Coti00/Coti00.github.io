@@ -6,10 +6,6 @@ title: KIM DONG JUN
 first_name: KIM
 last_name: DONG JUN
 
-# Status emoji
-status:
-  icon: 😊
-
 # Is this the primary user of the site?
 superuser: true
 
@@ -34,6 +30,30 @@ profiles:
     url: https://github.com/Coti00
   - icon: "custom/phone"
     label: 010-0000-0000
+
+skills:
+  - name: Hobbies
+    color: '#eeac02'
+    color_border: '#f0bf23'
+    items:
+      - name: Cat
+        description: 'Tiger'
+        percent: 100
+        icon: "custom/cat"
+      - name: Dog
+        description: 'Coco'
+        percent: 100
+        icon: "custom/dog"
+      - name: Music
+        description: ''
+        percent: 60
+        icon: "custom/music"
+
+languages:
+  - name: Korean
+    percent: 100
+  - name: English
+    percent: 70
 
 # Awards.
 #   Add/remove as many awards below as you like.

@@ -43,21 +43,15 @@ sections:
       rows: 3
       columns: 3
 
-  - block: features
-    id: hobbies
+  - block: skills
     content:
-      title: Hobby
-      text: My Hobby!
-      items:
-        - name: Cat
-          icon: "custom/cat"
-          description: I have a cat named 'Tigger'!
-        - name: Dog
-          icon: "custom/dog"
-          description: I have a dog named 'Coco'!
-        - name: Music
-          icon: "custom/music"
-          description: I relieve stress by listening to music or playing the piano!
+      title: Hobbies
+      username: admin
+
+  - block: languages
+    content:
+      title: Languages
+      username: admin
 
   - block : collection
     id: mainlang

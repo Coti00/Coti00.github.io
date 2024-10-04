@@ -31,6 +31,30 @@ profiles:
   - icon: "custom/phone"
     label: 010-0000-0000
 
+skills:
+  - name: Hobbies
+    color: '#eeac02'
+    color_border: '#f0bf23'
+    items:
+      - name: 고양이
+        description: '티거'
+        percent: 100
+        icon: "custom/cat"
+      - name: 강아지
+        description: '코코'
+        percent: 100
+        icon: "custom/dog"
+      - name: 음악
+        description: ''
+        percent: 60
+        icon: "custom/music"
+
+
+languages:
+  - name: 한국어
+    percent: 100
+  - name: 영어
+    percent: 70
  
 ---
 
