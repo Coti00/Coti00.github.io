@@ -28,8 +28,6 @@ profiles:
     label: E-mail Me
   - icon: "custom/github"
     url: https://github.com/Coti00
-  - icon: "custom/phone"
-    label: 010-0000-0000
 
 skills:
   - name: Hobbies

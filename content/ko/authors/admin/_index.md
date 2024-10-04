@@ -28,8 +28,6 @@ profiles:
     label: E-mail Me
   - icon: "custom/github"
     url: https://github.com/Coti00
-  - icon: "custom/phone"
-    label: 010-0000-0000
 
 skills:
   - name: 취미
@@ -58,6 +56,11 @@ skills:
         description: ''
         percent: 70
         icon: "custom/eng"
+      - name: 
+        description: ''
+        percent: 0
+        icon: 
+
 ---
 
 ## 간략한 자기소개 
