@@ -1,6 +1,6 @@
 ---
 title: "프런트엔드"
-
+summary: '리액트'
 type: landing
 
 design:
