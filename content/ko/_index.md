@@ -85,6 +85,7 @@ sections:
   - block: collection
     content:
       title: '🗺️ 학교 위치'
+      text: 'Contact : jbnu20@jbnu.ac.kr'
     design:
       view: community/slider
 
