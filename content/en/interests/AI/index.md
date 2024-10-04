@@ -1,6 +1,6 @@
 ---
 title: "AI"
-
+summary: "My story"
 type: landing
 
 design:

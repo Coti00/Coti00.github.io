@@ -1,6 +1,6 @@
 ---
 title: "AI"
-
+summary: "나의 이야기"
 type: landing
 
 design:
