@@ -12,19 +12,6 @@ baseURL: 'https://jbnu.dongjun.or.kr/'
 ## LANGUAGE
 ############################
 
-languages:
-  ko:
-    languageCode: ko
-    languageName: "한국어"
-    contentDir: content/ko
-    weight: 1
-  en:
-    languageCode: en
-    languageName: "English"
-    contentDir: content/en
-    weight: 2
-
-
 defaultContentLanguage: ko
 hasCJKLanguage: false
 defaultContentLanguageInSubdir: false
