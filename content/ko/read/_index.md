@@ -28,13 +28,14 @@ sections:
       text: |-
         #### Generating Focused Molecule Libraries for Drug Discovery with Recurrent Neural Networks
         
-        [논문 사이트로 이동](https://pubs.acs.org/doi/full/10.1021/acscentsci.7b00512)
+        {{< button href="https://pubs.acs.org/doi/full/10.1021/acscentsci.7b00512" >}} 논문 사이트로 이동 {{< /button >}}
         
         #### Transformer neural network for protein-specific de novo drug generation as a machine translation problem</p>
         
-        [논문 사이트로 이동](https://www.nature.com/articles/s41598-020-79682-4)
+        [논문 사이트로 이동]("https://www.nature.com/articles/s41598-020-79682-4")
 
         #### Accurate structure prediction of biomolecular interactions with ALphaFold3
-        [논문 사이트로 이동](https://www.nature.com/articles/s41586-024-07487-w)
+
+        [논문 사이트로 이동]("https://www.nature.com/articles/s41586-024-07487-w")
 ---
 

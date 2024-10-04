@@ -73,7 +73,7 @@ main:
     pageRef : animalbiotech
     weight : 501
     parent : Grade
-  - name : ConputerScience
+  - name : ComputerScience
     url : computerscience
     pageRef : computerscience
     weight : 502
