@@ -12,6 +12,7 @@ sections:
     id: language
     content:
       title: 언어
+      text: 별은 저의 선호도를 나타냅니다!
       filters:
         folders:
           - lang

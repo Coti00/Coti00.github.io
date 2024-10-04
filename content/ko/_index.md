@@ -82,10 +82,10 @@ sections:
       view: community/custom_card2
       columns: '1'
 
-  - block: markdown
+  - block: collection
     content:
       title: '🗺️ 학교 위치'
     design:
       view: community/slider
-      
+
 ---

@@ -13,6 +13,7 @@ sections:
     id: language
     content:
       title: Language
+      text: Start means my favorite!
       filters:
         folders:
           - lang
@@ -20,4 +21,3 @@ sections:
       view: article-grid
       columns: 2
 ---
-**Star means my favorite!**
