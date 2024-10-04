@@ -33,15 +33,15 @@ skills:
   - name: Hobbies
     items:
       - name: Cat
-        description: 'tiger'
+        description: 'Tiger'
         percent: 100
         icon: "custom/mycat"
       - name: Dog
-        description: 'coco'
+        description: 'Coco'
         percent: 100
         icon: "custom/dog"
       - name: Music
-        description: 'piano & listen'
+        description: 'Piano & Listening Music'
         percent: 80
         icon: "custom/music"
   - name: Language
@@ -49,11 +49,11 @@ skills:
     color_border: '#f0bf23'
     items:
       - name: Korean
-        description: 'native language'
+        description: 'Native language'
         percent: 100
         icon: "custom/kor"
       - name: English
-        description: 'toic 765'
+        description: 'Toic 765'
         percent: 70
         icon: "custom/eng"
       - name: Japanese
