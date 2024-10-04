@@ -14,3 +14,13 @@
     color: #74C0FC;
 }
   
+.avatar-wrapper {
+    width: 200px;  
+    height: 200px; 
+  }
+  
+  .avatar {
+    border-radius: 0 !important; 
+    width: 100% !important;    
+    height: 100% !important;    
+  }
