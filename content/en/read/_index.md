@@ -26,13 +26,20 @@ sections:
     content:
       title: 'A List Of Papers I Read'
       text: |-
-        <p>Generating Focused Molecule Libraries for Drug Discovery with Recurrent Neural Networks</p>
-        <a href="https://pubs.acs.org/doi/full/10.1021/acscentsci.7b00512"">[Go to site]</a>
-        
-        <p>Transformer neural network for protein-specific de novo drug generation as a machine translation problem</p>
-        <a href="https://www.nature.com/articles/s41598-020-79682-4"">[Go to site]</a>
+        #### Generating Focused Molecule Libraries for Drug Discovery with Recurrent Neural Networks
+        [Go to site](https://pubs.acs.org/doi/full/10.1021/acscentsci.7b00512)
 
-        <p>Accurate structure prediction of biomolecular interactions with ALphaFold3</p>
-        <a href="https://www.nature.com/articles/s41586-024-07487-w">[Go to site]</a>
+        #### Transformer neural network for protein-specific de novo drug generation as a machine translation problem
+        [Go to site](https://www.nature.com/articles/s41598-020-79682-4)
+
+        #### Accurate structure prediction of biomolecular interactions with AlphaFold3
+        [Go to site](https://www.nature.com/articles/s41586-024-07487-w)
 ---
+#### Generating Focused Molecule Libraries for Drug Discovery with Recurrent Neural Networks
+[Go to site](https://pubs.acs.org/doi/full/10.1021/acscentsci.7b00512)
 
+#### Transformer neural network for protein-specific de novo drug generation as a machine translation problem
+[Go to site](https://www.nature.com/articles/s41598-020-79682-4)
+
+#### Accurate structure prediction of biomolecular interactions with AlphaFold3
+[Go to site](https://www.nature.com/articles/s41586-024-07487-w)
