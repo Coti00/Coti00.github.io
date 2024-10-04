@@ -1,6 +1,6 @@
 ---
 title : 프레임워크
-type: landing
+type: docs
 summary : Studied Framework
 ---
 
