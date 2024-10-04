@@ -8,15 +8,10 @@
   
 .nav-dropdown-item .nav-dropdown-link:hover {
     color: #74C0FC;
-    background: none;
+    background: rgb(41, 40, 40);
 }
   
 #search_toggle:hover {
     color: #74C0FC;
 }
   
-
-.language-chooser:hover {
-    color: #74C0FC;
-    background: none;
-}
