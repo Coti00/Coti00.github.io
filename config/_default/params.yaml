@@ -38,7 +38,7 @@ header:
     show_translations: true
     hide_language_name: false
     logo:
-      filename: "dna.svg"
+      filename: "icon.png"
       text: "PortPolio"
 
 # Site footer
