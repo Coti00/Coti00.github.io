@@ -13,6 +13,7 @@ sections:
     id: language
     content:
       title: Language
+      summary: star means my favorite
       filters:
         folders:
           - lang
