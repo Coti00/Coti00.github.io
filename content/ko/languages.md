@@ -1,7 +1,6 @@
 ---
 # Leave the homepage title empty to use the site title
-title: "언어"
-summary: "별은 저의 선호도를 나타냅니다!"
+title: ""
 type: landing
 
 design:
@@ -12,7 +11,7 @@ sections:
   - block: collection
     id: language
     content:
-      title:
+      title: 언어
       filters:
         folders:
           - lang
