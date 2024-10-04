@@ -5,7 +5,7 @@ summary: 앱 개발
 
 date: '2024-01-01'
 date_end: '2024-02-01'
-all_day: false
+all_day: true
 
 authors:
     - admin
