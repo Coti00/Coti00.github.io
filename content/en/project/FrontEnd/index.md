@@ -1,6 +1,9 @@
 ---
 title: FrontEnd Project
 summary: FrontEnd Project
+date: '2024-09-01'
+date_end: '2024-11-01'
+all_day: false
 type: docs
 tags: FrontEnd
 image:

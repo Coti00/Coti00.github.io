@@ -1,6 +1,9 @@
 ---
 title: Python Project
 summary: Python Project
+date: '2023-09-01'
+date_end: '2023-12-01'
+all_day: false
 type: docs
 tags: Python
 image:

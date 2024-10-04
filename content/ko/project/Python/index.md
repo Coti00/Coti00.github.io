@@ -1,6 +1,9 @@
 ---
 title: 퍼이썬 프로젝트
 summary: 첫 프로그래밍 프로젝트
+date: '2023-09-01'
+date_end: '2023-12-01'
+all_day: false
 type: docs
 tags: 파이썬
 image:

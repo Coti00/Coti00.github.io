@@ -1,6 +1,9 @@
 ---
 title: 리눅스 프로젝트
 summary: 리눅스 기말고사 프로젝트
+date: '2024-03-01'
+date_end: '2024-08-01'
+all_day: false
 type: docs
 tags: 파이썬
 image:
