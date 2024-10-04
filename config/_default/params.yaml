@@ -32,7 +32,7 @@ header:
     enable: true
     blox: "navbar"
     align: "right"
-    fixed_to_top: true
+    fixed_to_top: false
     show_search: true
     show_theme_chooser: true
     show_translations: true
