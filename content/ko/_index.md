@@ -81,6 +81,17 @@ sections:
     design:
       view: community/custom_card2
       columns: '1'
+  - block: contact
+    content: 
+      title: Contact
+      coordinates:
+        latitude: '35.84601324617979'
+        longitude: '127.13444961966684'
+      directions:
+      autolink: true
+    design:
+      columns: '3'
+
 
   - block: markdown
     content:

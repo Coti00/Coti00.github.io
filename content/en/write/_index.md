@@ -26,7 +26,7 @@ sections:
     content:
       title: 'Write Papers'
       text: |-
-        <p>2024-10-01. I will write papers about metaheuristic.</p>
+        2024-10-01. I will write papers about metaheuristic.
 
 ---
 
