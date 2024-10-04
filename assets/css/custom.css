@@ -6,7 +6,7 @@
     color: #74C0FC; 
 }
   
-.nav-dropdown-item .nav-dropdown-link:hover {
+.nav-dropdown-item .nav-dropdown-link .nav-dropdown-list:hover {
     color: #74C0FC;
     background: rgb(41, 40, 40);
 }
