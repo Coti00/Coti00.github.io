@@ -1,5 +1,10 @@
 ---
 title: ""
+
+image:
+  placement: 1
+  focal_point: 'Center'
+  preview_only: false
 ---
 {{< figure src="featured.png" width="200px" height="200px" class="center-image">}}
 
