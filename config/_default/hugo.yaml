@@ -14,11 +14,11 @@ baseURL: 'https://jbnu.dongjun.or.kr/'
 
 languages:
   ko:
-    contentDir: "content/ko"
-    languageCode: "ko"
+    contentDir: content/ko
+    languageCode: ko
   en:
-    contentDir: "content/en"
-    languageCode: "en"
+    contentDir: content/en
+    languageCode: en
 
 defaultContentLanguage: ko
 hasCJKLanguage: false
