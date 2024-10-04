@@ -51,7 +51,7 @@ sections:
   - block : collection
     id: mainlang
     content:
-      title: Main Language
+      title: Main Programming Language
       filters:
         folders:
           - mainlang

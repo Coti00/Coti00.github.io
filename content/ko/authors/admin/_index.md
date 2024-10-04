@@ -13,7 +13,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: 전북대학교 재학 중
+role: 전북대학교 재학
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
@@ -56,10 +56,10 @@ skills:
         description: ''
         percent: 70
         icon: "custom/eng"
-      - name: 
-        description: ''
-        percent: 0
-        icon: 
+      - name: 일본어
+        description: '공부중'
+        percent: 5
+        icon: "custom/japan"
 
 ---
 

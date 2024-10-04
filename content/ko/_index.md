@@ -51,7 +51,7 @@ sections:
   - block : collection
     id: mainlang
     content:
-      title: 주 사용 언어
+      title: 주 사용 프로그래밍 언어
       filters:
         folders:
           - mainlang

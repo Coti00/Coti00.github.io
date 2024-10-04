@@ -56,6 +56,10 @@ skills:
         description: ''
         percent: 70
         icon: "custom/eng"
+      - name: Japanese
+        description: 'Studying..'
+        percent: 5
+        icon: "custom/japan"
 
 # Awards.
 #   Add/remove as many awards below as you like.
