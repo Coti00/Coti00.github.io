@@ -15,7 +15,7 @@ sections:
       title: 프레임워크
       filters:
         folders:
-          - test
+          - framework
     design:
       view: article-grid
       columns: 2

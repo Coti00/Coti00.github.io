@@ -12,8 +12,8 @@ main:
     weight : 101
     parent : Skill
   - name : Framework
-    url : framework
-    pageRef : framework
+    url : frameworks/
+    pageRef : frameworks/
     weight : 102
     parent : Skill
 
