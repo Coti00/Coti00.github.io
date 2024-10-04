@@ -1,8 +1,8 @@
 main:
-  - name: Bio
+  - name: About
     weight : 1
-    url: bio
-    pageRef: bio
+    url: about
+    pageRef: about
 
   - name : Skill
     weight : 100
