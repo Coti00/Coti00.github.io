@@ -8,6 +8,8 @@ tags:
 image:
   caption: 'Embed rich media such as videos and LaTeX math'
 ---
+#### 저작권 문제로인하여 접근하기 위해서는 워크스페이스 접근이 허락이 필요합니다
+
 ## Study Record
 
 프런트 기초 공부한 기록입니다.

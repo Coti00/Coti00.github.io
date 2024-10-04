@@ -8,6 +8,7 @@ tags:
 image:
   caption: 'Embed rich media such as videos and LaTeX math'
 ---
+#### Due to copyright issues, access to this workspace requires permission.
 
 ## Study Record
 
