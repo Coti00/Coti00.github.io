@@ -26,47 +26,17 @@ sections:
     content:
       title: '컴퓨터공학 학점'
       text: |-
-        <h3>4.42 / 4.5</h3>
-        <table style = "width: 50vw">
-          <thead>
-            <tr>
-              <th>과목명</th>
-              <th>학점</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>선형대수학</td>
-              <td>A+</td>
-            </tr>
-            <tr>
-              <td>C++프로그래밍</td>
-              <td>A+</td>
-            </tr>
-            <tr>
-              <td>이산수학</td>
-              <td>A+</td>
-            </tr>
-            <tr>
-              <td>확률및통계</td>
-              <td>A+</td>
-            </tr>
-            <tr>
-              <td>리눅스프로그래밍</td>
-              <td>A+</td>
-            </tr>
-            <tr>
-              <td>자료구조</td>
-              <td>A+</td>
-            </tr>
-            <tr>
-              <td>인공지능</td>
-              <td>A</td>
-            </tr>
-          </tbody>
-        </table>
+        ### 4.42 / 4.5
 
-
+        | 과목명         | 학점  |
+        |----------------|-------|
+        | 선형대수학     | A+    |
+        | C++프로그래밍  | A+    |
+        | 이산수학       | A+    |
+        | 확률및통계     | A+    |
+        | 리눅스프로그래밍 | A+    |
+        | 자료구조       | A+    |
+        | 인공지능       | A     |
 ---
 
 

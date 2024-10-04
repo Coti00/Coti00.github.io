@@ -26,43 +26,16 @@ sections:
     content:
       title: 'Computer Science Grade'
       text: |-
-        <h3>4.42 / 4.5</h3>
-        <table style="width: 50vw">
-          <thead>
-            <tr>
-              <th>Course Name</th>
-              <th>Grade</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Linear Algebra</td>
-              <td>A+</td>
-            </tr>
-            <tr>
-              <td>C++ Programming</td>
-              <td>A+</td>
-            </tr>
-            <tr>
-              <td>Discrete Mathematics</td>
-              <td>A+</td>
-            </tr>
-            <tr>
-              <td>Probability and Statistics</td>
-              <td>A+</td>
-            </tr>
-            <tr>
-              <td>Linux Programming</td>
-              <td>A+</td>
-            </tr>
-            <tr>
-              <td>Data Structures</td>
-              <td>A+</td>
-            </tr>
-            <tr>
-              <td>Artificial Intelligence</td>
-              <td>A</td>
-            </tr>
-          </tbody>
-        </table>
+        ### 4.42 / 4.5
+
+        | Course Name              | Grade |
+        |--------------------------|-------|
+        | Linear Algebra           | A+    |
+        | C++ Programming          | A+    |
+        | Discrete Mathematics     | A+    |
+        | Probability and Statistics | A+    |
+        | Linux Programming        | A+    |
+        | Data Structures          | A+    |
+        | Artificial Intelligence  | A     |
+
 ---

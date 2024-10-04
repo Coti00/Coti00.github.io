@@ -26,60 +26,21 @@ sections:
     content:
       title: 'AnimalBiotech Grade'
       text: |-
-        <h3>4.0 / 4.5</h3>
-        <table style="width: 50vw">
-          <thead>
-            <tr>
-              <th>Course Name</th>
-              <th>Grade</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Animal Biotechnology and Lab</td>
-              <td>A+</td>
-            </tr>
-            <tr>
-              <td>Physiology of Economic Animals</td>
-              <td>A+</td>
-            </tr>
-            <tr>
-              <td>Introduction to Animal Bioinformatics</td>
-              <td>A+</td>
-            </tr>
-            <tr>
-              <td>Animal Systems Biology</td>
-              <td>A+</td>
-            </tr>
-            <tr>
-              <td>Molecular Cell Biology</td>
-              <td>A+</td>
-            </tr>
-            <tr>
-              <td>Animal Diagnostic Science</td>
-              <td>A+</td>
-            </tr>
-            <tr>
-              <td>Basic Biochemistry</td>
-              <td>B+</td>
-            </tr>
-            <tr>
-              <td>Animal Nutrition</td>
-              <td>B+</td>
-            </tr>
-            <tr>
-              <td>Animal Breeding</td>
-              <td>B+</td>
-            </tr>
-            <tr>
-              <td>Animal Feeding Systems</td>
-              <td>B+</td>
-            </tr>
-            <tr>
-              <td>Animal Molecular Genetics</td>
-              <td>B</td>
-            </tr>
-          </tbody>
-        </table>
+        ### 4.0 / 4.5
+
+        | Course Name                         | Grade |
+        |-------------------------------------|-------|
+        | Animal Biotechnology and Lab        | A+    |
+        | Physiology of Economic Animals      | A+    |
+        | Introduction to Animal Bioinformatics | A+    |
+        | Animal Systems Biology              | A+    |
+        | Molecular Cell Biology              | A+    |
+        | Animal Diagnostic Science           | A+    |
+        | Basic Biochemistry                  | B+    |
+        | Animal Nutrition                    | B+    |
+        | Animal Breeding                     | B+    |
+        | Animal Feeding Systems              | B+    |
+        | Animal Molecular Genetics           | B     |
+
 ---
 
