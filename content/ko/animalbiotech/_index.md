@@ -22,7 +22,7 @@ sections:
           position: center
           parallax: false
 
-- block: markdown
+  - block: markdown
     content:
       title: '동물생명공학 학점'
       text: |-
