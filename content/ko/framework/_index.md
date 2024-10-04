@@ -16,7 +16,6 @@ sections:
       filters:
         folders:
           - test
-        featured_only: true
     design:
       view: article-grid
       columns: 2
