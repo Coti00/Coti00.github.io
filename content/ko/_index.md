@@ -85,6 +85,9 @@ sections:
   - block: collection
     content:
       title: '🗺️ 학교 위치'
+      filters:
+        folders:
+          - news
     design:
       view: community/slider
       row: 1
