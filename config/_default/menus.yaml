@@ -1,4 +1,9 @@
 main:
+  - name: Bio
+    weight : 1
+    url: bio
+    pageRef: bio
+    
   - name : Skill
     weight : 100
   - name : Language
