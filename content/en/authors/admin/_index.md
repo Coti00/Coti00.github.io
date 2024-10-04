@@ -33,27 +33,31 @@ profiles:
 
 skills:
   - name: Hobbies
+    items:
+      - name: 고양이
+        description: '티거'
+        percent: 100
+        icon: "custom/cat"
+      - name: 강아지
+        description: '코코'
+        percent: 100
+        icon: "custom/dog"
+      - name: 음악
+        description: ''
+        percent: 80
+        icon: "custom/music"
+  - name: Language
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Cat
-        description: 'Tiger'
-        percent: 100
-        icon: "custom/cat"
-      - name: Dog
-        description: 'Coco'
-        percent: 100
-        icon: "custom/dog"
-      - name: Music
+      - name: Korean
         description: ''
-        percent: 60
-        icon: "custom/music"
-
-languages:
-  - name: Korean
-    percent: 100
-  - name: English
-    percent: 70
+        percent: 100
+        icon: "custom/kor"
+      - name: English
+        description: ''
+        percent: 70
+        icon: "custom/eng"
 
 # Awards.
 #   Add/remove as many awards below as you like.

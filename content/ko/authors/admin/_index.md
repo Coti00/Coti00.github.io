@@ -32,9 +32,7 @@ profiles:
     label: 010-0000-0000
 
 skills:
-  - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
+  - name: 취미
     items:
       - name: 고양이
         description: '티거'
@@ -46,16 +44,20 @@ skills:
         icon: "custom/dog"
       - name: 음악
         description: ''
-        percent: 60
+        percent: 80
         icon: "custom/music"
-
-
-languages:
-  - name: 한국어
-    percent: 100
-  - name: 영어
-    percent: 70
- 
+  - name: 언어
+    color: '#eeac02'
+    color_border: '#f0bf23'
+    items:
+      - name: 한국어
+        description: ''
+        percent: 100
+        icon: "custom/kor"
+      - name: 영어
+        description: ''
+        percent: 70
+        icon: "custom/eng"
 ---
 
 ## 간략한 자기소개 

@@ -45,12 +45,7 @@ sections:
 
   - block: skills
     content:
-      title: 취미
-      username: admin
-
-  - block: languages
-    content:
-      title: Languages
+      title: 취미 & 언어
       username: admin
 
   - block : collection

@@ -45,12 +45,7 @@ sections:
 
   - block: skills
     content:
-      title: Hobbies
-      username: admin
-
-  - block: languages
-    content:
-      title: Languages
+      title: Hobbies & Language
       username: admin
 
   - block : collection
