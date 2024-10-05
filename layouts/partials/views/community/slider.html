@@ -1,6 +1,13 @@
 {{ $items := where site.RegularPages "File.Dir" "in" (slice "/sliderfile/patience/" "/sliderfile/passion/" "/sliderfile/adaptation/") | default (slice) }}
 {{ $slide_count := len $items }}
 
+<!-- 디버그 메시지 출력: 슬라이드 항목 확인 -->
+{{ if eq $slide_count 0 }}
+<p>No items found in the specified folders. Check the folder paths and ensure they contain index.md files.</p>
+{{ else }}
+<p>Found {{ $slide_count }} slide items.</p>
+{{ end }}
+
 {{ if gt $slide_count 0 }}
 <div id="imageSlider" class="carousel slide" data-ride="carousel">
     <!-- Indicators (슬라이드 하단의 인디케이터 버튼) -->
@@ -24,6 +31,13 @@
         {{ end }}
 
         {{ $resource := $item.Resources.GetMatch "featured.*" }}
+        {{ if not $resource }}
+          <!-- 디버그 메시지 출력: 이미지 리소스가 없는 경우 -->
+          <p>Error: Could not find image resource for {{ $item.Title }} in {{ $item.File.Path }}</p>
+        {{ else }}
+          <p>Image resource found: {{ $resource.RelPermalink }}</p>
+        {{ end }}
+
         {{ $anchor := $item.Params.image.focal_point | default "Center" }}
 
         <a href="{{ $link }}" {{ $target | safeHTMLAttr }}>
