@@ -15,7 +15,7 @@ sections:
       username: admin
       text: ""
       button:
-        text: 수료증
+        text: 수료증입니다
         url: uploads/certi.pdf
       # Show a call-to-action button under your biography? (optional)
     design:
