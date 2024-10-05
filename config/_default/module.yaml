@@ -23,6 +23,3 @@ mounts:
     target: layouts
   - source: assets
     target: assets
-  - source: github.com/HugoBlox/hugo-blox-builder/modules/blox-bootstrap/layouts/partials/blocks
-    target: layouts/partials/blocks
-    includeFiles: '**.html'
