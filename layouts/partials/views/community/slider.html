@@ -1,7 +1,7 @@
 <div id="slider" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
-      {{ range $index, $item := (where .Site.Pages "File.Dir" "in" (slice "/sliderfile/patience/" "/sliderfile/passion/" "/sliderfile/adaptation/")) }}
+        {{ range $index, $item := (where .Site.RegularPages "File.Dir" "in" (slice "sliderfile/patience/" "sliderfile/passion/" "sliderfile/adaptation/")) }}
         <li data-target="#slider" data-slide-to="{{ $index }}" class="{{ if eq $index 0 }}active{{ end }}"></li>
       {{ end }}
     </ol>
