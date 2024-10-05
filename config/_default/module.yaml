@@ -10,6 +10,9 @@ imports:
   - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-bootstrap/v5
 # Install any Hugo Blox within the `hugo-blox/blox/` folder
 mounts:
+  - source: github.com/HugoBlox/hugo-blox-builder/modules/blox-bootstrap/layouts/partials/blocks
+    target: layouts/partials/blocks
+    includeFiles: '**.html'
   - source: hugo-blox/blox/community
     target: layouts/partials/blox/community/
     includeFiles: '**.html'
