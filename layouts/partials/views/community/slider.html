@@ -1,38 +1,45 @@
-{{ $item := .item }}
-
-{{ $link := $item.RelPermalink }}
-{{ $target := "" }}
-{{ if $item.Params.external_link }}
-  {{ $link = $item.Params.external_link }}
-  {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
-{{ end }}
-
-{{ $resource := partial "functions/get_featured_image.html" $item }}
-{{ $anchor := $item.Params.image.focal_point | default "Center" }}
-
 <div id="slider" class="carousel slide" data-ride="carousel">
-    <!-- Indicators (슬라이드 인디케이터) -->
+    <!-- Indicators -->
     <ol class="carousel-indicators">
-      {{ range $index, $item := .Site.RegularPages }} <!-- 해당하는 페이지 목록에 따라 조정 -->
-      <li data-target="#slider" data-slide-to="{{ $index }}" class="{{ if eq $index 0 }}active{{ end }}"></li>
+      {{ range $index, $item := (where .Site.Pages "File.Dir" "in" (slice "/sliderfile/patience/" "/sliderfile/passion/" "/sliderfile/adaptation/")) }}
+        <li data-target="#slider" data-slide-to="{{ $index }}" class="{{ if eq $index 0 }}active{{ end }}"></li>
       {{ end }}
     </ol>
   
-    <!-- Slides (슬라이드 내용) -->
+    <!-- Slides -->
     <div class="carousel-inner">
-      {{ range $index, $item := .Site.RegularPages }} <!-- 해당하는 페이지 목록에 따라 조정 -->
+      {{ range $index, $item := (where .Site.Pages "File.Dir" "in" (slice "/sliderfile/patience/" "/sliderfile/passion/" "/sliderfile/adaptation/")) }}
       <div class="carousel-item {{ if eq $index 0 }}active{{ end }}">
-        <a href="{{ $link }}" {{ $target | safeHTMLAttr }} class="d-block w-100" style="height: 300px; background-size: cover; background-image: url('{{ with $resource }}{{ $resource.RelPermalink }}{{ end }}');">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>{{ $item.Title }}</h5>
-            <p>{{ $item.Params.description | default "No description available" }}</p>
-          </div>
-        </a>
+        {{/* 링크와 대상 설정 */}}
+        {{ $link := $item.RelPermalink }}
+        {{ $target := "" }}
+        {{ if $item.Params.external_link }}
+          {{ $link = $item.Params.external_link }}
+          {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
+        {{ end }}
+  
+        {{/* 이미지 리소스 및 배경 설정 */}}
+        {{ $resource := $item.Resources.GetMatch "featured.*" }}
+        {{ if $resource }}
+          {{ $image := $resource.Fill "1200x500 Center" }}
+          <a href="{{ $link }}" {{ $target | safeHTMLAttr }} class="d-block w-100" style="height: 300px; background-size: cover; background-image: url('{{ $image.RelPermalink }}'); background-position: center;">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>{{ $item.Title }}</h5>
+            </div>
+          </a>
+        {{ else }}
+          <a href="{{ $link }}" {{ $target | safeHTMLAttr }} class="d-block w-100" style="height: 300px; background-color: #ddd;">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>{{ $item.Title }}</h5>
+              <p>Image not available</p>
+            </div>
+          </a>
+        {{ end }}
       </div>
       {{ end }}
     </div>
   
-    <!-- Controls (슬라이드 컨트롤) -->
+    <!-- Controls -->
     <a class="carousel-control-prev" href="#slider" role="button" data-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       <span class="sr-only">Previous</span>
@@ -42,6 +49,4 @@
       <span class="sr-only">Next</span>
     </a>
   </div>
-  
-  
   
