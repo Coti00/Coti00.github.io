@@ -30,6 +30,37 @@ sections:
           size: cover
           position: center
           parallax: false
+          
+  - block: 'github.Coti00.myslider'
+    content:
+      slides:
+        - title: "passion"
+          content: "passion"
+          background:
+            image:
+              filename: "passion.jpg"
+              position: "center"
+              size: "cover"
+            filters:
+              brightness: "0.8"
+        - title: "patience"
+          content: "patience"
+          background:
+            image:
+              filename: "patience.jpg"
+              position: "center"
+              size: "cover"
+            filters:
+              brightness: "0.8"
+        - title: "adaptation"
+          content: "adaptation"
+          background:
+            image:
+              filename: "adaptation.jpg"
+              position: "center"
+              size: "cover"
+            filters:
+              brightness: "0.8"
 
   - block : collection
     id: interests
