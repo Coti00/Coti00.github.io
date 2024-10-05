@@ -2,6 +2,7 @@
 title: 판다스
 
 summary: 데이터 분석과 조작
+type: docs
 
 date: '2024-01-01'
 date_end: '2024-02-01'

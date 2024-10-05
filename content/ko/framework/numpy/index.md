@@ -2,6 +2,7 @@
 title: 넘파이
 
 summary: 넘파이
+type: docs
 
 date: '2024-01-01'
 date_end: '2024-02-01'

@@ -2,6 +2,7 @@
 title: 리액트
 
 summary: 프런트엔드
+type: docs
 
 date: '2024-08-01'
 date_end: '2024-09-01'

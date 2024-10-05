@@ -2,6 +2,7 @@
 title: React
 
 summary: Frontend
+type: docs
 
 date: '2024-08-01'
 date_end: '2024-09-01'

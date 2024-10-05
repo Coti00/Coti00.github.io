@@ -2,6 +2,7 @@
 title: 파이토치
 
 summary: 딥러닝 프레임워크
+type: docs
 
 date: '2024-01-01'
 date_end: '2024-02-01'

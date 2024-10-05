@@ -2,6 +2,7 @@
 title: C
 
 summary: ⭐️
+type: docs
 
 date: '2023-08-01'
 date_end: '2023-09-01'
