@@ -1,80 +1,80 @@
 main:
   - name: About
-    weight : 1
+    weight : 100
     url: about
     pageRef: about
 
   - name : Skill
-    weight : 100
+    weight : 200
   - name : Language
     url : languages/
     pageRef : laguages/
-    weight : 101
+    weight : 210
     parent : Skill
   - name : Framework
     url : frameworks/
     pageRef : frameworks/
-    weight : 102
+    weight : 220
     parent : Skill
 
   - name: Projects
-    weight: 200
+    weight: 300
   - name: Front_Project
     url: project/FrontEnd/
     pageRef : project/FrontEnd
-    weight: 201
+    weight: 310
     parent: Projects
   - name: Linux_Project
     url: project/Linux/
     pageRef : project/Linux
-    weight: 202
+    weight: 320
     parent: Projects
   - name: Python_Project
     url: project/Python/
     pageRef : project/Python
-    weight: 203
+    weight: 330
     parent: Projects
 
   - name: Study Record
-    weight: 300
+    weight: 400
   - name: Front
     url: study/Front/
     pageRef : study/Front
-    weight: 301
+    weight: 410
     parent: Study Record
   - name: ML/DL
     url: study/ML_DL/
     pageRef : study/ML_DL
-    weight: 302
+    weight: 420
     parent: Study Record
   - name: React
     url: study/react/
     pageRef : study/react
-    weight: 303
+    weight: 430
     parent: Study Record
 
   - name : Thesis
-    weight : 400
+    weight : 500
   - name : Read
     url : read
     pageRef: read
-    weight : 401
+    weight : 510
     parent : Thesis
   - name : Write
     url : write
     pageRef: write
-    weight : 402
+    weight : 520
     parent : Thesis
 
   - name : Grade
-    weight : 500
+    weight : 600
   - name : AnimalBiotech
     url : animalbiotech
     pageRef : animalbiotech
-    weight : 501
+    weight : 610
     parent : Grade
   - name : ComputerScience
     url : computerscience
     pageRef : computerscience
-    weight : 502
+    weight : 620
     parent : Grade

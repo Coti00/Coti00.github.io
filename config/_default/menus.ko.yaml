@@ -1,80 +1,80 @@
 main:
   - name: 자기소개
-    weight : 1
+    weight : 100
     url: about
     pageRef: about
 
   - name : 스킬
-    weight : 100
+    weight : 200
   - name : 프로그래밍언어
     url : /languages/
     pageRef : laguages/
-    weight : 101
+    weight : 210
     parent : 스킬
   - name : 프레임워크
     url : frameworks/
     pageRef : frameworks/
-    weight : 102
+    weight : 220
     parent : 스킬
 
   - name: 프로젝트
-    weight: 200
+    weight: 300
   - name: 프런트 프로젝트
     url: project/FrontEnd/
     pageRef : project/FrontEnd
-    weight: 201
+    weight: 310
     parent: 프로젝트
   - name: 리눅스 프로젝트
     url: project/Linux/
     pageRef : project/Linux
-    weight: 202
+    weight: 320
     parent: 프로젝트
   - name: 파이썬 프로젝트
     url: project/Python/
     pageRef : project/Python
-    weight: 203
+    weight: 330
     parent: 프로젝트
 
   - name: 공부기록
-    weight: 300
+    weight: 400
   - name: 프런트
     url: study/Front/
     pageRef : study/Front
-    weight: 301
+    weight: 410
     parent: 공부기록
   - name: 머신러닝/딥러닝
     url: study/ML_DL/
     pageRef : study/ML_DL
-    weight: 302
+    weight: 420
     parent: 공부기록
   - name: 리액트
     url: study/react/
     pageRef : study/react
-    weight: 303
+    weight: 430
     parent: 공부기록
 
   - name : 논문
-    weight : 400
+    weight : 500
   - name : 읽은것
     url : read
     pageRef: read
-    weight : 401
+    weight : 510
     parent : 논문
   - name : 쓴것
     url : write
     pageRef: write
-    weight : 402
+    weight : 520
     parent : 논문
 
   - name : 학점
-    weight : 500
+    weight : 600
   - name : 동물생명공학
     url : animalbiotech
     pageRef : animalbiotech
-    weight : 501
+    weight : 610
     parent : 학점
   - name : 컴퓨터공학
     url : computerscience
     pageRef : computerscience
-    weight : 502
+    weight : 620
     parent : 학점
