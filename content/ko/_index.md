@@ -34,14 +34,13 @@ sections:
   - block : collection
     id: slider
     content:
-      title:
+      title: My slider
       filters:
         folders:
           - sliderfile
     design:
       view: community/slider
-      rows: 3
-      columns: 3
+      rows: 1
 
   - block : collection
     id: interests
