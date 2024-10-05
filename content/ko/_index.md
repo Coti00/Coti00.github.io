@@ -33,7 +33,7 @@ sections:
 
   - block: collection
     content:
-      title: ""
+      title: 
       filters:
         folders:
           - test
