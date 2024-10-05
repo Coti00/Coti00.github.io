@@ -9,7 +9,6 @@ tags: 파이썬
 image:
     caption: '리눅스'
 ---
-{{< figure src="featured.png" width="600px" height="400px" >}}
 
 #### 기말 프로젝트를 만점 맞은 리눅스 프로젝트 입니다
 

@@ -9,7 +9,6 @@ tags: 프런트
 image:
     caption: '프런트'
 ---
-{{< figure src="featured.png" width="600px" height="400px" >}}
 
 #### 현재 동아리 웹사이트를 만드는 프로젝트를 하고 있습니다
 

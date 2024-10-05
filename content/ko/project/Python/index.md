@@ -9,7 +9,6 @@ tags: 파이썬
 image:
     caption: '파이썬'
 ---
-{{< figure src="featured.png" width="600px" height="400px" >}}
 
 #### 파이게임을 활용한 첫 프로젝트 입니다.
 
