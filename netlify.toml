@@ -20,3 +20,7 @@
   [plugins.inputs]
     debug = true
 
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
