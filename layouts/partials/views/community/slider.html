@@ -16,7 +16,7 @@
         {{ $image := .Fill (printf "1200x300 %s" $anchor) }}
         {{ if ne $image.MediaType.SubType "gif" }}{{ $image = $image.Process "webp" }}{{ end }}
         <!-- 이미지가 배경으로 들어가고, 높이 300px, 넓이 100% -->
-        <img class="absolute top-0 left-0 h-full w-full object-cover hover:scale-110 transition duration-500 cursor-pointer" loading="lazy" src="{{ $image.RelPermalink }}" alt="{{ $item.Title | plainify }}" style="border-radius: 15px;">
+        <img class="absolute top-0 left-0 h-full w-full object-cover hover:scale-110 transition duration-500 cursor-pointer" loading="lazy" src="{{ $image.RelPermalink }}" alt="{{ $item.Title | plainify }}">
       {{ end }}
   
       <!-- 텍스트 오버레이 -->

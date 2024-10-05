@@ -34,7 +34,6 @@ sections:
   - block : collection
     id: slider
     content:
-      title: My slider
       filters:
         folders:
           - sliderfile
