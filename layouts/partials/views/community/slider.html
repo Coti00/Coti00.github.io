@@ -1,11 +1,11 @@
-{{ $items := where site.RegularPages "File.Dir" "in" (slice "/sliderfile/patience/" "/sliderfile/passion/" "/sliderfile/adaptation/") | default (slice) }}
+{{ $items := where site.RegularPages "File.Dir" "in" (slice "/ko/sliderfile/patience/" "/ko/sliderfile/passion/" "/ko/sliderfile/adaptation/") | default (slice) }}
 {{ $slide_count := len $items }}
 
 <!-- 디버그 메시지 출력: 슬라이드 항목 확인 -->
 {{ if eq $slide_count 0 }}
-<p style="color: red;">No items found in the specified folders. Check the folder paths and ensure they contain index.md files.</p>
+<p>No items found in the specified folders. Check the folder paths and ensure they contain index.md files.</p>
 {{ else }}
-<p style="color: red;">Found {{ $slide_count }} slide items.</p>
+<p>Found {{ $slide_count }} slide items.</p>
 {{ end }}
 
 {{ if gt $slide_count 0 }}
@@ -30,13 +30,11 @@
           {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
         {{ end }}
 
-        <!-- 이미지 리소스 확인 -->
         {{ $resource := $item.Resources.GetMatch "featured.*" }}
         {{ if not $resource }}
           <!-- 디버그 메시지 출력: 이미지 리소스가 없는 경우 -->
           <p>Error: Could not find image resource for {{ $item.Title }} in {{ $item.File.Path }}</p>
         {{ else }}
-          <!-- 디버그 메시지 출력: 이미지 리소스 경로 확인 -->
           <p>Image resource found: {{ $resource.RelPermalink }}</p>
         {{ end }}
 
@@ -48,7 +46,7 @@
               {{ $image := .Fill (printf "1200x300 %s" $anchor) }}
               {{ if ne $image.MediaType.SubType "gif" }}{{ $image = $image.Process "webp" }}{{ end }}
               <!-- 이미지가 배경으로 들어가고, 높이 300px, 넓이 100% -->
-              <img class="h-full w-full object-cover hover:scale-110 transition duration-500 cursor-pointer" loading="lazy" src="{{ $image.RelPermalink }}" style="height: 300px; width: 100%;" alt="{{ $item.Title | plainify }}">
+              <img class="h-full w-full object-cover hover:scale-110 transition duration-500 cursor-pointer" loading="lazy" src="{{ $image.RelPermalink }}" alt="{{ $item.Title | plainify }}">
             {{ else }}
               <!-- 이미지가 없을 경우 기본 배경 색상 -->
               <div class="h-full w-full object-cover hover:scale-110 transition duration-500 cursor-pointer bg-gray-200 text-center text-xl flex items-center justify-center">
