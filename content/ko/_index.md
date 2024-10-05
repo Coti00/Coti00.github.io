@@ -31,16 +31,6 @@ sections:
           position: center
           parallax: false
 
-  - block: collection
-    content:
-      title: 
-      filters:
-        folders:
-          - test
-    design:
-      view: community/slider
-      rows: 1
-
   - block : collection
     id: interests
     content:
