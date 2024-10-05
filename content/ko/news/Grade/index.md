@@ -13,7 +13,7 @@ authors:
 featured: false
 
 image:
-    caption: 'Image credit: [**Unsplash**](https://unsplash.com/)'
+    caption: 'Image credit:[**Unsplash**](https://unsplash.com/)'
     focal_point: Center
 ---
 
