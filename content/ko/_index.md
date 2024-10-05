@@ -30,45 +30,6 @@ sections:
           size: cover
           position: center
           parallax: false
-  
-  - block: slider
-    content:
-      slides:
-      - title: Passion
-        content: "passionable"
-        align: center
-        background:
-          image:
-            filename: passion.jpg
-            filters:
-              brightness: 0.5
-          position: center
-          color: '#333'
-      - title: Patience
-        content: "patience"
-        align: center
-        background:
-          image:
-            filename: patience.jpg
-            filters:
-              birghtness: 0.7
-          position: right
-          color: '#666'
-      - title: Adaptive
-        content: "adaptive"
-        align: center
-        background:
-          image:
-            filename: adaptation.jpg
-            filters:
-              brightness: 0.5
-          position: center
-          color: '#333'
-    design:
-      slide_height: '350px'
-      is_fullscreen: true
-      loop: true
-      interval: 3000
 
   - block : collection
     id: interests
