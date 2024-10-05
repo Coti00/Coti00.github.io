@@ -11,7 +11,7 @@
 {{ $anchor := $item.Params.image.focal_point | default "Center" }}
 
 <a href="{{ $link }}" {{ $target | safeHTMLAttr }} class="mb-5">
-    <div class="relative overflow-hidden w-full" style="height: 300px; border-radius: 15px;">
+    <div class="relative overflow-hidden w-full" style="height: 300px;">
       {{ with $resource }}
         {{ $image := .Fill (printf "1200x300 %s" $anchor) }}
         {{ if ne $image.MediaType.SubType "gif" }}{{ $image = $image.Process "webp" }}{{ end }}
