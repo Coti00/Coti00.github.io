@@ -1,16 +1,12 @@
-{{ $items := where site.RegularPages "File.Dir" "in" (slice "/ko/sliderfile/patience/" "/ko/sliderfile/passion/" "/ko/sliderfile/adaptation/") | default (slice) }}
+{{ $items := slice (site.GetPage "sliderfile/passion") (site.GetPage "sliderfile/patience") (site.GetPage "sliderfile/adapt") }}
+{{ $items = $items | default (slice) }}
 {{ $slide_count := len $items }}
 
-<!-- 디버그 메시지 출력: 슬라이드 항목 확인 -->
 {{ if eq $slide_count 0 }}
-<p>No items found in the specified folders. Check the folder paths and ensure they contain index.md files.</p>
+  <p style="color: red;">No items found in the specified paths. Ensure that the paths contain valid content files.</p>
 {{ else }}
-<p>Found {{ $slide_count }} slide items.</p>
-{{ end }}
-
-{{ if gt $slide_count 0 }}
-<div id="imageSlider" class="carousel slide" data-ride="carousel">
-    <!-- Indicators (슬라이드 하단의 인디케이터 버튼) -->
+  <div id="imageSlider" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
     {{ if gt $slide_count 1 }}
     <ol class="carousel-indicators">
       {{ range $index, $item := $items }}
@@ -23,55 +19,12 @@
     <div class="carousel-inner">
       {{ range $index, $item := $items }}
       <div class="carousel-item {{ if eq $index 0 }}active{{ end }}">
-        {{ $link := $item.RelPermalink }}
-        {{ $target := "" }}
-        {{ if $item.Params.external_link }}
-          {{ $link = $item.Params.external_link }}
-          {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
-        {{ end }}
-
-        {{ $resource := $item.Resources.GetMatch "featured.*" }}
-        {{ if not $resource }}
-          <!-- 디버그 메시지 출력: 이미지 리소스가 없는 경우 -->
-          <p>Error: Could not find image resource for {{ $item.Title }} in {{ $item.File.Path }}</p>
-        {{ else }}
-          <p>Image resource found: {{ $resource.RelPermalink }}</p>
-        {{ end }}
-
-        {{ $anchor := $item.Params.image.focal_point | default "Center" }}
-
-        <a href="{{ $link }}" {{ $target | safeHTMLAttr }}>
-          <div class="relative overflow-hidden w-full" style="height: 300px;">
-            {{ with $resource }}
-              {{ $image := .Fill (printf "1200x300 %s" $anchor) }}
-              {{ if ne $image.MediaType.SubType "gif" }}{{ $image = $image.Process "webp" }}{{ end }}
-              <!-- 이미지가 배경으로 들어가고, 높이 300px, 넓이 100% -->
-              <img class="h-full w-full object-cover hover:scale-110 transition duration-500 cursor-pointer" loading="lazy" src="{{ $image.RelPermalink }}" alt="{{ $item.Title | plainify }}">
-            {{ else }}
-              <!-- 이미지가 없을 경우 기본 배경 색상 -->
-              <div class="h-full w-full object-cover hover:scale-110 transition duration-500 cursor-pointer bg-gray-200 text-center text-xl flex items-center justify-center">
-                No Image Available
-              </div>
-            {{ end }}
-
-            <!-- 텍스트 오버레이 -->
-            <div class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 hover:bg-opacity-75 transition duration-300" style="border-radius: 15px;">
-              <div class="text-white text-center">
-                <h2 class="text-xl md:text-2xl lg:text-3xl font-semibold">
-                  {{ $item.Title }}
-                </h2>
-                <p class="mt-2 text-lg md:text-xl lg:text-2xl">
-                  {{ $item.Params.description | default "" }}
-                </p>
-              </div>
-            </div>
-          </div>
-        </a>
+        <!-- 슬라이드 콘텐츠 -->
       </div>
       {{ end }}
     </div>
 
-    <!-- Left and right controls (이전/다음 슬라이드 버튼) -->
+    <!-- Controls -->
     {{ if gt $slide_count 1 }}
     <a class="carousel-control-prev" href="#imageSlider" role="button" data-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -82,5 +35,5 @@
       <span class="sr-only">Next</span>
     </a>
     {{ end }}
-</div>
+  </div>
 {{ end }}
