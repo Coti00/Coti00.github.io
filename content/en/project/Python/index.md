@@ -9,7 +9,7 @@ tags: Python
 image:
     caption: 'Python'
 ---
-{{< figure src="featured.png" width="600px" height="400px" >}}
+{{< figure src="featured.png" >}}
 
 #### This is my first project using Pygame.
 

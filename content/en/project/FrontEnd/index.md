@@ -9,7 +9,7 @@ tags: FrontEnd
 image:
     caption: 'Front'
 ---
-{{< figure src="featured.png" width="600px" height="400px" >}}
+{{< figure src="featured.png" >}}
 
 #### The user is currently working on a project to build a club website.
 

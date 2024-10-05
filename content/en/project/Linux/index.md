@@ -9,7 +9,7 @@ tags: Linux
 image:
     caption: 'Linux'
 ---
-{{< figure src="featured.png" width="600px" height="400px" >}}
+{{< figure src="featured.png" >}}
 
 #### This is a Linux project for which I received a perfect score on the final project.
 
