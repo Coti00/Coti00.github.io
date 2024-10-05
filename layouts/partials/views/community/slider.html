@@ -1,51 +1,23 @@
-<div id="slider" class="carousel slide" data-ride="carousel">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-        {{ range $index, $item := (where .Site.RegularPages "File.Dir" "in" (slice "sliderfile/patience" "sliderfile/passion" "sliderfile/adaptation")) }}
-        <li data-target="#slider" data-slide-to="{{ $index }}" class="{{ if eq $index 0 }}active{{ end }}"></li>
-        {{ end }}
-    </ol>
-
-    <!-- Slides -->
-    <div class="carousel-inner">
-        {{ range $index, $item := (where .Site.RegularPages "File.Dir" "in" (slice "sliderfile/patience" "sliderfile/passion" "sliderfile/adaptation")) }}
-        <div class="carousel-item {{ if eq $index 0 }}active{{ end }}">
-            {{/* 링크와 대상 설정 */}}
-            {{ $link := $item.RelPermalink }}
-            {{ $target := "" }}
-            {{ if $item.Params.external_link }}
-                {{ $link = $item.Params.external_link }}
-                {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
-            {{ end }}
-
-            {{/* 이미지 리소스 및 배경 설정 */}}
-            {{ $resource := $item.Resources.GetMatch "featured.*" }}
-            {{ if $resource }}
-                {{ $image := $resource.Fill "1200x500 Center" }}
-                <a href="{{ $link }}" {{ $target | safeHTMLAttr }} class="d-block w-100" style="height: 300px; background-size: cover; background-image: url('{{ $image.RelPermalink }}'); background-position: center;">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>{{ $item.Title }}</h5>
-                    </div>
-                </a>
-            {{ else }}
-                <a href="{{ $link }}" {{ $target | safeHTMLAttr }} class="d-block w-100" style="height: 300px; background-color: #ddd;">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>{{ $item.Title }}</h5>
-                        <p>Image not available</p>
-                    </div>
-                </a>
-            {{ end }}
+<a href="{{ $link }}" {{ $target | safeHTMLAttr }} class="mb-5">
+    <div class="relative overflow-hidden w-full" style="height: 300px; border-radius: 15px;">
+      {{ with $resource }}
+        {{ $image := .Fill (printf "1200x300 %s" $anchor) }}
+        {{ if ne $image.MediaType.SubType "gif" }}{{ $image = $image.Process "webp" }}{{ end }}
+        <!-- 이미지가 배경으로 들어가고, 높이 300px, 넓이 100% -->
+        <img class="absolute top-0 left-0 h-full w-full object-cover hover:scale-110 transition duration-500 cursor-pointer" loading="lazy" src="{{ $image.RelPermalink }}" alt="{{ $item.Title | plainify }}" style="border-radius: 15px;">
+      {{ end }}
+  
+      <!-- 텍스트 오버레이 -->
+      <div class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 hover:bg-opacity-75 transition duration-300" style="border-radius: 15px;">
+        <div class="text-white text-center">
+          <h2 class="text-xl md:text-2xl lg:text-3xl font-semibold">
+            {{ $item.Title }}
+          </h2>
+          <p class="mt-2 text-lg md:text-xl lg:text-2xl">
+            {{ $item.Params.description | default "" }}
+          </p>
         </div>
-        {{ end }}
+      </div>
     </div>
-
-    <!-- Controls -->
-    <a class="carousel-control-prev" href="#slider" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#slider" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-    </a>
-</div>
+  </a>
+  
