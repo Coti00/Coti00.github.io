@@ -38,7 +38,7 @@ sections:
         folders:
           - sliderfile
     design:
-      view: community/custom_card
+      view: community/slider
       rows: 1
 
   - block : collection
