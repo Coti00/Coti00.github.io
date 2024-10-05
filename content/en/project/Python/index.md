@@ -11,8 +11,9 @@ image:
 ---
 {{< figure src="featured.png" >}}
 
-#### This is my first project using Pygame.
+### This is my first project using Pygame.
 
+This is a Pygame project I created independently for the first time in my club during the second semester of the 2023 academic year. The game increases the score when players avoid enemies falling from the sky. As the score increases, the falling speed and the appearance of the enemies change. I received the Excellence Award at the club project presentation!
 
 ##### Click below button⬇️
 

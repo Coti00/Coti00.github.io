@@ -11,8 +11,9 @@ image:
 ---
 {{< figure src="featured.png" >}}
 
-#### This is a Linux project for which I received a perfect score on the final project.
+### This is a Linux project for which I received a perfect score on the final project.
 
+Using the concept of threads, the program is divided into a server and a client. The server receives messages from clients and forwards them to other clients, or sends messages entered by the server to clients. The client receives messages from the server or sends messages entered by the user to the server.
 
 ##### Click below button⬇️
 
