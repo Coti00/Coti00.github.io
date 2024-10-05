@@ -32,6 +32,16 @@ sections:
           parallax: false
 
   - block : collection
+    id: slider
+    content:
+      filters:
+        folders:
+          - sliderfile
+    design:
+      view: community/slider
+      rows: 1
+      
+  - block : collection
     id: interests
     content:
       title: Interests
