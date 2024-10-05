@@ -1,8 +1,9 @@
+{{ $items := where site.RegularPages "File.Dir" "in" (slice "/sliderfile/patience/" "/sliderfile/passion/" "/sliderfile/adaptation/") | default (slice) }}
+{{ $slide_count := len $items }}
+
+{{ if gt $slide_count 0 }}
 <div id="imageSlider" class="carousel slide" data-ride="carousel">
     <!-- Indicators (슬라이드 하단의 인디케이터 버튼) -->
-    {{ $items := where .Site.Pages "File.Dir" "in" (slice "/sliderfile/patience/" "/sliderfile/passion/" "/sliderfile/adaptation/") }}
-    {{ $slide_count := len $items }}
-    
     {{ if gt $slide_count 1 }}
     <ol class="carousel-indicators">
       {{ range $index, $item := $items }}
@@ -10,21 +11,21 @@
       {{ end }}
     </ol>
     {{ end }}
-  
+
     <!-- Slides -->
     <div class="carousel-inner">
       {{ range $index, $item := $items }}
       <div class="carousel-item {{ if eq $index 0 }}active{{ end }}">
         {{ $link := $item.RelPermalink }}
         {{ $target := "" }}
-        {{ if $item.Params.link.url }}
-          {{ $link = $item.Params.link.url }}
+        {{ if $item.Params.external_link }}
+          {{ $link = $item.Params.external_link }}
           {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
         {{ end }}
-  
+
         {{ $resource := $item.Resources.GetMatch "featured.*" }}
         {{ $anchor := $item.Params.image.focal_point | default "Center" }}
-  
+
         <a href="{{ $link }}" {{ $target | safeHTMLAttr }}>
           <div class="relative overflow-hidden w-full" style="height: 300px;">
             {{ with $resource }}
@@ -38,7 +39,7 @@
                 No Image Available
               </div>
             {{ end }}
-  
+
             <!-- 텍스트 오버레이 -->
             <div class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 hover:bg-opacity-75 transition duration-300" style="border-radius: 15px;">
               <div class="text-white text-center">
@@ -55,7 +56,7 @@
       </div>
       {{ end }}
     </div>
-  
+
     <!-- Left and right controls (이전/다음 슬라이드 버튼) -->
     {{ if gt $slide_count 1 }}
     <a class="carousel-control-prev" href="#imageSlider" role="button" data-slide="prev">
@@ -67,5 +68,5 @@
       <span class="sr-only">Next</span>
     </a>
     {{ end }}
-  </div>
-  
+</div>
+{{ end }}
