@@ -31,7 +31,7 @@ sections:
           position: center
           parallax: false
   
-  - block: 'layouts/partials/blox/slider'
+  - block: "blocks/slider"
     content:
       slides:
       - title: Passion
