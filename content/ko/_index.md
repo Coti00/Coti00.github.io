@@ -32,6 +32,18 @@ sections:
           parallax: false
 
   - block : collection
+    id: slider
+    content:
+      title:
+      filters:
+        folders:
+          - sliderfile
+    design:
+      view: community/custom_card3
+      rows: 3
+      columns: 3
+
+  - block : collection
     id: interests
     content:
       title: 관심분야
