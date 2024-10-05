@@ -1,13 +1,5 @@
 ---
-title: 적응력
-
-type: docs
-
-authors:
-    - admin
-
-featured: false
-
-image:
-    focal_point: Center
+title: "Patience"
+description: "Patience is a virtue."
+featured_image: "featured.png"  # 폴더 내의 이미지를 가리킴
 ---
