@@ -1,6 +1,10 @@
 ---
 title: ML / DL Study
 summary: ML / DL Study Record
+
+date: '2024-01-01'
+date_end: '2024-02-01'
+all_day: false
 type: docs
 math: false
 tags:

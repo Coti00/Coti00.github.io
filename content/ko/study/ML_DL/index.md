@@ -2,6 +2,9 @@
 title: 머신러닝 / 딥러닝 스터디
 summary: 머신러닝 / 딥러닝 스터디
 type: docs
+date: '2024-01-01'
+date_end: '2024-02-01'
+all_day: false
 math: false
 tags:
   - 머신러닝 / 딥러닝

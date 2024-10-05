@@ -2,6 +2,9 @@
 title: 리액트 스터디
 summary: 리액트 스터디
 type: docs
+date: '2024-08-01'
+date_end: '2024-09-01'
+all_day: false
 math: false
 tags:
   - 리액트

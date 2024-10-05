@@ -1,6 +1,9 @@
 ---
 title: Front Basic Study
 summary: Front Basic Study Record
+date: '2024-01-01'
+date_end: '2024-02-01'
+all_day: false
 type: docs
 math: false
 tags:

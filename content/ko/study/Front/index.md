@@ -3,6 +3,9 @@ title: 프런트 기초 스터디
 summary: 프런트 기초 스터디
 type: docs
 math: false
+date: '2024-01-01'
+date_end: '2024-02-01'
+all_day: false
 tags:
   - 프런트
 image:
