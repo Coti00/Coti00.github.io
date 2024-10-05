@@ -39,7 +39,7 @@ sections:
         folders:
           - sliderfile
     design:
-      view: community/custom_card3
+      view: community/slider
       rows: 3
       columns: 3
 

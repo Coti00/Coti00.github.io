@@ -1,0 +1,32 @@
+{{ $item := .item }}
+
+{{ $link := $item.RelPermalink }}
+{{ $target := "" }}
+{{ if $item.Params.external_link }}
+  {{ $link = $item.Params.external_link }}
+  {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
+{{ end }}
+
+{{ $resource := partial "functions/get_featured_image.html" $item }}
+{{ $anchor := $item.Params.image.focal_point | default "Center" }}
+
+<a href="{{ $link }}" {{ $target | safeHTMLAttr }} class="mb-5">
+    <div class="flex items-start space-x-5 space-y-5 mb-5 bg-gray-100 dark:bg-zinc-800" style="border-radius: 15px;">
+      <div class="flex-shrink-0 overflow-hidden w-1/2" style="height: 150px;">
+        {{ with $resource }}
+          {{ $image := .Fill (printf "655x655 %s" $anchor) }}
+          {{ if ne $image.MediaType.SubType "gif" }}{{ $image = $image.Process "webp" }}{{ end }}
+          <img class="h-full w-full object-cover hover:scale-125 transition duration-500 cursor-pointer" loading="lazy" src="{{ $image.RelPermalink }}" height="150" width="{{ $image.Width }}" alt="{{ $item.Title | plainify }}" style="border-top-left-radius: 15px; border-bottom-left-radius: 15px;">
+        {{ end }}
+      </div>
+      <div class="p-8 w-1/2" style="height: 150px;">
+        <div class="uppercase tracking-wide text-md text-black dark:text-white font-semibold" style="font-size: 24px; line-height: 3.5;">
+          <span class="bg-gradient-to-r from-primary-200 to-primary-100 bg-[length:0px_10px] bg-left-bottom bg-no-repeat transition-[background-size] duration-500 hover:bg-[length:100%_3px] group-hover:bg-[length:100%_10px] dark:from-primary-800 dark:to-primary-900">
+            {{ $item.Title }}
+          </span>
+        </div>
+      </div>
+    </div>
+  </a>
+  
+  
