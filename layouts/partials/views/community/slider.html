@@ -1,3 +1,15 @@
+{{ $item := .item }}
+
+{{ $link := $item.RelPermalink }}
+{{ $target := "" }}
+{{ if $item.Params.external_link }}
+  {{ $link = $item.Params.external_link }}
+  {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
+{{ end }}
+
+{{ $resource := partial "functions/get_featured_image.html" $item }}
+{{ $anchor := $item.Params.image.focal_point | default "Center" }}
+
 <div id="slider" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
@@ -9,23 +21,16 @@
     <!-- Slides -->
     <div class="carousel-inner">
       {{ range $index, $item := .Site.GetPage "test" }}
-      {{ $link := $item.RelPermalink }}
-      {{ $target := "" }}
-      {{ if $item.Params.external_link }}
-        {{ $link = $item.Params.external_link }}
-        {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
-      {{ end }}
-  
-      {{ $resource := partial "functions/get_featured_image.html" $item }}
-      {{ $anchor := $item.Params.image.focal_point | default "Center" }}
-  
       <div class="carousel-item {{ if eq $index 0 }}active{{ end }}">
-        <a href="{{ $link }}" {{ $target | safeHTMLAttr }} class="d-block w-100" style="height: 300px; background-size: cover; background-image: url('{{ with $resource }}{{ .RelPermalink }}{{ end }}');">
+        {{ $featured := $item.Resources.GetMatch "featured.*" }}
+        {{ if $featured }}
+          <a href="{{ $item.Permalink }}" class="d-block w-100" style="height: 300px; background-size: cover; background-image: url('{{ $featured.RelPermalink }}');">
+        {{ else }}
+          <!-- 기본 이미지 경로를 설정하거나, featured 이미지가 없을 때 다른 이미지를 사용 -->
+          <a href="{{ $item.Permalink }}" class="d-block w-100" style="height: 300px; background-size: cover; background-image: url('/path/to/default-image.jpg');">
+        {{ end }}
           <div class="carousel-caption d-none d-md-block">
             <h5>{{ $item.Title }}</h5>
-            {{ if $item.Params.description }}
-            <p>{{ $item.Params.description }}</p>
-            {{ end }}
           </div>
         </a>
       </div>
@@ -41,5 +46,4 @@
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="sr-only">Next</span>
     </a>
-  </div>
-  
+</div>
